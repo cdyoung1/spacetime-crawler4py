@@ -11,29 +11,60 @@ robots = dict()
 robot_urls = ["https://www.ics.uci.edu/robots.txt","https://www.cs.uci.edu/robots.txt",
     "https://www.informatics.uci.edu/robots.txt","https://www.stat.uci.edu/robots.txt", "https://today.uci.edu/robots.txt"]
 
+def createRobots():
+    for robot_url in robot_urls:
+        if robot_url not in robot_urls:
+            robot = robotparser.RobotFileParser()
+            robot.set_url(robot_url)
+            robot.read()
+            robots[robot_url] = robot
+
 def scraper(url, resp):
-    links = extract_next_links(url, resp)
-    return [link for link in links if is_valid(link)]
+    createRobots()
+    # links = extract_next_links(url, resp)
+    valid_links = [link for link in extract_next_links(url, resp) if is_valid(link)]
 
-# def createRobot(url):
-#     if url not in robots:
-#         rp = robotparser.RobotFileParser()
-#         rp.set_url(url)
-#         rp.read()
-#         robots[url] = rp
-#     return robots[url]
+    url_shelve = shelve.open("urls.shelve")
+    for link in valid_links:
+        if link not in url_shelve:
+            url_shelve[link] = 1
+    url_shelve.close()
 
-# def extract_raw_links(raw):
-#     links = []
-#     soup = BeautifulSoup(raw, features="lxml")
-#     for link in soup.findAll('a', attrs={'href': re.compile("^http://")}):
-#         links.append(link)
-#     return links
+    return valid_links
+
+def remove_frag(url):
+    parse = urlparse(url)
+    try:
+        frag_index = url.index(parse.fragment)
+        return url.substring(0, frag_index-1)
+    except ValueError:
+        return url
+    
+def robot_allowed_link(url):
+    for robot in robots.values():
+        if not robot.can_fetch("*", url):
+            return False
+    return True
 
 def extract_next_links(url, resp):
-    parse = urlparse(url)
-    print("Parsed url:", parse)
-    return list()
+    # url_shelve = shelve.open("urls.shelve")
+    new_links = set()
+
+    if 400 <= resp.status <= 608:
+        return list()
+
+    doc = html.fromstring(resp.raw_response.content)
+    doc_links = list(doc.iterlinks())
+    # print("Doc_links:",  doc_links)
+    
+    for link in doc_links:
+        defragged_link = remove_frag(link[2])
+        print(defragged_link)
+        new_links.add(defragged_link)
+    return list(new_links)
+        # if robot_allowed_link(defragged_link):
+
+
     # urls = shelve.open("urls.shelve")
     # Implementation requred.
     # new_links = set()
@@ -63,9 +94,9 @@ def is_valid(url):
         if parsed.scheme not in set(["http", "https"]):
             return False
         print("Parsed", parsed)
-        # validPath = r".*\.(ics|cs|informatics|stat)\.uci\.edu/.*|today\.uci\.edu/department/information_computer_sciences/.*"
-        # return re.match(validPath, url.lower()) and not re.match(
-        return not re.match(
+        validPath = r".*\.(ics|cs|informatics|stat)\.uci\.edu/.*|today\.uci\.edu/department/information_computer_sciences/.*"
+        return re.match(validPath, url.lower()) and not re.match(
+        # return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
