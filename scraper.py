@@ -28,6 +28,9 @@ def scraper(url, resp):
     for link in valid_links:
         if link not in url_shelve:
             url_shelve[link] = 1
+            print("New Link:", link)
+        else:
+            print("Link already exists")
     url_shelve.close()
 
     return valid_links
