@@ -38,7 +38,7 @@ def extract_next_links(url, resp):
             raw_links = extract_raw_links(raw.text)
             print(raw_links)
             for link in raw_links:
-                if robot.can_fetch("*", link):
+                if robot.can_fetch("*", link.get("href")):
                     new_links.add(link.get("href"))
     except Exception as e:
         print("Except", e)
