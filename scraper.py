@@ -30,7 +30,9 @@ def scraper(url, resp):
             url_shelve[link] = 1
             print("New Link:", link)
         else:
-            print("Link already exists")
+            url_shelve[link] += 1
+            print("Link already exists:", link, ", Count:", url_shelve[link])
+
     url_shelve.close()
 
     return valid_links
