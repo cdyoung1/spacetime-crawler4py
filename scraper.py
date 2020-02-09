@@ -20,9 +20,9 @@ def createRobot(url):
 
 def extract_raw_links(raw):
     links = []
-    soup = BeautifulSoup(raw)
+    soup = BeautifulSoup(raw, features="lxml")
     for link in soup.findAll('a', attrs={'href': re.compile("^http://")}):
-        links.append(link)
+        links.append(link.href)
     return links
 
 def extract_next_links(url, resp):
