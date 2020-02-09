@@ -2,9 +2,18 @@ import re
 from urllib.parse import urlparse
 from urllib import robotparser
 
+robots = dict()
+
 def scraper(url, resp):
     links = extract_next_links(url, resp)
     return [link for link in links if is_valid(link)]
+
+def createRobot(url):
+    if url not in robots:
+        rp = robotparser.RobotFileParser(url)
+        rp.read()
+        robots[url] = rp
+    return robots[url]
 
 def extract_next_links(url, resp):
     # Implementation requred.
@@ -12,10 +21,11 @@ def extract_next_links(url, resp):
 
     try:
         parse = urlparse(url)
+        robot = createRobot(parse.scheme + "://" + parse.netloc + "/robots.txt")
         print(parse)
-        print("Status code:", resp.status)
-        if resp.status == 200:
-            print("Raw: ",resp.raw_response)
+        if 200 <= resp.status <= 599:
+            raw = resp.raw_response
+            print(raw.text)
     except:
         print("Except")
         
