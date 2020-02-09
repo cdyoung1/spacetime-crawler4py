@@ -12,10 +12,10 @@ urls = shelve.open("urls.shelve")
 def scraper(url, resp):
     links = extract_next_links(url, resp)
     scraped_links = [link for link in links if is_valid(link)]
-    if url_set not in urls:
-        url_set = set(scraped_links)
+    if "url_set" not in urls:
+        urls["url_set"] = set(scraped_links)
     else:
-        url_set.update(set(scraped_links))
+        urls["url_set"].update(set(scraped_links))
     urls.close()
     return scraped_links
 
