@@ -11,10 +11,17 @@ def scraper(url, resp):
 def extract_next_links(url, resp):
     # Implementation requred.
     # Testing
+    new_links = []
     print("Extract_next_links")
     print("url:", url)
     print("resp:", resp)
-    return list()
+
+    try:
+        parsed = urlparse(url)
+        print("Parsed", parsed.netloc)
+
+    
+    return new_links
 
 def is_valid(url):
     try:
