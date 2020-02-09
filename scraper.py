@@ -59,7 +59,7 @@ def extract_next_links(url, resp):
     
     for link in doc_links:
         defragged_link = remove_frag(link[2])
-        print(defragged_link)
+        # print(defragged_link)
         new_links.add(defragged_link)
     return list(new_links)
         # if robot_allowed_link(defragged_link):
@@ -93,9 +93,12 @@ def is_valid(url):
         parsed = urlparse(url)
         if parsed.scheme not in set(["http", "https"]):
             return False
-        print("Parsed", parsed)
-        validPath = r".*\.(ics|cs|informatics|stat)\.uci\.edu/.*|today\.uci\.edu/department/information_computer_sciences/.*"
-        return re.match(validPath, url.lower()) and not re.match(
+        
+        if not robot_allowed_link(url):
+            return False
+
+        valid_domains = r"((.*\.)(ics|cs|informatics|stat)\.uci\.edu(\/.*)*)|(today\.uci\.edu\/department\/information_computer_sciences(\/.*)*)"
+        return re.match(valid_domains, url.lower()) and not re.match(
         # return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
