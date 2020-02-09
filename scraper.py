@@ -19,7 +19,8 @@ def extract_next_links(url, resp):
     try:
         parsed = urlparse(url)
         print("Parsed", parsed.netloc)
-
+    except:
+        print("except")
     
     return new_links
 
