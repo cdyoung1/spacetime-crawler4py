@@ -107,6 +107,7 @@ def is_valid(url):
         
         for trap in traps:
             if trap in url:
+                print("DETECTED DISALLOWED PART OF URL", url)
                 return False
 
         valid_domains = r"((.*\.)(ics|cs|informatics|stat)\.uci\.edu(\/.*)*)|(today\.uci\.edu\/department\/information_computer_sciences(\/.*)*)"
