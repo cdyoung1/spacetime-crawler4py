@@ -2,6 +2,9 @@ import re
 from urllib.parse import urlparse
 from urllib import robotparser
 
+# Additional packages
+from BeautifulSoup import BeautifulSoup
+
 robots = dict()
 
 def scraper(url, resp):
@@ -15,9 +18,16 @@ def createRobot(url):
         robots[url] = rp
     return robots[url]
 
+def extract_raw_links(raw):
+    links = []
+    soup = BeautifulSoup(raw)
+    for link in soup.findAll('a', attrs={'href': re.compile("^http://")}):
+        links.append(link)
+    return links
+
 def extract_next_links(url, resp):
     # Implementation requred.
-    new_links = []
+    new_links = set()
 
     try:
         parse = urlparse(url)
@@ -25,11 +35,15 @@ def extract_next_links(url, resp):
         print(parse)
         if 200 <= resp.status <= 599:
             raw = resp.raw_response
-            # print(raw.text)
+            raw_links = extract_raw_links(raw.text)
+            print(raw_links)
+            for link in raw_links:
+                if robot.can_fetch("*", link):
+                    new_links.add(link)
     except:
         print("Except")
         
-    return new_links
+    return list(new_links)
 
 def is_valid(url):
     try:
@@ -38,8 +52,8 @@ def is_valid(url):
             return False
         console.log("Parsed", parsed)
         validPath = r".*\.(ics|cs|informatics|stat)\.uci\.edu/.*|today\.uci\.edu/department/information_computer_sciences/.*"
-        # return re.match(validPath, parsed.path.lower()) and not re.match(
-        return not re.match(
+        return re.match(validPath, url.lower()) and not re.match(
+        # return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
