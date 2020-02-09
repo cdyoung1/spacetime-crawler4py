@@ -22,7 +22,7 @@ def extract_raw_links(raw):
     links = []
     soup = BeautifulSoup(raw, features="lxml")
     for link in soup.findAll('a', attrs={'href': re.compile("^http://")}):
-        links.append(link.href)
+        links.append(link)
     return links
 
 def extract_next_links(url, resp):
