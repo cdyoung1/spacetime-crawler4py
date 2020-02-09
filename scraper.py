@@ -7,8 +7,6 @@ import shelve
 from bs4 import BeautifulSoup
 
 robots = dict()
-urls = shelve.open("urls.shelve")
-
 def scraper(url, resp):
     links = extract_next_links(url, resp)
     scraped_links = [link for link in links if is_valid(link)]
@@ -34,6 +32,7 @@ def extract_raw_links(raw):
     return links
 
 def extract_next_links(url, resp):
+    urls = shelve.open("urls.shelve")
     # Implementation requred.
     new_links = set()
 
@@ -51,9 +50,10 @@ def extract_next_links(url, resp):
                     new_links.add(l)
                     if urls.get(l) == None:
                         urls[l] = 1
-        urls.close()
     except Exception as e:
         print("Except", e)
+    finally:
+        urls.close()
         
     return list(new_links)
 
