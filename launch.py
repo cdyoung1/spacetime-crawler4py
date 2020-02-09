@@ -7,6 +7,7 @@ from crawler import Crawler
 
 
 def main(config_file, restart):
+    print("LET ME PRINT")
     cparser = ConfigParser()
     cparser.read(config_file)
     config = Config(cparser)
