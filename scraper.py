@@ -16,6 +16,8 @@ def extract_next_links(url, resp):
         print("Status code:", resp.status)
         if resp.status == 200:
             print("Raw: ",resp.raw_response)
+    except:
+        print("Except")
         
     return new_links
 
