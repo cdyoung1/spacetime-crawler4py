@@ -5,6 +5,8 @@ from utils.server_registration import get_cache_server
 from utils.config import Config
 from crawler import Crawler
 
+import shelve
+
 
 def main(config_file, restart):
     cparser = ConfigParser()
@@ -13,6 +15,7 @@ def main(config_file, restart):
     config.cache_server = get_cache_server(config, restart)
     crawler = Crawler(config, restart)
     crawler.start()
+    print("Total unique urls:", len(shelve.open("urls.shelve")))
 
 
 if __name__ == "__main__":

@@ -1,15 +1,23 @@
 import re
 from urllib.parse import urlparse
 from urllib import robotparser
+import shelve
 
 # Additional packages
 from bs4 import BeautifulSoup
 
 robots = dict()
+urls = shelve.open("urls.shelve")
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)
-    return [link for link in links if is_valid(link)]
+    scraped_links = [link for link in links if is_valid(link)]
+    if url_set not in urls:
+        url_set = set(scraped_links)
+    else:
+        url_set.update(set(scraped_links))
+    urls.close()
+    return scraped_links
 
 def createRobot(url):
     if url not in robots:
