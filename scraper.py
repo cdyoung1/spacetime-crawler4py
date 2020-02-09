@@ -3,7 +3,7 @@ from urllib.parse import urlparse
 from urllib import robotparser
 
 # Additional packages
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 
 robots = dict()
 
