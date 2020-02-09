@@ -23,6 +23,7 @@ def scraper(url, resp):
     createRobots()
     # links = extract_next_links(url, resp)
     valid_links = [link for link in extract_next_links(url, resp) if is_valid(link)]
+    final_links = set()
 
     url_shelve = shelve.open("urls.shelve")
     for link in valid_links:
@@ -32,10 +33,11 @@ def scraper(url, resp):
         else:
             url_shelve[link] += 1
             print("Link already exists:", link, ", Count:", url_shelve[link])
+        final_links.add(link)
 
     url_shelve.close()
 
-    return valid_links
+    return list(final_links)
 
 def remove_frag(url):
     parse = urlparse(url)
