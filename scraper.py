@@ -36,7 +36,7 @@ def remove_frag(url):
     parse = urlparse(url)
     try:
         frag_index = url.index(parse.fragment)
-        return url.substring(0, frag_index-1)
+        return url[0:frag_index-1]
     except ValueError:
         return url
     
