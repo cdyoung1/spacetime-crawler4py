@@ -1,5 +1,6 @@
 import re
 from urllib.parse import urlparse
+from urllib import robotparser
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)
@@ -7,14 +8,18 @@ def scraper(url, resp):
 
 def extract_next_links(url, resp):
     # Implementation requred.
-    # Testing
     new_links = []
 
+    try:
+        parse = urlparse(url)
+        print(parse)
+        print("Status code:", resp.status)
+        if resp.status == 200:
+            print("Raw: ",resp.raw_response)
         
     return new_links
 
 def is_valid(url):
-    print("is_valid", url)
     try:
         parsed = urlparse(url)
         if parsed.scheme not in set(["http", "https"]):
