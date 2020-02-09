@@ -25,7 +25,7 @@ def extract_next_links(url, resp):
         print(parse)
         if 200 <= resp.status <= 599:
             raw = resp.raw_response
-            print(raw.text)
+            # print(raw.text)
     except:
         print("Except")
         
