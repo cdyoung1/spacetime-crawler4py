@@ -15,7 +15,7 @@ class Worker(Thread):
         
     def run(self):
         while True:
-            console.log("Inside while")
+            print("Inside while")
             tbd_url = self.frontier.get_tbd_url()
             if not tbd_url:
                 self.logger.info("Frontier is empty. Stopping Crawler.")
