@@ -50,7 +50,7 @@ def is_valid(url):
         parsed = urlparse(url)
         if parsed.scheme not in set(["http", "https"]):
             return False
-        console.log("Parsed", parsed)
+        print("Parsed", parsed)
         validPath = r".*\.(ics|cs|informatics|stat)\.uci\.edu/.*|today\.uci\.edu/department/information_computer_sciences/.*"
         return re.match(validPath, url.lower()) and not re.match(
         # return not re.match(
