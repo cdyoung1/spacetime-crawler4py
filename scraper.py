@@ -25,6 +25,7 @@ def extract_next_links(url, resp):
     return new_links
 
 def is_valid(url):
+    print("is_valid", url)
     try:
         parsed = urlparse(url)
         if parsed.scheme not in set(["http", "https"]):
