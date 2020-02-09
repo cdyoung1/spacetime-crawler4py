@@ -12,11 +12,11 @@ urls = shelve.open("urls.shelve")
 def scraper(url, resp):
     links = extract_next_links(url, resp)
     scraped_links = [link for link in links if is_valid(link)]
-    if "url_set" not in urls:
-        urls["url_set"] = set(scraped_links)
-    else:
-        urls["url_set"].update(set(scraped_links))
-    urls.close()
+    # if "url_set" not in urls:
+    #     urls["url_set"] = set(scraped_links)
+    # else:
+    #     urls["url_set"].update(set(scraped_links))
+    # urls.close()
     return scraped_links
 
 def createRobot(url):
@@ -46,8 +46,12 @@ def extract_next_links(url, resp):
             raw_links = extract_raw_links(raw.text)
             print(raw_links)
             for link in raw_links:
-                if robot.can_fetch("*", link.get("href")):
-                    new_links.add(link.get("href"))
+                l = link.get("href")
+                if robot.can_fetch("*", l):
+                    new_links.add(l)
+                    if urls.get(l) == None:
+                        urls[l] = 1
+        urls.close()
     except Exception as e:
         print("Except", e)
         
