@@ -2,12 +2,16 @@ import re
 from urllib.parse import urlparse
 
 def scraper(url, resp):
+    print("Scraper")
+    print("url:", url)
+    print("resp:", resp)
     links = extract_next_links(url, resp)
     return [link for link in links if is_valid(link)]
 
 def extract_next_links(url, resp):
     # Implementation requred.
     # Testing
+    print("Extract_next_links")
     print("url:", url)
     print("resp:", resp)
     return list()
