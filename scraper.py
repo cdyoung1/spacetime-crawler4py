@@ -7,6 +7,7 @@ def scraper(url, resp):
 
 def extract_next_links(url, resp):
     # Implementation requred.
+    # Testing
     return list()
 
 def is_valid(url):
@@ -27,5 +28,3 @@ def is_valid(url):
     except TypeError:
         print ("TypeError for ", parsed)
         raise
-
-# Testing push
