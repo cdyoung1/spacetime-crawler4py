@@ -29,6 +29,7 @@ def scraper(url, resp):
 def extract_next_links(url, resp):
 
     # log scraped urls
+    print("Response:", resp.raw_response)
     header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
     with open("scraped_urls.txt", "w") as output_file:
         output_file.write(header_response + ' ' + url + '\n')
@@ -47,6 +48,7 @@ def extract_next_links(url, resp):
         defragged_link = urldefrag(link[2])[0]
         print("DEFRAG--------------DEFRAG")
         print("Defragged link:", defragged_link)
+        print("Parsed:", parsed)
         if not defragged_link:
             continue
         if defragged_link[0] == '/' and defragged_link[1] != '/':
