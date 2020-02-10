@@ -47,7 +47,7 @@ def extract_next_links(url, resp):
     for link in doc_links:
         if link[2] == "":
             continue
-        defragged_link = urldefrag(link[2])
+        defragged_link = urldefrag(link[2])[0]
         print("DEFRAG--------------DEFRAG")
         print("Defragged link:", defragged_link)
         defrag_parsed = urlparse(defragged_link)
