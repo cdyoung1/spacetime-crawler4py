@@ -17,20 +17,23 @@ def scraper(url, resp):
         # URLs that are scraped are already validated
         visited.add(url)
         links = extract_next_links(url, resp)
+        print("---------------------------")
+        print("Scraping url:", url)
         print("Current visited:", len(visited))
+        print("---------------------------")
         for link in links:
             parsed = urlparse(link)
             if is_valid(link):
                 new_links.add(link)
-                print("URL:",link,"Parsed:", parsed)
-                print("-----------------")
+                # print("URL:",link,"Parsed:", parsed)
+                # print("-----------------")
 
     return list(new_links)
 
 def extract_next_links(url, resp):
 
     # log scraped urls
-    print("Response:", resp.raw_response)
+    # print("Response:", resp.raw_response)
     header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
     with open("scraped_urls.txt", "w") as output_file:
         output_file.write(header_response + ' ' + url + '\n')
@@ -49,8 +52,8 @@ def extract_next_links(url, resp):
         # if link[2] == "":
         #     continue
         defragged_link = urldefrag(link[2])[0]
-        print("DEFRAG--------------DEFRAG")
-        print("Defragged link:", "'"+defragged_link + "'")
+        # print("DEFRAG--------------DEFRAG")
+        # print("Defragged link:", "'"+defragged_link + "'")
         defrag_parsed = urlparse(defragged_link)
         if defragged_link == "":
             continue
@@ -61,7 +64,7 @@ def extract_next_links(url, resp):
     return list(new_links)
 
 def check_robot(url, parsed):
-    print("CHECKING ROBOT WITH URL:", "'" + url + "'")
+    # print("CHECKING ROBOT WITH URL:", "'" + url + "'")
     robot = robotparser.RobotFileParser()
     robot.set_url(parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt")
     if robot:
@@ -93,10 +96,10 @@ def is_valid(url):
         # Check if url is too long
         if len(url) > 175:
             return False
-        print("-------CHECKING---------")
-        print("Checking is_valid for:",url)
-        print("Parsed:",parsed)
-        print("-------CHECKING---------")
+        # print("-------CHECKING---------")
+        # print("Checking is_valid for:",url)
+        # print("Parsed:",parsed)
+        # print("-------CHECKING---------")
 
 
         # Check that url does not contain invalid types in middle or in query
@@ -121,7 +124,7 @@ def is_valid(url):
         if re.match(valid_mid_and_query, parsed.query.lower()) or re.match(valid_mid_and_query, parsed.path.lower()):
             return False
         
-        print("------QUERY AND PATH ARE FINE---------")
+        # print("------QUERY AND PATH ARE FINE---------")
 
         # Match specified domains
         valid_domains = re.match(r".*\.ics|cs|informatics|stat\.uci\.edu(\/.*)*" + r"today\.uci\.edu\/department\/information_computer_sciences(\/.*)*", parsed.netloc.lower()) 
