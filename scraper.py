@@ -12,15 +12,13 @@ disallowed = ["https://wics.ics.uci.edu/events/","https://www.ics.uci.edu/commun
 # trap_parts = ["calendar"]
 
 def scraper(url, resp):
-    new_links = set()
-    if 200 <= resp.status <= 299 and resp.status != 204:
-        # URLs that are scraped are already validated
-        visited.add(url)
-        new_links = extract_next_links(url, resp)
-        print("---------------------------")
-        print("Scraping url:", url)
-        print("Current visited:", len(visited))
-        print("---------------------------")
+    # URLs that are scraped are already validated
+    visited.add(url)
+    new_links = extract_next_links(url, resp)
+    print("---------------------------")
+    print("Scraping url:", url)
+    print("Current visited:", len(visited))
+    print("---------------------------")
         # for link in links:
         #     header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
         #     with open("scraped_urls.txt", "w") as output_file:
@@ -39,7 +37,9 @@ def extract_next_links(url, resp):
     # log scraped urls
     # print("Response:", resp.raw_response)
 
-    # Check if HTTP status code 200 has no content
+    # Return invalid urls automaticallu
+    if 300 < resp.status < 609 or resp.status == 204:
+        return list()
     if resp.status == 200 and str(resp.raw_response.content) == "":
         return list()
 
@@ -112,15 +112,6 @@ def is_valid(url):
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz).*$")
-
-        # hi = r".*\/(css|js|bmp|gif|jpe?g|ico"
-        #     + r"|png|tiff?|mid|mp2|mp3|mp4"
-        #     + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-        #     + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
-        #     + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
-        #     + r"|epub|dll|cnf|tgz|sha1"
-        #     + r"|thmx|mso|arff|rtf|jar|csv"
-        #     + r"|rm|smil|wmv|swf|wma|zip|rar|gz).$"
 
         if re.match(valid_mid_and_query, parsed.query.lower()) or re.match(valid_mid_and_query, parsed.path.lower()):
             return False
