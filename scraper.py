@@ -39,7 +39,7 @@ def scraper(url, resp):
             url_shelve[link] += 1
             print("Link already exists:", link, ", Count:", url_shelve[link])
         final_links.add(link)
-
+    print("Current unique url count:", len(url_shelve))
     url_shelve.close()
 
     return list(final_links)
