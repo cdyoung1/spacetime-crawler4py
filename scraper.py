@@ -65,6 +65,7 @@ def extract_next_links(url, resp):
     return list(new_links)
 
 def check_robot(url, parsed):
+    print("CHECKING ROBOT WITH URL:", "'" + url + "'")
     robot = robotparser.RobotFileParser()
     # robot.set_url(parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt")
     if robot:

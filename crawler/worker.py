@@ -17,7 +17,6 @@ class Worker(Thread):
         while True:
             try:
                 tbd_url = self.frontier.get_tbd_url()
-                print("TBD URL WORKS", "'" + tbd_url + "'")
                 if not tbd_url:
                     self.logger.info("Frontier is empty. Stopping Crawler.")
                     break
@@ -27,7 +26,6 @@ class Worker(Thread):
                     f"using cache {self.config.cache_server}.")
                 scraped_urls = scraper(tbd_url, resp)
                 for scraped_url in scraped_urls:
-                    print("THIS IS THE SCRAPED:", "'" + scraped_url + "'")
                     self.frontier.add_url(scraped_url)
                 self.frontier.mark_url_complete(tbd_url)
                 time.sleep(self.config.time_delay)
