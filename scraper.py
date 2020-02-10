@@ -51,7 +51,8 @@ def extract_next_links(url, resp):
         print("afterdefrag")
         # print("DEFRAG--------------DEFRAG")
         # print("Defragged link:", defragged_link)
-        new_links.add(defragged_link)
+        if (defragged_link != ""):
+            new_links.add(defragged_link)
     return list(new_links)
 
 def check_robot(url, parsed):
