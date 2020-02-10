@@ -63,7 +63,7 @@ def extract_next_links(url, resp):
             defragged_link = "https://" + parsed.netloc + defragged_link
         # elif len(defragged_link) >= 2 and defragged_link[0] == '/'
         if is_valid(defragged_link):
-            print("VALID NEW LINK:", link)
+            print("VALID NEW LINK:", defragged_link)
             print("RESPONSE HEADERS:", resp.raw_response.headers)
             header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
             with open("scraped_urls.txt", "w") as output_file:
