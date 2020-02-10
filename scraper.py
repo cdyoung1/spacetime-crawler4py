@@ -10,7 +10,7 @@ from lxml import html
 robots = dict()
 robot_urls = ["https://www.ics.uci.edu/robots.txt","https://www.cs.uci.edu/robots.txt", "https://www.informatics.uci.edu/robots.txt","https://www.stat.uci.edu/robots.txt", "https://today.uci.edu/robots.txt"]
 illegal = ["/pdf/",".pdf","/?ical=1","/calendar/","format=xml","replytocom","wp-json","?share=google-plus","?share=facebook","?share=twitter"]
-traps = ["https://wics.ics.uci.edu/events/"]
+traps = ["https://wics.ics.uci.edu/events/","http://sli.ics.uci.edu/PmWiki/PmWiki"]
 
 def createRobots():
     for robot_url in robot_urls:
