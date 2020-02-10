@@ -26,6 +26,7 @@ def scraper(url, resp):
 def extract_next_links(url, resp):
 
     # Check if HTTP status code 200 has no content
+    print(res.raw_response.text)
     if resp.status == 200 and html.tostring(resp.raw_response.text) == "":
         return list()
 
