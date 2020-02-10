@@ -48,11 +48,13 @@ def extract_next_links(url, resp):
         defragged_link = urldefrag(link[2])[0]
         print("DEFRAG--------------DEFRAG")
         print("Defragged link:", defragged_link)
-        print("Parsed:", parsed)
-        if not defragged_link:
+        defrag_parsed = urlparse(defragged_link)
+        print("Defrag parse:", defrag_parsed)
+        if defragged_link == "":
             continue
-        if defragged_link[0] == '/' and defragged_link[1] != '/':
+        if len(defragged_link) >= 2 and defragged_link[0] == '/' and defragged_link[1] != '/':
             defragged_link = "https://" + parsed.netloc + defragged_link
+        # elif len(defragged_link) >= 2 and defragged_link[0] == '/'
         new_links.add(defragged_link)
     return list(new_links)
 
