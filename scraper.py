@@ -67,7 +67,7 @@ def extract_next_links(url, resp):
             print("RESPONSE HEADERS:", resp.raw_response.headers)
             header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
             with open("scraped_urls.txt", "w") as output_file:
-                output_file.write(header_response + ' ' + link + '\n')
+                output_file.write(header_response + ' ' + defragged_link + '\n')
             new_links.add(defragged_link)
     return list(new_links)
 
