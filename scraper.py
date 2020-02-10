@@ -12,14 +12,13 @@ disallowed = ["https://wics.ics.uci.edu/events/","https://www.ics.uci.edu/commun
 # trap_parts = ["calendar"]
 
 def scraper(url, resp):
-    print("INITIAL SCRAPE LINK:", url)
     new_links = set()
     if 200 <= resp.status <= 299 and resp.status != 204:
         # URLs that are scraped are already validated
         visited.add(url)
         links = extract_next_links(url, resp)
+        print("Current visited:", len(visited))
         for link in links:
-            print("SCraped links", link)
             parsed = urlparse(link)
             if is_valid(link):
                 new_links.add(link)
@@ -47,20 +46,17 @@ def extract_next_links(url, resp):
     doc_links = list(doc.iterlinks())
     
     for link in doc_links:
-        if link[2] == "":
-            continue
+        # if link[2] == "":
+        #     continue
         defragged_link = urldefrag(link[2])[0]
         print("DEFRAG--------------DEFRAG")
         print("Defragged link:", "'"+defragged_link + "'")
         defrag_parsed = urlparse(defragged_link)
-        print("Defrag parse:", defrag_parsed)
         if defragged_link == "":
-            print("continuing")
             continue
         if len(defragged_link) >= 2 and defragged_link[0] == '/' and defragged_link[1] != '/':
             defragged_link = "https://" + parsed.netloc + defragged_link
         # elif len(defragged_link) >= 2 and defragged_link[0] == '/'
-        print("lol")
         new_links.add(defragged_link)
     return list(new_links)
 
