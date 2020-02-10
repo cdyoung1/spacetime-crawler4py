@@ -18,15 +18,22 @@ def scraper(url, resp):
         visited.add(url)
         links = extract_next_links(url, resp)
         for link in links:
+            parsed = urlparse(link)
             if is_valid(link):
                 new_links.add(link)
+                print("URL:",url,"Parsed:", parsed)
+                print("-----------------")
 
     return list(new_links)
 
 def extract_next_links(url, resp):
 
+    # log scraped urls
+    header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
+    with open("scraped_urls.txt", "w") as output_file:
+        output_file.write(header_response + ' ' + url + '\n')
+
     # Check if HTTP status code 200 has no content
-    # print(resp.raw_response.text)
     if resp.status == 200 and str(resp.raw_response.content) == "":
         return list()
 
@@ -37,14 +44,14 @@ def extract_next_links(url, resp):
     
     for link in doc_links:
         defragged_link = urldefrag(link[2])[0]
-        print("DEFRAG--------------DEFRAG")
-        print("Defragged link:", defragged_link)
+        # print("DEFRAG--------------DEFRAG")
+        # print("Defragged link:", defragged_link)
         new_links.add(defragged_link)
     return list(new_links)
 
 def check_robot(url, parsed):
     robot = robotparser.RobotFileParser()
-    robot.set_url(parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt")
+    # robot.set_url(parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt")
     if robot:
         robot.read()
         return robot.can_fetch("*", url)
