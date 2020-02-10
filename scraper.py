@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 visited = set()
 disallowed = ["https://wics.ics.uci.edu/events/","https://www.ics.uci.edu/community/involved/","https://www.ics.uci.edu/ugrad/policies/Grade_Options/", "https://www.ics.uci.edu/accessibility/community/", "https://www.ics.uci.edu/involved/corporate_partner.php/"]
-trap_parts = ["/calendar/","replytocom","wp-json","?share=google-plus","?share=facebook","?share=twitter","format=xml"]
+trap_parts = ["calendar","replytocom","wp-json","?share=google-plus","?share=facebook","?share=twitter","format=xml"]
 
 def scraper(url, resp):
     # URLs that are scraped are already validated
