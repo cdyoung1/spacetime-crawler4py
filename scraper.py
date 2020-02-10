@@ -4,6 +4,7 @@ from urllib import robotparser
 import os
 
 # Additional packages
+from lxml import html
 from bs4 import BeautifulSoup
 
 visited = set()
