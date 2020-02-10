@@ -31,7 +31,7 @@ def extract_next_links(url, resp):
 
     new_links = set()
 
-    doc = html.fromstring(resp.raw_response.content)
+    doc = html.fromstring(resp.raw_response.text)
     doc_links = list(doc.iterlinks())
     
     for link in doc_links:
