@@ -47,10 +47,11 @@ def extract_next_links(url, resp):
         defragged_link = urldefrag(link[2])[0]
         # print("DEFRAG--------------DEFRAG")
         # print("Defragged link:", defragged_link)
+        if not defragged_link:
+            continue
         if defragged_link[0] == '/' and defragged_link[1] != '/':
-            link = "https://" + parsed.netloc + defragged_link
-        if link:
-            new_links.add(link)
+            defragged_link = "https://" + parsed.netloc + defragged_link
+        new_links.add(defragged_link)
     return list(new_links)
 
 def check_robot(url, parsed):
