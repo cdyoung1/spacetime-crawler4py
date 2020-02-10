@@ -34,11 +34,11 @@ def scraper(url, resp):
     for link in valid_links:
         if link not in url_shelve:
             url_shelve[link] = 1
-            print("New Link:", link)
+            # print("New Link:", link)
             final_links.add(link)
         else:
             url_shelve[link] += 1
-            print("Link already exists:", link, ", Count:", url_shelve[link])
+            # print("Link already exists:", link, ", Count:", url_shelve[link])
     print("Current unique url count:", len(url_shelve))
     url_shelve.close()
 
@@ -68,7 +68,7 @@ def extract_next_links(url, resp):
 def is_valid(url):
     try:
         parsed = urlparse(url)
-        print("Parsed:", parsed)
+        print("Parsed:", url, parsed)
         if parsed.scheme not in set(["http", "https"]):
             return False
         
