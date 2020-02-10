@@ -97,9 +97,14 @@ def is_valid(url):
             return  False
 
         # Check if url contains any trap phrases (eg. pdf, calendar, events)      
-        for trap in trap_parts:
-            if trap in url:
-                return False
+        # for trap in trap_parts:
+        #     if trap in url:
+        #         return False
+
+        trap_parts = r".*(calendar|replytocom|wp-json|format=xml|\?share=(google-plus|facebook|twitter)).*"
+        feed_trap = r".*\/feed\/?$"
+        if re.match(trap_parts, url.lower()) or re.match(feed_trap, url.lower()):
+            return False
 
         # Create and check robots.txt
         if not check_robot(url, parsed):
@@ -108,10 +113,6 @@ def is_valid(url):
         # Check if url is too long
         if len(url) > 175:
             return False
-        # print("-------CHECKING---------")
-        # print("Checking is_valid for:",url)
-        # print("Parsed:",parsed)
-        # print("-------CHECKING---------")
 
 
         # Check that url does not contain invalid types in middle or in query
