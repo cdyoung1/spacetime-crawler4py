@@ -24,9 +24,9 @@ def scraper(url, resp):
     createRobots()
     # links = extract_next_links(url, resp)
 
-    if 400 <= resp.status <= 608:
+    if 400 <= resp.status <= 608 or resp.status ==  204:
         return list()
-
+ 
     valid_links = [link for link in extract_next_links(url, resp) if is_valid(link)]
     final_links = set()
 
@@ -100,6 +100,7 @@ def extract_next_links(url, resp):
 def is_valid(url):
     try:
         parsed = urlparse(url)
+        console.log("Parsed:", parsed)
         if parsed.scheme not in set(["http", "https"]):
             return False
         
