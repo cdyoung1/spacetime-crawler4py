@@ -54,9 +54,9 @@ def extract_next_links(url, resp):
         #     continue
         defragged_link = urldefrag(link[2])[0]
         defrag_parsed = urlparse(defragged_link)
-        print("DEFRAG--------------DEFRAG")
-        print("Defragged link:", "'"+defragged_link + "'")
-        print("Defragged parse:", defrag_parsed)
+        # print("DEFRAG--------------DEFRAG")
+        # print("Defragged link:", "'"+defragged_link + "'")
+        # print("Defragged parse:", defrag_parsed)
         if defragged_link == "":
             continue
         if len(defragged_link) >= 2 and defragged_link[0] == '/' and defragged_link[1] != '/':
