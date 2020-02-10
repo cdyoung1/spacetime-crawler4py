@@ -23,6 +23,10 @@ def createRobots():
 def scraper(url, resp):
     createRobots()
     # links = extract_next_links(url, resp)
+
+    if 400 <= resp.status <= 608:
+        return list()
+
     valid_links = [link for link in extract_next_links(url, resp) if is_valid(link)]
     final_links = set()
 
@@ -57,9 +61,6 @@ def robot_allowed_link(url):
 def extract_next_links(url, resp):
     # url_shelve = shelve.open("urls.shelve")
     new_links = set()
-
-    if 400 <= resp.status <= 608:
-        return list()
 
     doc = html.fromstring(resp.raw_response.content)
     doc_links = list(doc.iterlinks())
