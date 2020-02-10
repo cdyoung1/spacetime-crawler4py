@@ -8,9 +8,8 @@ from lxml import html
 
 # Setting up robots
 robots = dict()
-robot_urls = ["https://www.ics.uci.edu/robots.txt","https://www.cs.uci.edu/robots.txt",
-    "https://www.informatics.uci.edu/robots.txt","https://www.stat.uci.edu/robots.txt", "https://today.uci.edu/robots.txt"]
-traps = ["/pdf/",".pdf","/?ical=1","/calendar/","format=xml","replytocom","wp-json","?share=google-plus","?share=facebook","?share=twitter"]
+robot_urls = ["https://www.ics.uci.edu/robots.txt","https://www.cs.uci.edu/robots.txt", "https://www.informatics.uci.edu/robots.txt","https://www.stat.uci.edu/robots.txt", "https://today.uci.edu/robots.txt"]
+# traps = ["/pdf/",".pdf","/?ical=1","/calendar/","format=xml","replytocom","wp-json","?share=google-plus","?share=facebook","?share=twitter"]
 
 def createRobots():
     for robot_url in robot_urls:
@@ -35,10 +34,10 @@ def scraper(url, resp):
         if link not in url_shelve:
             url_shelve[link] = 1
             print("New Link:", link)
+            final_links.add(link)
         else:
             url_shelve[link] += 1
             print("Link already exists:", link, ", Count:", url_shelve[link])
-        final_links.add(link)
     print("Current unique url count:", len(url_shelve))
     url_shelve.close()
 
@@ -64,31 +63,6 @@ def extract_next_links(url, resp):
         # print(defragged_link)
         new_links.add(defragged_link)
     return list(new_links)
-        # if robot_allowed_link(defragged_link):
-
-
-    # urls = shelve.open("urls.shelve")
-    # Implementation requred.
-    # new_links = set()
-    # try:
-    #     parse = urlparse(url)
-    #     robot = createRobot(parse.scheme + "://" + parse.netloc + "/robots.txt")
-    #     print(parse)
-    #     if 200 <= resp.status <= 599:
-    #         raw = resp.raw_response
-    #         raw_links = extract_raw_links(raw.text)
-    #         for link in raw_links:
-    #             l = link.get("href")
-    #             if robot.can_fetch("*", l):
-    #                 new_links.add(l)
-    #                 if urls.get(l) == None:
-    #                     urls[l] = 1
-    # except Exception as e:
-    #     print("Except", e)
-    # finally:
-    #     urls.close()
-        
-    # return list(new_links)
 
 def is_valid(url):
     try:
