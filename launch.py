@@ -15,9 +15,9 @@ def main(config_file, restart):
     config.cache_server = get_cache_server(config, restart)
     crawler = Crawler(config, restart)
     crawler.start()
-    url_shelve = shelve.open("urls.shelve")
-    for k in url_shelve.keys():
-        print(k, "->", url_shelve[k])
+    # url_shelve = shelve.open("urls.shelve")
+    # for k in url_shelve.keys():
+    #     print(k, "->", url_shelve[k])
 
 
 
