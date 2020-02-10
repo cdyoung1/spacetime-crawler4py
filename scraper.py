@@ -21,7 +21,7 @@ def scraper(url, resp):
             parsed = urlparse(link)
             if is_valid(link):
                 new_links.add(link)
-                print("URL:",url,"Parsed:", parsed)
+                print("URL:",link,"Parsed:", parsed)
                 print("-----------------")
 
     return list(new_links)
@@ -60,8 +60,8 @@ def check_robot(url, parsed):
 def is_valid(url):
     try:
         parsed = urlparse(url)
-        print("URL:",url,"Parsed:", parsed)
-        print("-----------------")
+        # print("URL:",url,"Parsed:", parsed)
+        # print("-----------------")
         
         if url in visited:
             return False
