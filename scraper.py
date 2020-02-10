@@ -16,7 +16,7 @@ def scraper(url, resp):
     if 200 <= resp.status <= 299 and resp.status != 204:
         # URLs that are scraped are already validated
         visited.add(url)
-        links = extract_next_links(url, resp)
+        new_links = extract_next_links(url, resp)
         print("---------------------------")
         print("Scraping url:", url)
         print("Current visited:", len(visited))
@@ -32,7 +32,7 @@ def scraper(url, resp):
                 # print("URL:",link,"Parsed:", parsed)
                 # print("-----------------")
 
-    return links
+    return list(new_links)
 
 def extract_next_links(url, resp):
 
