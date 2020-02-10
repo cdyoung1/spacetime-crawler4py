@@ -1,7 +1,7 @@
 import re
 from urllib.parse import urlparse, urldefrag
 from urllib import robotparser
-import shelve
+import os
 
 # Additional packages
 from bs4 import BeautifulSoup
@@ -11,20 +11,16 @@ disallowed = ["https://wics.ics.uci.edu/events/","https://www.ics.uci.edu/commun
 # trap_parts = ["calendar"]
 
 def scraper(url, resp):
+    new_links = set()
     if 200 <= resp.status <= 299 and resp.status != 204:
         # URLs that are scraped are already validated
         visited.add(url)
-
-        new_links = set()
         links = extract_next_links(url, resp)
+        for link in links:
+            if is_valid(link):
+                new_links.add(link)
 
-    return [link for link in links if is_valid(link)]
-
-def robot_allowed_link(url):
-    for robot in robots.values():
-        if robot.can_fetch("*", url) == False:
-            return False
-    return True
+    return list(new_links)
 
 def extract_next_links(url, resp):
 
