@@ -92,8 +92,12 @@ def is_valid(url):
         if url in visited:
             return False
 
-        # Check if url contains any trap phrases (eg. pdf, calendar, events)
-        for trap in disallowed:
+        # Check if it is a disallowed url
+        if url in disallowed:
+            return  False
+
+        # Check if url contains any trap phrases (eg. pdf, calendar, events)      
+        for trap in trap_parts:
             if trap in url:
                 return False
 
