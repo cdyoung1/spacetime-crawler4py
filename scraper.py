@@ -100,7 +100,7 @@ def extract_next_links(url, resp):
 def is_valid(url):
     try:
         parsed = urlparse(url)
-        console.log("Parsed:", parsed)
+        print("Parsed:", parsed)
         if parsed.scheme not in set(["http", "https"]):
             return False
         
