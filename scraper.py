@@ -9,7 +9,8 @@ from lxml import html
 # Setting up robots
 robots = dict()
 robot_urls = ["https://www.ics.uci.edu/robots.txt","https://www.cs.uci.edu/robots.txt", "https://www.informatics.uci.edu/robots.txt","https://www.stat.uci.edu/robots.txt", "https://today.uci.edu/robots.txt"]
-traps = ["/pdf/",".pdf","/?ical=1","/calendar/","format=xml","replytocom","wp-json","?share=google-plus","?share=facebook","?share=twitter"]
+illegal = ["/pdf/",".pdf","/?ical=1","/calendar/","format=xml","replytocom","wp-json","?share=google-plus","?share=facebook","?share=twitter"]
+traps = ["https://wics.ics.uci.edu/events/"]
 
 def createRobots():
     for robot_url in robot_urls:
@@ -74,9 +75,14 @@ def is_valid(url):
         if not robot_allowed_link(url):
             return False
         
-        for trap in traps:
-            if trap in url:
+        for s in illegal:
+            if s in url:
                 print("DETECTED DISALLOWED PART OF URL", url)
+                return False
+        
+        for trap in traps:
+            if s in url:
+                print("TRAP SITE", url)
                 return False
 
         valid_domains = r"((.*\.)(ics|cs|informatics|stat)\.uci\.edu(\/.*)*)|(today\.uci\.edu\/department\/information_computer_sciences(\/.*)*)"
