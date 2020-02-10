@@ -12,12 +12,14 @@ disallowed = ["https://wics.ics.uci.edu/events/","https://www.ics.uci.edu/commun
 # trap_parts = ["calendar"]
 
 def scraper(url, resp):
+    print("INITIAL SCRAPE LINK:", url)
     new_links = set()
     if 200 <= resp.status <= 299 and resp.status != 204:
         # URLs that are scraped are already validated
         visited.add(url)
         links = extract_next_links(url, resp)
         for link in links:
+            print("SCraped links", link)
             parsed = urlparse(link)
             if is_valid(link):
                 new_links.add(link)
