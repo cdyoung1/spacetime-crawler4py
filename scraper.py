@@ -26,12 +26,12 @@ def scraper(url, resp):
 def extract_next_links(url, resp):
 
     # Check if HTTP status code 200 has no content
-    if resp.status == 200 and html.tostring(resp.raw_response.content) == "":
+    if resp.status == 200 and html.tostring(resp.raw_response.text) == "":
         return list()
 
     new_links = set()
 
-    doc = html.fromstring(resp.raw_response.text)
+    doc = html.fromstring(resp.raw_response.content)
     doc_links = list(doc.iterlinks())
     
     for link in doc_links:
