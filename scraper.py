@@ -21,10 +21,10 @@ def scraper(url, resp):
         print("Scraping url:", url)
         print("Current visited:", len(visited))
         print("---------------------------")
-        for link in links:
-            header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
-            with open("scraped_urls.txt", "w") as output_file:
-                output_file.write(header_response + ' ' + url + '\n')
+        # for link in links:
+        #     header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
+        #     with open("scraped_urls.txt", "w") as output_file:
+        #         output_file.write(header_response + ' ' + link + '\n')
         # for link in links:
         #     parsed = urlparse(link)
         #     if is_valid(link):
