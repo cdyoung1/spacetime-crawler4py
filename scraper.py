@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 visited = set()
 disallowed = ["https://wics.ics.uci.edu/events/","https://www.ics.uci.edu/community/involved/","https://www.ics.uci.edu/ugrad/policies/Grade_Options/", "https://www.ics.uci.edu/accessibility/community/", "https://www.ics.uci.edu/involved/corporate_partner.php/"]
-# trap_parts = ["calendar"]
+trap_parts = ["/calendar/","replytocom","wp-json","?share=google-plus","?share=facebook","?share=twitter","format=xml"]
 
 def scraper(url, resp):
     # URLs that are scraped are already validated
@@ -20,9 +20,9 @@ def scraper(url, resp):
     print("Current visited:", len(visited))
     print("---------------------------")
         # for link in links:
-        #     header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
-        #     with open("scraped_urls.txt", "w") as output_file:
-        #         output_file.write(header_response + ' ' + link + '\n')
+            # header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
+            # with open("scraped_urls.txt", "w") as output_file:
+            #     output_file.write(header_response + ' ' + link + '\n')
         # for link in links:
         #     parsed = urlparse(link)
         #     if is_valid(link):
@@ -53,15 +53,22 @@ def extract_next_links(url, resp):
         # if link[2] == "":
         #     continue
         defragged_link = urldefrag(link[2])[0]
-        # print("DEFRAG--------------DEFRAG")
-        # print("Defragged link:", "'"+defragged_link + "'")
         defrag_parsed = urlparse(defragged_link)
+        print("DEFRAG--------------DEFRAG")
+        print("Defragged link:", "'"+defragged_link + "'")
+        print("Defragged parse:", defrag_parsed)
         if defragged_link == "":
             continue
         if len(defragged_link) >= 2 and defragged_link[0] == '/' and defragged_link[1] != '/':
             defragged_link = "https://" + parsed.netloc + defragged_link
         # elif len(defragged_link) >= 2 and defragged_link[0] == '/'
-        new_links.add(defragged_link)
+        if is_valid(defragged_link):
+            print("VALID NEW LINK:", link)
+            print("RESPONSE HEADERS:", resp.raw_response.headers)
+            header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
+            with open("scraped_urls.txt", "w") as output_file:
+                output_file.write(header_response + ' ' + link + '\n')
+            new_links.add(defragged_link)
     return list(new_links)
 
 def check_robot(url, parsed):
