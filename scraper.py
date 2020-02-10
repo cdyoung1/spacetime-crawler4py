@@ -47,12 +47,11 @@ def extract_next_links(url, resp):
     doc_links = list(doc.iterlinks())
     
     for link in doc_links:
-        print("This is the url", link)
         if link[2] == "":
             continue
         defragged_link = urldefrag(link[2])[0]
         print("DEFRAG--------------DEFRAG")
-        print("Defragged link:", defragged_link)
+        print("Defragged link:", "'"+defragged_link + "'")
         defrag_parsed = urlparse(defragged_link)
         print("Defrag parse:", defrag_parsed)
         if defragged_link == "":
