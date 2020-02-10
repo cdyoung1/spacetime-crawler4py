@@ -13,7 +13,7 @@ trap_parts = ["calendar","replytocom","wp-json","?share=google-plus","?share=fac
 
 def scraper(url, resp):
     # URLs that are scraped are already validated
-    visited.add(url)
+    # visited.add(url)
     new_links = extract_next_links(url, resp)
     print("---------------------------")
     print("Scraping url:", url)
@@ -65,10 +65,14 @@ def extract_next_links(url, resp):
         if is_valid(defragged_link):
             print("VALID NEW LINK:", defragged_link)
             print("RESPONSE HEADERS:", resp.raw_response.headers)
+
             header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
             with open("scraped_urls.txt", "w") as output_file:
                 output_file.write(header_response + ' ' + defragged_link + '\n')
+            
+            visited.add(defragged_link)
             new_links.add(defragged_link)
+            
     return list(new_links)
 
 def check_robot(url, parsed):
@@ -116,7 +120,7 @@ def is_valid(url):
 
 
         # Check that url does not contain invalid types in middle or in query
-        valid_mid_and_query = (r".*\/(css|js|bmp|gif|jpe?g|ico"
+        valid_mid_and_query = (r".*\/(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
             + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
@@ -134,7 +138,7 @@ def is_valid(url):
         valid_domains = re.match(r".*\.ics|cs|informatics|stat\.uci\.edu(\/.*)*" + r"today\.uci\.edu\/department\/information_computer_sciences(\/.*)*", parsed.netloc.lower()) 
 
         return valid_domains and not re.match(
-            r".*\.(css|js|bmp|gif|jpe?g|ico"
+            r".*\.(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
             + r"|ps|eps|tex|php|ppt|pptx|doc|docx|xls|xlsx|names"
