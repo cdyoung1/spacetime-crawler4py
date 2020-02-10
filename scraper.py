@@ -1,5 +1,5 @@
 import re
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urldefrag
 from urllib import robotparser
 import shelve
 
@@ -44,13 +44,6 @@ def scraper(url, resp):
 
     return list(final_links)
 
-def remove_frag(url):
-    parse = urlparse(url)
-    try:
-        frag_index = url.index(parse.fragment)
-        return url[0:frag_index-1]
-    except ValueError:
-        return url
     
 def robot_allowed_link(url):
     for robot in robots.values():
@@ -67,7 +60,7 @@ def extract_next_links(url, resp):
     # print("Doc_links:",  doc_links)
     
     for link in doc_links:
-        defragged_link = remove_frag(link[2])
+        defragged_link = urldefrag(link[2])[0]
         # print(defragged_link)
         new_links.add(defragged_link)
     return list(new_links)
