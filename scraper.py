@@ -34,6 +34,7 @@ def extract_next_links(url, resp):
     header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
     with open("scraped_urls.txt", "w") as output_file:
         output_file.write(header_response + ' ' + url + '\n')
+    print("after header write")
 
     # Check if HTTP status code 200 has no content
     if resp.status == 200 and str(resp.raw_response.content) == "":
@@ -45,13 +46,16 @@ def extract_next_links(url, resp):
     doc_links = list(doc.iterlinks())
     
     for link in doc_links:
+        print("urldefrag")
         defragged_link = urldefrag(link[2])[0]
+        print("afterdefrag")
         # print("DEFRAG--------------DEFRAG")
         # print("Defragged link:", defragged_link)
         new_links.add(defragged_link)
     return list(new_links)
 
 def check_robot(url, parsed):
+    print("insider check robot")
     robot = robotparser.RobotFileParser()
     # robot.set_url(parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt")
     if robot:
@@ -62,8 +66,8 @@ def check_robot(url, parsed):
 def is_valid(url):
     try:
         parsed = urlparse(url)
-        # print("URL:",url,"Parsed:", parsed)
-        # print("-----------------")
+        print("URL2:",url,"Parsed:", parsed)
+        print("-----------------")
         
         if url in visited:
             return False
