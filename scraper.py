@@ -15,6 +15,8 @@ def scraper(url, resp):
     new_links = set()
     if 200 <= resp.status <= 299 and resp.status != 204:
         # URLs that are scraped are already validated
+        print("Before url1")
+        print("URLLLLL1" ,url)
         visited.add(url)
         links = extract_next_links(url, resp)
         for link in links:
