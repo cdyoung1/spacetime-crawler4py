@@ -15,8 +15,6 @@ def scraper(url, resp):
     new_links = set()
     if 200 <= resp.status <= 299 and resp.status != 204:
         # URLs that are scraped are already validated
-        print("Before url1")
-        print("URLLLLL1" ,url)
         visited.add(url)
         links = extract_next_links(url, resp)
         for link in links:
@@ -34,29 +32,28 @@ def extract_next_links(url, resp):
     header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
     with open("scraped_urls.txt", "w") as output_file:
         output_file.write(header_response + ' ' + url + '\n')
-    print("after header write")
 
     # Check if HTTP status code 200 has no content
     if resp.status == 200 and str(resp.raw_response.content) == "":
         return list()
 
+    parsed = urlparse(url)
     new_links = set()
 
     doc = html.fromstring(resp.raw_response.content)
     doc_links = list(doc.iterlinks())
     
     for link in doc_links:
-        print("urldefrag")
         defragged_link = urldefrag(link[2])[0]
-        print("afterdefrag")
         # print("DEFRAG--------------DEFRAG")
         # print("Defragged link:", defragged_link)
-        if (defragged_link != ""):
-            new_links.add(defragged_link)
+        if defragged_link[0] == '/' and defragged_link[1] != '/':
+            link = "https://" + parsed.netloc + defragged_link
+        if link:
+            new_links.add(link)
     return list(new_links)
 
 def check_robot(url, parsed):
-    print("insider check robot")
     robot = robotparser.RobotFileParser()
     # robot.set_url(parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt")
     if robot:
@@ -67,8 +64,6 @@ def check_robot(url, parsed):
 def is_valid(url):
     try:
         parsed = urlparse(url)
-        print("URL2:",url,"Parsed:", parsed)
-        print("-----------------")
         
         if url in visited:
             return False
