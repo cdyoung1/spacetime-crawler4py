@@ -22,21 +22,22 @@ def scraper(url, resp):
         print("Current visited:", len(visited))
         print("---------------------------")
         for link in links:
-            parsed = urlparse(link)
-            if is_valid(link):
-                new_links.add(link)
+            header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
+            with open("scraped_urls.txt", "w") as output_file:
+                output_file.write(header_response + ' ' + url + '\n')
+        # for link in links:
+        #     parsed = urlparse(link)
+        #     if is_valid(link):
+        #         new_links.add(link)
                 # print("URL:",link,"Parsed:", parsed)
                 # print("-----------------")
 
-    return list(new_links)
+    return links
 
 def extract_next_links(url, resp):
 
     # log scraped urls
     # print("Response:", resp.raw_response)
-    header_response = resp.raw_response.headers['Content-Type'].split(';')[0]
-    with open("scraped_urls.txt", "w") as output_file:
-        output_file.write(header_response + ' ' + url + '\n')
 
     # Check if HTTP status code 200 has no content
     if resp.status == 200 and str(resp.raw_response.content) == "":
