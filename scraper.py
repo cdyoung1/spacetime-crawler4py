@@ -26,6 +26,7 @@ def fix_relative_url(url, base_parse):
     # Fix relative urls
     if parse_raw.scheme == "" and parse_raw.netloc == "":
         # /community/news -> https://www.stat.uci.edu/community/news
+        print("Base_parse:", base_parse)
         fixed = "https://" + base_parse.netloc.lower() + parse_raw.geturl().lower()
     elif parse_raw.scheme == "":
         # //www.ics.uci.edu/community/news/view_news?id=1689 -> https://www.ics.uci.edu/community/news/view_news?id=1689
@@ -113,12 +114,6 @@ def is_valid(url):
         if parsed.scheme not in set(["http", "https"]):
             return False
 
-
-        # trap_parts = r".*(calendar|replytocom|wp-json|format=xml|\?share=(google-plus|facebook|twitter)).*"
-        # feed_trap = r".*\/feed\/?$"
-        # if re.match(trap_parts, url.lower()) or re.match(feed_trap, url.lower()):
-        #     return False
-
         # Create and check robots.txt
         if not check_robot(url, parsed):
             return False
@@ -126,11 +121,16 @@ def is_valid(url):
         # Check if url is too long
         if len(url) > 175:
             return False
+        
+        # Match allowed domains
+        valid_domains = re.match(r".*\.ics|cs|informatics|stat\.uci\.edu(\/.*)*" + r"today\.uci\.edu\/department\/information_computer_sciences(\/.*)*", parsed.netloc.lower()) 
 
+        if not valid_domains:
+            return False
 
         # Check that url does not contain invalid types in middle or in query
         valid_mid_and_query = (r".*\/(css|js|pix|bmp|gif|jpe?g|ico"
-            + r"|png|tiff?|mid|mp2|mp3|mp4"
+            + r"|png|tiff?|mid|mp2|mp3|mp4|feed"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
             + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
@@ -140,11 +140,6 @@ def is_valid(url):
 
         if re.match(valid_mid_and_query, parsed.query.lower()) or re.match(valid_mid_and_query, parsed.path.lower()):
             return False
-        
-        # print("------QUERY AND PATH ARE FINE---------")
-
-        # Match specified domains
-        valid_domains = re.match(r".*\.ics|cs|informatics|stat\.uci\.edu(\/.*)*" + r"today\.uci\.edu\/department\/information_computer_sciences(\/.*)*", parsed.netloc.lower()) 
 
         return valid_domains and not re.match(
             r".*\.(css|js|pix|bmp|gif|jpe?g|ico"
