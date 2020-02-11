@@ -17,8 +17,8 @@ def scraper(url, resp):
 
 def extract_next_links(url, resp):
     new_links = set()
-    print(resp.raw_response.headers)
     if 200 <= resp.status <= 299 and  resp.status != 204:
+        print(resp.raw_response.headers)
         visited.add(url)
         parser = BeautifulSoup(resp.raw_response.content, "lxml")
     return list(new_links)
