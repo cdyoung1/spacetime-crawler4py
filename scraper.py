@@ -18,9 +18,21 @@ def scraper(url, resp):
 def extract_next_links(url, resp):
     new_links = set()
     if 200 <= resp.status <= 299 and  resp.status != 204:
-        print(resp.raw_response.headers)
+
+        # Checking that only text/HTML pages are scraped (so other types such as calendars won't be)
+        resp_content_type = resp.raw_response.headers['Content-Type'].split(';')[0]
+        if resp_content_type != "text/html":
+            return []
+
+        # Add base url to visited
         visited.add(url)
+
+        # Scrape for links using bs4
         parser = BeautifulSoup(resp.raw_response.content, "lxml")
+
+        for link in parser.find_all("a"):
+            print(link.get("href"))
+
     return list(new_links)
 
 
