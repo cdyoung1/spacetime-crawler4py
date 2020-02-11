@@ -15,25 +15,25 @@ def scraper(url, resp):
     links = extract_next_links(url, resp)
     return [link for link in links if is_valid(link)]
 
+
 def fix_relative_url(url, base_parse):
     fixed = ""
 
     if url == "":
         return fixed
-    
-    parse_raw = urlparse(url)
 
+    parse_raw = urlparse(url)
     # Fix relative urls
     if parse_raw.scheme == "" and parse_raw.netloc == "":
         # /community/news -> https://www.stat.uci.edu/community/news
-        fixed = "https://" + base_parse.netloc + parse_raw.geturl()
+        fixed = "https://" + base_parse.netloc/lower() + parse_raw.geturl().lower()
     elif parse_raw.scheme == "":
         # //www.ics.uci.edu/community/news/view_news?id=1689 -> https://www.ics.uci.edu/community/news/view_news?id=1689
-        fixed = "https:" + parse_raw.geturl()
+        fixed = "https:" + parse_raw.geturl().lower()
     else:
-        fixed = url
-    
+        fixed = url.lower()
     return fixed    
+
 
 def extract_next_links(url, resp):
     new_links = set()
@@ -43,6 +43,13 @@ def extract_next_links(url, resp):
         # Checking that only text/HTML pages are scraped (so other types such as calendars won't be)
         resp_content_type = resp.raw_response.headers['Content-Type'].split(';')[0]
         if resp_content_type != "text/html":
+            print()
+            print("----------------------")
+            print("----------------------")
+            print("content-type != text/html. it is:", resp_content_type)
+            print("----------------------")
+            print("----------------------")
+            print()
             return []
 
         # Add base url to visited
@@ -95,34 +102,23 @@ def check_robot(url, parsed):
         return robot.can_fetch("*", url)
     return True
 
+
 def is_valid(url):
     try:
-        parsed = urlparse(url)
+        parsed_base = urlparse(url)
 
         # Check scheme of url
         if parsed.scheme not in set(["http", "https"]):
             return False
 
-        # Check if url has already been visited
-        if url in visited:
-            return False
 
-        # Check if it is a disallowed url
-        if url in disallowed:
-            return  False
-
-        # Check if url contains any trap phrases (eg. pdf, calendar, events)      
-        # for trap in trap_parts:
-        #     if trap in url:
-        #         return False
-
-        trap_parts = r".*(calendar|replytocom|wp-json|format=xml|\?share=(google-plus|facebook|twitter)).*"
-        feed_trap = r".*\/feed\/?$"
-        if re.match(trap_parts, url.lower()) or re.match(feed_trap, url.lower()):
-            return False
+        # trap_parts = r".*(calendar|replytocom|wp-json|format=xml|\?share=(google-plus|facebook|twitter)).*"
+        # feed_trap = r".*\/feed\/?$"
+        # if re.match(trap_parts, url.lower()) or re.match(feed_trap, url.lower()):
+        #     return False
 
         # Create and check robots.txt
-        if not check_robot(url, parsed):
+        if not check_robot(url, parsed_base):
             return False
 
         # Check if url is too long
