@@ -37,7 +37,7 @@ def scraper(url, resp):
     # if link_num % 10 == 0:
     with open("unique_urls.txt", "w") as output_file:
         output_file.write("Total unique links: " + str(len(visited)))
-        output_file.write(str(sort(visited)))
+        output_file.write(str(visited))
     # link_num +=1
     return list(scraped_links)
 
