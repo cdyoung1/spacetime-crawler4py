@@ -124,8 +124,8 @@ def is_valid(url):
         parsed = urlparse(url)
 
         # Check if already visited
-        if url in visited:
-            return False
+        # if url in visited:
+        #     return False
 
         # Check scheme of url
         if parsed.scheme not in set(["http", "https"]):
