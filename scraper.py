@@ -8,7 +8,7 @@ from lxml import html
 from bs4 import BeautifulSoup
 
 visited = set()
-disallowed = ["https://wics.ics.uci.edu/events/"]
+disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/"]
 trap_parts = ["calendar","replytocom","wp-json","?share=google-plus","?share=facebook","?share=twitter","format=xml"]
 
 def scraper(url, resp):
@@ -141,6 +141,11 @@ def is_valid(url):
         # Check if url is too long
         if len(url) > 175:
             return False
+
+        # Check for trap websites
+        for trap_website in disallowed:
+            if trap_website in url:
+                return False
         
         # Match allowed domains
         valid_domains = re.match(r".*\.ics|cs|informatics|stat\.uci\.edu(\/.*)*" + r"today\.uci\.edu\/department\/information_computer_sciences(\/.*)*", parsed.netloc.lower()) 
