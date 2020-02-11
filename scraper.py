@@ -147,6 +147,7 @@ def is_valid(url):
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz).*$")
 
         if re.match(valid_mid_and_query, parsed.query.lower()) or re.match(valid_mid_and_query, parsed.path.lower()):
+            print("invalid mid and query: ", url);
             return False
 
         invalid_end_url = re.match(
@@ -160,6 +161,7 @@ def is_valid(url):
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
         
         if not invalid_end_url:
+            print("invalid end url: ", url);
             return False
         
         return True
