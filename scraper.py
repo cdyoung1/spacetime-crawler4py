@@ -26,7 +26,7 @@ def fix_relative_url(url, base_parse):
     # Fix relative urls
     if parse_raw.scheme == "" and parse_raw.netloc == "":
         # /community/news -> https://www.stat.uci.edu/community/news
-        fixed = "https://" + base_parse.netloc/lower() + parse_raw.geturl().lower()
+        fixed = "https://" + base_parse.netloc.lower() + parse_raw.geturl().lower()
     elif parse_raw.scheme == "":
         # //www.ics.uci.edu/community/news/view_news?id=1689 -> https://www.ics.uci.edu/community/news/view_news?id=1689
         fixed = "https:" + parse_raw.geturl().lower()
