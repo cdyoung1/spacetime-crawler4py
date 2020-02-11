@@ -15,6 +15,26 @@ def scraper(url, resp):
     links = extract_next_links(url, resp)
     return [link for link in links if is_valid(link)]
 
+def fix_relative_url(url, base_parse):
+    fixed = ""
+
+    if url == "":
+        return fixed
+    
+    parse_raw = urlparse(url)
+
+    # Fix relative urls
+    if parse_raw.scheme == "" and parse_raw.netloc == "":
+        # /community/news -> https://www.stat.uci.edu/community/news
+        fixed = "https://" + base_parse.netloc + parse_raw.geturl()
+    elif parse_raw.scheme == "":
+        # //www.ics.uci.edu/community/news/view_news?id=1689 -> https://www.ics.uci.edu/community/news/view_news?id=1689
+        fixed = "https:" + parse_raw.geturl()
+    else:
+        fixed = url
+    
+    return fixed    
+
 def extract_next_links(url, resp):
     new_links = set()
     parsed_base = urlparse(url)
@@ -35,20 +55,34 @@ def extract_next_links(url, resp):
         if resp.status == 200 and str(bs) == "":
             return []
 
+        print()
+        print("--------BASE---------")
+        print("BASE URL:", url)
+        print("TOTAL VISITED UP TO BEFORE SCRAPING THIS URL:", len(visited))
+        print("--------BASE---------")
+        print()
+
         for link in bs.find_all("a"):
             link = link.get("href")
             
             # Remove fragment, if any
             defragged_link = urldefrag(link)[0]
             parse_defrag = urlparse(defragged_link)
+            absolute_link = fix_relative_url(defragged_link, parse_defrag)
+
+            # Skip empty links
+            if absolute_link == "":
+                continue
+
+            if absolute_link not in visited:
+                visited.add(absolute_link)
+                new_links.add(absolute_link)
 
             print("-----------------------")
             print("Link:", defragged_link)
             print("urlparse:", parse_defrag)
             print("-----------------------")
             print()
-
-
 
     return list(new_links)
 
