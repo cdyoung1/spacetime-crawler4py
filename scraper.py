@@ -111,6 +111,10 @@ def extract_next_links(url, resp):
 
 
 def check_robot(url, parsed):
+    print("------------------------------")
+    print("IN CHECK_ROBOT WITH URL:", url)
+    print("------------------------------")
+
     robot = robotparser.RobotFileParser()
     robot.set_url(parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt")
     if robot:
@@ -120,6 +124,9 @@ def check_robot(url, parsed):
 
 
 def is_valid(url):
+    print("------------------------------")
+    print("IN IS_VALID WITH URL:", url)
+    print("------------------------------")
     try:
         parsed = urlparse(url)
 
