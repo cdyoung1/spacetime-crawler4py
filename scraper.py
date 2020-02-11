@@ -145,7 +145,7 @@ def is_valid(url):
         if re.match(valid_mid_and_query, parsed.query.lower()) or re.match(valid_mid_and_query, parsed.path.lower()):
             return False
 
-        return valid_domains and not re.match(
+        invalid_end_url = re.match(
             r".*\.(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
@@ -154,6 +154,11 @@ def is_valid(url):
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
+        
+        if not invalid_end_url:
+            return False
+        
+        return True
 
     except TypeError:
         print ("TypeError for ", parsed)
