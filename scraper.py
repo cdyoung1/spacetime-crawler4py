@@ -96,8 +96,9 @@ def extract_next_links(url, resp):
                 continue
 
             # Check if relative path already exists in base_url (checks for relative traps)
-            possible_path_link = defragged_link[:-1] if defragged[-1] == '/' else defragged_link
+            possible_path_link = defragged_link[:-1] if defragged_link[-1] == '/' else defragged_link
             if possible_path_link in url:
+                print("Possible repeating pathing from '" + url + "' to '" + possible_path_link + "'")
                 continue
 
             if absolute_link not in visited:
