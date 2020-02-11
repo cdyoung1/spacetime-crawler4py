@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 visited = set()
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/"]
-trap_parts = ["calendar","replytocom","wp-json","?share=google-plus","?share=facebook","?share=twitter","format=xml"]
+trap_parts = ["calendar","replytocom","wp-json","?share=","format=xml", "/feed", "/feed/"]
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)
@@ -145,6 +145,10 @@ def is_valid(url):
         # Check for trap websites
         for trap_website in disallowed:
             if trap_website in url:
+                return False
+
+        for trap in trap_parts:
+            if trap in url:
                 return False
         
         # Match allowed domains
