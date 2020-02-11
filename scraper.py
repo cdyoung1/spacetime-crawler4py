@@ -13,6 +13,12 @@ trap_parts = ["calendar","replytocom","wp-json","?share=google-plus","?share=fac
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)
+        print()
+        print("--------scraper()---------")
+        print("BASE URL:", url)
+        print("TOTAL VISITED AFTER SCRAPING THIS URL:", len(visited))
+        print("--------scraper()---------")
+        print()
     return [link for link in links if is_valid(link)]
 
 
