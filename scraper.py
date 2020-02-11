@@ -1,5 +1,5 @@
 import re
-from urllib.parse import urlparse, urldefrag
+from urllib.parse import urlparse, urldefrag, urljoin
 from urllib import robotparser
 import os
 
@@ -8,9 +8,11 @@ from bs4 import BeautifulSoup
 from simhash import Simhash, SimhashIndex
 
 visited = set()
+SimIndex = SimhashIndex([])
+link_num = 1
+
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/"]
 trap_parts = ["calendar","replytocom","wp-json","?share=","format=xml", "/feed", "/feed/"]
-iteration = 0
 
 def scraper(url, resp):
 
@@ -79,7 +81,10 @@ def fix_relative_url(url, base_parse):
         fixed = "https:" + parse_raw.geturl().lower()
     else:
         fixed = url.lower()
-    return fixed    
+    return fixed   
+
+def generateSim(parser):
+    result = ""
 
 
 def extract_next_links(url, resp):
@@ -108,6 +113,15 @@ def extract_next_links(url, resp):
         # Check for status code 200 and no content
         if resp.status == 200 and str(bs) == "":
             return []
+
+        url_sim = generateSim(bs)
+        if SimIndex.get_near_dups(url_sim):
+            print()
+            print("-------SIMHASH-------")
+            print("THIS IS A NEAR DUPLICATE ACCORDING TO SIMHASH")
+            print("-------SIMHASH-------")
+            print()
+            return []        
 
         print()
         print("--------BASE---------")
@@ -145,6 +159,10 @@ def extract_next_links(url, resp):
             print("content-type:", resp_content_type)
             print("-----------------------")
             print()
+
+        # Add new Simhash object after fixing link
+        SimIndex.add(str(link_num), url_sim)
+        link_num += 1
 
     return list(new_links)
 
@@ -214,7 +232,7 @@ def is_valid(url):
             r".*\.(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|php|ppt|pptx|doc|docx|xls|xlsx|names"
+            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
