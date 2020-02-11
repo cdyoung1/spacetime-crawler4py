@@ -10,9 +10,12 @@ from bs4 import BeautifulSoup
 visited = set()
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/"]
 trap_parts = ["calendar","replytocom","wp-json","?share=","format=xml", "/feed", "/feed/"]
+iteration = 0
 
 def scraper(url, resp):
+    scraped_links = set()
     links = extract_next_links(url, resp)
+    global iteration
     print()
     print("--------scraper()---------")
     print("BASE URL:", url)
@@ -22,7 +25,16 @@ def scraper(url, resp):
     #     print(link, "->", is_valid(link))
     print("--------scraper()---------")
     print()
-    return [link for link in links if is_valid(link)]
+    for link in links:
+        if is_valid(link):
+            scraped_links.add(link)
+    if iteration% 10 == 0:
+        with open("unique_urls.txt", "w") as output_file:
+            output_file.write("Total unique links: " + str(len(visited)))
+            output_file.write(str(sort(visited)))
+    iteration+=1
+    return list(scraped_links)
+
 
 
 def fix_relative_url(url, base_parse):
@@ -56,7 +68,7 @@ def extract_next_links(url, resp):
 
         # Checking that only text/HTML pages are scraped (so other types such as calendars won't be)
         resp_content_type = resp.raw_response.headers['Content-Type'].split(';')[0]
-        if resp_content_type != "text/html":
+        if resp_content_type == "text/calendar":
             print()
             print("----------------------")
             print("----------------------")
