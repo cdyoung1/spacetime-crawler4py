@@ -9,7 +9,7 @@ from simhash import Simhash, SimhashIndex
 
 visited = set()
 SimIndex = SimhashIndex([])
-link_num = 1
+# link_num = 1
 
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/"]
 trap_parts = ["calendar","replytocom","wp-json","?share=","format=xml", "/feed", "/feed/"]
@@ -21,7 +21,7 @@ def scraper(url, resp):
 
     scraped_links = set()
     links = extract_next_links(url, resp)
-    global link_num
+    # global link_num
     print()
     print("--------scraper()---------")
     print("BASE URL:", url)
@@ -34,10 +34,10 @@ def scraper(url, resp):
     for link in links:
         if is_valid(link):
             scraped_links.add(link)
-    if link_num % 10 == 0:
-        with open("unique_urls.txt", "w") as output_file:
-            output_file.write("Total unique links: " + str(len(visited)))
-            output_file.write(str(sort(visited)))
+    # if link_num % 10 == 0:
+    with open("unique_urls.txt", "w") as output_file:
+        output_file.write("Total unique links: " + str(len(visited)))
+        output_file.write(str(sort(visited)))
     # link_num +=1
     return list(scraped_links)
 
@@ -162,7 +162,7 @@ def extract_next_links(url, resp):
 
         # Add new Simhash object after fixing link
         # SimIndex.add(str(link_num), url_sim)
-        link_num += 1
+        # link_num += 1
 
     return list(new_links)
 
