@@ -21,7 +21,7 @@ def scraper(url, resp):
 
     scraped_links = set()
     links = extract_next_links(url, resp)
-    global iteration
+    global link_num
     print()
     print("--------scraper()---------")
     print("BASE URL:", url)
@@ -34,11 +34,11 @@ def scraper(url, resp):
     for link in links:
         if is_valid(link):
             scraped_links.add(link)
-    if iteration% 10 == 0:
+    if link_num % 10 == 0:
         with open("unique_urls.txt", "w") as output_file:
             output_file.write("Total unique links: " + str(len(visited)))
             output_file.write(str(sort(visited)))
-    iteration+=1
+    link_num +=1
     return list(scraped_links)
 
 
