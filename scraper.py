@@ -138,10 +138,6 @@ def is_valid(url):
         if parsed.scheme not in set(["http", "https"]):
             return False
 
-        # Create and check robots.txt
-        if not check_robot(url, parsed):
-            return False
-
         # Check if url is too long
         if len(url) > 175:
             return False
@@ -178,6 +174,10 @@ def is_valid(url):
         
         if invalid_end_url:
             print("invalid end url: ", url);
+            return False
+
+        # Create and check robots.txt
+        if not check_robot(url, parsed):
             return False
         
         return True
