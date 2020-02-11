@@ -105,7 +105,7 @@ def check_robot(url, parsed):
 
 def is_valid(url):
     try:
-        parsed_base = urlparse(url)
+        parsed = urlparse(url)
 
         # Check scheme of url
         if parsed.scheme not in set(["http", "https"]):
@@ -118,7 +118,7 @@ def is_valid(url):
         #     return False
 
         # Create and check robots.txt
-        if not check_robot(url, parsed_base):
+        if not check_robot(url, parsed):
             return False
 
         # Check if url is too long
