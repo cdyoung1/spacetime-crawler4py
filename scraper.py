@@ -169,7 +169,7 @@ def is_valid(url):
             + r"|thmx|mso|arff|rtf|jar|csv"
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
         
-        if not invalid_end_url:
+        if invalid_end_url:
             print("invalid end url: ", url);
             return False
         
