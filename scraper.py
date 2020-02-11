@@ -38,7 +38,7 @@ def scraper(url, resp):
         with open("unique_urls.txt", "w") as output_file:
             output_file.write("Total unique links: " + str(len(visited)))
             output_file.write(str(sort(visited)))
-    link_num +=1
+    # link_num +=1
     return list(scraped_links)
 
 
@@ -114,14 +114,14 @@ def extract_next_links(url, resp):
         if resp.status == 200 and str(bs) == "":
             return []
 
-        url_sim = generateSim(bs)
-        if SimIndex.get_near_dups(url_sim):
-            print()
-            print("-------SIMHASH-------")
-            print("THIS IS A NEAR DUPLICATE ACCORDING TO SIMHASH")
-            print("-------SIMHASH-------")
-            print()
-            return []        
+        # url_sim = generateSim(bs)
+        # if SimIndex.get_near_dups(url_sim):
+        #     print()
+        #     print("-------SIMHASH-------")
+        #     print("THIS IS A NEAR DUPLICATE ACCORDING TO SIMHASH")
+        #     print("-------SIMHASH-------")
+        #     print()
+        #     return []        
 
         print()
         print("--------BASE---------")
@@ -161,7 +161,7 @@ def extract_next_links(url, resp):
             print()
 
         # Add new Simhash object after fixing link
-        SimIndex.add(str(link_num), url_sim)
+        # SimIndex.add(str(link_num), url_sim)
         link_num += 1
 
     return list(new_links)
