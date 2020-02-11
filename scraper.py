@@ -86,7 +86,8 @@ def extract_next_links(url, resp):
                 new_links.add(absolute_link)
 
             print("-----------------------")
-            print("Link:", defragged_link)
+            print("Original:", defragged_link)
+            print("Absolute:", absolute_link)
             print("urlparse:", parse_defrag)
             print("content-type:", resp_content_type)
             print("-----------------------")
