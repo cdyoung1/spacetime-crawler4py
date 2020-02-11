@@ -95,6 +95,11 @@ def extract_next_links(url, resp):
             if absolute_link == "":
                 continue
 
+            # Check if relative path already exists in base_url (checks for relative traps)
+            possible_path_link = defragged_link[:-1] if defragged[-1] == '/' else defragged_link
+            if possible_path_link in url:
+                continue
+
             if absolute_link not in visited:
                 visited.add(absolute_link)
                 new_links.add(absolute_link)
