@@ -4,8 +4,8 @@ from urllib import robotparser
 import os
 
 # Additional packages
-from lxml import html
 from bs4 import BeautifulSoup
+from simhash import Simhash, SimhashIndex
 
 visited = set()
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/"]
@@ -48,6 +48,23 @@ def fix_relative_url(url, base_parse):
     if parse_raw.path != "" and parse_raw.path[0] != "/":
         path_separator = "/"
 
+
+    # Check if url already exists in base path
+    possible_repeat_path = url
+    if possible_repeat_path[-1] == "/":
+        possible_repeat_path = possible_repeat_path[:-1]
+
+    print()
+    print("----------FIX_RELATIVE_URL--------------")
+    print("Checking possible_repeat_path:", url)
+    print("Base url:" base_parse.geturl())
+    print("----------FIX_RELATIVE_URL--------------")
+    print()
+
+    if possible_repeat_path in base_parse.path:
+        return base_parse.geturl()
+    
+
     # Fix relative urls
     if parse_raw.scheme == "" and parse_raw.netloc == "":
         # /community/news -> https://www.stat.uci.edu/community/news
@@ -64,7 +81,7 @@ def fix_relative_url(url, base_parse):
 def extract_next_links(url, resp):
     new_links = set()
     parsed_base = urlparse(url)
-    if 200 <= resp.status <= 299 and  resp.status != 204:
+    if 200 <= resp.status <= 599 and  resp.status != 204:
 
         # Checking that only text/HTML pages are scraped (so other types such as calendars won't be)
         resp_content_type = resp.raw_response.headers['Content-Type'].split(';')[0]
@@ -108,10 +125,10 @@ def extract_next_links(url, resp):
                 continue
 
             # Check if relative path already exists in base_url (checks for relative traps)
-            possible_path_link = defragged_link[:-1] if defragged_link[-1] == '/' else defragged_link
-            if possible_path_link in url:
-                print("Possible repeating pathing from '" + url + "' to '" + possible_path_link + "'")
-                continue
+            # possible_path_link = defragged_link[:-1] if defragged_link[-1] == '/' else defragged_link
+            # if possible_path_link in url:
+            #     print("Possible repeating pathing from '" + url + "' to '" + possible_path_link + "'")
+            #     continue
 
             if absolute_link not in visited:
                 visited.add(absolute_link)
