@@ -88,6 +88,7 @@ def extract_next_links(url, resp):
             print("-----------------------")
             print("Link:", defragged_link)
             print("urlparse:", parse_defrag)
+            print("content-type:", resp_content_type)
             print("-----------------------")
             print()
 
