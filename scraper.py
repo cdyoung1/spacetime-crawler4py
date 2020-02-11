@@ -82,6 +82,7 @@ def extract_next_links(url, resp):
             # Remove fragment, if any
             defragged_link = urldefrag(link)[0]
             absolute_link = fix_relative_url(defragged_link, parsed_base)
+            parse_absolute = urlparse(absolute_link)
 
             # Skip empty links
             if absolute_link == "":
@@ -94,6 +95,7 @@ def extract_next_links(url, resp):
             print("-----------------------")
             print("Original:", defragged_link)
             print("Absolute:", absolute_link)
+            print("Absolute parse:", parse_absolute)
             print("content-type:", resp_content_type)
             print("-----------------------")
             print()
