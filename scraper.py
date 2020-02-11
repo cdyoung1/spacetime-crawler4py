@@ -17,9 +17,9 @@ def scraper(url, resp):
     print("--------scraper()---------")
     print("BASE URL:", url)
     print("TOTAL VISITED AFTER SCRAPING THIS URL:", len(visited))
-    print("New links (not validated):")
-    for link in links:
-        print(link, "->", is_valid(link))
+    # print("New links (not validated):")
+    # for link in links:
+    #     print(link, "->", is_valid(link))
     print("--------scraper()---------")
     print()
     return [link for link in links if is_valid(link)]
