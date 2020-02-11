@@ -13,6 +13,10 @@ trap_parts = ["calendar","replytocom","wp-json","?share=","format=xml", "/feed",
 iteration = 0
 
 def scraper(url, resp):
+
+    # if 399 < resp.status < 609 or resp.status == 204:
+    #     return []
+
     scraped_links = set()
     links = extract_next_links(url, resp)
     global iteration
@@ -57,7 +61,7 @@ def fix_relative_url(url, base_parse):
     print()
     print("----------FIX_RELATIVE_URL--------------")
     print("Checking possible_repeat_path:", url)
-    print("Base url:" base_parse.geturl())
+    print("Base url:", base_parse.geturl())
     print("----------FIX_RELATIVE_URL--------------")
     print()
 
