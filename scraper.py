@@ -12,7 +12,7 @@ subdomains = dict()
 SimIndex = SimhashIndex([])
 sim_index = 1
 
-disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/"]
+disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/", "https://ngs.ics.uci.edu/blog/page/"]
 trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/"]
 
 def scraper(url, resp):
