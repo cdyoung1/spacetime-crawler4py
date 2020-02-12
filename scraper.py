@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 from simhash import Simhash, SimhashIndex
 
 visited = set()
+subdomains = dict()
 SimIndex = SimhashIndex([])
 sim_index = 1
 
@@ -31,8 +32,19 @@ def scraper(url, resp):
     for link in links:
         if is_valid(link):
             scraped_links.add(link)
-            with open("links.txt", "a+") as output_file:
-                output_file.write(link + "\n")
+            parsed = urlparse(link)
+            subdomain = re.match(r"^(www)?(?P<sub>.*).ics.uci.edu.*$", parsed.netloc.lower())
+            sub = "None"
+            if subdomain != None:
+                sub = subdomain.group("sub")
+                if sub in subdomains:
+                    subdomains["sub"] += 1
+                else:
+                    subdomains["sub"] = 1
+            with open("links.txt", "a+") as links_file:
+                links_file.write(link + "\tsubdomain: " + sub + "\n")
+    with open("subdomains.txt", "w") as subdomain_file:
+        subdomain_file.write(str(sorted(subdomains.items(), key=lambda kv : kv[1], reverse=True)))
     # if link_num % 10 == 0:
 
     # link_num +=1
