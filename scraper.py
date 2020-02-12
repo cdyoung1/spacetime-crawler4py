@@ -16,6 +16,7 @@ disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/communi
 trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/"]
 
 def scraper(url, resp):
+    global subdomains
 
     # if 399 < resp.status < 609 or resp.status == 204:
     #     return []
@@ -38,9 +39,9 @@ def scraper(url, resp):
             if subdomain != None:
                 sub = subdomain.group("sub")
                 if sub in subdomains:
-                    subdomains["sub"] += 1
+                    subdomains[sub] += 1
                 else:
-                    subdomains["sub"] = 1
+                    subdomains[sub] = 1
             with open("links.txt", "a+") as links_file:
                 links_file.write(link + "\tsubdomain: " + sub + "\n")
     with open("subdomains.txt", "w") as subdomain_file:
@@ -259,7 +260,7 @@ def is_valid(url):
         valid_mid_and_query = (r".*\/(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4|feed"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
+            + r"|ps|eps|tex|ppt|php|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
@@ -273,7 +274,7 @@ def is_valid(url):
             r".*\.(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
+            + r"|ps|eps|tex|ppt|php|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
