@@ -13,7 +13,7 @@ SimIndex = SimhashIndex([])
 sim_index = 1
 
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/", "https://ngs.ics.uci.edu/blog/page/"]
-trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", "action=", "/pdf", ".pdf"]
+trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", "action=", "/pdf", ".pdf", ".php"]
 
 def scraper(url, resp):
     global subdomains
@@ -255,7 +255,8 @@ def is_valid(url):
                 return False
         
         # Match allowed domains
-        valid_domains = re.match(r".*\.ics|cs|informatics|stat\.uci\.edu(\/.*)*" + r"today\.uci\.edu\/department\/information_computer_sciences(\/.*)*", parsed.netloc.lower()) 
+        valid_domains = re.match(r".*\.ics|cs|informatics|stat\.uci\.edu(\/.*)*" + r"today\.uci\.edu\/department\/information_computer_sciences(\/.*)*", parsed.netloc.lower())
+        valid_domains = r".*\.(ics|cs|informatics|stat)\.uci\.edu.*" 
 
         if not valid_domains:
             return False
