@@ -13,7 +13,7 @@ SimIndex = SimhashIndex([])
 sim_index = 1
 
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/", "https://ngs.ics.uci.edu/blog/page/"]
-trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/"]
+trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", "action=", "/pdf", ".pdf"]
 
 def scraper(url, resp):
     global subdomains
@@ -35,17 +35,21 @@ def scraper(url, resp):
             scraped_links.add(link)
             parsed = urlparse(link)
             subdomain = re.match(r"^(www)?(?P<sub>.*).ics.uci.edu.*$", parsed.netloc.lower())
-            sub = "None"
+            sub = ""
             if subdomain != None:
-                sub = subdomain.group("sub")
-                if sub in subdomains:
+                sub = subdomain.group("sub").strip()
+                if sub == None or sub == "": 
+                    continue
+                elif sub in subdomains:
                     subdomains[sub] += 1
                 else:
                     subdomains[sub] = 1
             with open("links.txt", "a+") as links_file:
                 links_file.write(link + "\tsubdomain: " + sub + "\n")
     with open("subdomains.txt", "w") as subdomain_file:
-        subdomain_file.write(str(sorted(subdomains.items(), key=lambda kv : kv[1], reverse=True)))
+        for kv in sorted(subdomains.items(), key = lambda x : x[1], reverse = True):
+            subdomain_file.write(str(kv[0]) + ", " + str(kv[1]) + "\n")
+        # subdomain_file.write(str(sorted(subdomains.items(), key=lambda kv : kv[1], reverse=True)))
     # if link_num % 10 == 0:
 
     # link_num +=1
@@ -119,8 +123,8 @@ def get_text(parser):
     return result
 
 
-# def generateSim(text):
-#     global sim_index
+def tokenize():
+    pass
 
 
 def extract_next_links(url, resp):
