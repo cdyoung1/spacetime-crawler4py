@@ -111,6 +111,7 @@ def get_text(parser):
 
 
 def extract_next_links(url, resp):
+    global sim_index
     new_links = set()
     parsed_base = urlparse(url)
     if 200 <= resp.status <= 599 and  resp.status != 204:
