@@ -12,7 +12,7 @@ subdomains = dict()
 SimIndex = SimhashIndex([])
 sim_index = 1
 
-disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/"]
+disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/"]
 trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/"]
 
 def scraper(url, resp):
@@ -110,7 +110,7 @@ def fix_relative_url(url, base_parse):
 
 def get_text(parser):
 
-    allowed_tags = {'p', 'span', 'br', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'strong', 'em', 'blockquote', 'code', 'li', 'ol', 'ul', 'mark', 'ins', 'del', 'sup', 'sub', 'small', 'i', 'b', 'title'}
+    allowed_tags = {'p', 'span', 'br', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'strong', 'em', 'blockquote', 'code', 'li', 'ol', 'ul', 'mark', 'ins', 'del', 'sup', 'sub', 'small', 'i', 'b', 'title', 'td', 'th', 'caption'}
 
     result = ""
     text_list = parser.find_all(lambda tag : tag.name in allowed_tags)
