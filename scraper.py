@@ -33,7 +33,7 @@ def scraper(url, resp):
         if is_valid(link):
             scraped_links.add(link)
             parsed = urlparse(link)
-            subdomain = re.match(r"^(www)?(?P<sub>.*).ics.uci.edu.*$", parsed.netloc.lower())
+            subdomain = re.match(r"^(www\.)?(?P<sub>.*)\.ics\.uci\.edu.*$", parsed.netloc.lower())
             sub = ""
             if subdomain != None:
                 sub = subdomain.group("sub").strip()
@@ -46,7 +46,7 @@ def scraper(url, resp):
             with open("links.txt", "a+") as links_file:
                 links_file.write(link + "\tsubdomain: " + sub + "\n")
     with open("subdomains.txt", "w") as subdomain_file:
-        for kv in sorted(subdomains.items(), key = lambda x : x[1], reverse = True):
+        for kv in sorted(subdomains.items(), key = lambda x : x[0]):
             subdomain_file.write(str(kv[0]) + ", " + str(kv[1]) + "\n")
         # subdomain_file.write(str(sorted(subdomains.items(), key=lambda kv : kv[1], reverse=True)))
     # if link_num % 10 == 0:
@@ -265,7 +265,7 @@ def is_valid(url):
         valid_mid_and_query = (r".*\/(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4|feed"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|ppt|php|pptx|doc|docx|xls|xlsx|names"
+            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
@@ -279,7 +279,7 @@ def is_valid(url):
             r".*\.(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|ppt|php|pptx|doc|docx|xls|xlsx|names"
+            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
