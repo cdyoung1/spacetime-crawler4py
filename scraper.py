@@ -10,10 +10,9 @@ from simhash import Simhash, SimhashIndex
 visited = set()
 subdomains = dict()
 SimIndex = SimhashIndex([])
-sim_index = 1
 
-disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/", "https://ngs.ics.uci.edu/blog/page/"]
-trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", "action=", "/pdf", ".pdf", ".php"]
+disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/", "https://ngs.ics.uci.edu/blog/page/","https://www.ics.uci.edu/~eppstein/pix/chron.html"]
+trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", "action=", "/pdf", ".pdf", ".php", ".zip", "action=login", "?ical=", ".ppt"]
 
 def scraper(url, resp):
     global subdomains
@@ -197,6 +196,8 @@ def extract_next_links(url, resp):
             if absolute_link not in visited:
                 visited.add(absolute_link)
                 new_links.add(absolute_link)
+            else:
+                continue
 
             print("-----------------------")
             print("Original:", defragged_link)
@@ -207,8 +208,7 @@ def extract_next_links(url, resp):
             print()
 
         # Add new Simhash object after fixing link
-        SimIndex.add(str(sim_index), url_sim)
-        sim_index += 1
+        SimIndex.add(absolute_link, url_sim)
 
     return list(new_links)
 
@@ -255,10 +255,10 @@ def is_valid(url):
                 return False
         
         # Match allowed domains
-        valid_domains = re.match(r".*\.ics|cs|informatics|stat\.uci\.edu(\/.*)*" + r"today\.uci\.edu\/department\/information_computer_sciences(\/.*)*", parsed.netloc.lower())
-        valid_domains = r".*\.(ics|cs|informatics|stat)\.uci\.edu.*" 
+        # valid_domains = re.match(r".*\.ics|cs|informatics|stat\.uci\.edu(\/.*)*" + r"today\.uci\.edu\/department\/information_computer_sciences(\/.*)*", parsed.netloc.lower())
+        valid_domains = r"((.*\.)?(ics|cs|informatics|stat)\.uci\.edu)|(today\.uci\.edu\/department\/information_computer_sciences)\/?.*" 
 
-        if not valid_domains:
+        if not re.match(valid_domains, parsed.netloc.lower()):
             return False
 
         # Check that url does not contain invalid types in middle or in query
