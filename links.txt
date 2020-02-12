@@ -1,0 +1,2359 @@
+http://www.ics.uci.edu	subdomain: 
+http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=graduate&department=stats&program=all	subdomain: 
+https://statconsulting.ics.uci.edu	subdomain: statconsulting
+http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=lower-division&department=stats&program=all	subdomain: 
+https://www.ics.uci.edu/grad/forms/index	subdomain: 
+https://www.ics.uci.edu/faculty	subdomain: 
+https://www.ics.uci.edu/community/news	subdomain: 
+https://www.ics.uci.edu/ugrad/policies/withdrawal_readmission	subdomain: 
+https://www.ics.uci.edu/ugrad/resources/index	subdomain: 
+https://www.ics.uci.edu/faculty/area	subdomain: 
+https://www.ics.uci.edu/about/brenhall/index.php	subdomain: 
+https://www.ics.uci.edu/grad/policies/index	subdomain: 
+https://www.ics.uci.edu/ugrad/policies/course_outside_uci	subdomain: 
+https://www.ics.uci.edu/involved/leadership_council	subdomain: 
+https://www.ics.uci.edu/ugrad/courses	subdomain: 
+https://www.ics.uci.edu/ugrad/policies/academic_integrity	subdomain: 
+https://www.ics.uci.edu/community/events/competition	subdomain: 
+http://intranet.ics.uci.edu	subdomain: intranet
+https://www.ics.uci.edu/community/news/student_blogs	subdomain: 
+https://www.ics.uci.edu/about/search/search_graduate_all.php	subdomain: 
+https://www.ics.uci.edu/involved/corporate_partner	subdomain: 
+https://www.ics.uci.edu/ugrad/sao/course_updates	subdomain: 
+https://www.ics.uci.edu/ugrad/sao/sao_events.php	subdomain: 
+https://www.ics.uci.edu/ugrad/policies/laptop_computeruse	subdomain: 
+https://www.ics.uci.edu/grad/courses/index	subdomain: 
+https://www.ics.uci.edu/ugrad/index	subdomain: 
+https://www.ics.uci.edu/about/visit/index.php	subdomain: 
+https://www.ics.uci.edu/grad/funding/index	subdomain: 
+https://www.ics.uci.edu/faculty/centers	subdomain: 
+https://www.ics.uci.edu/ugrad/qa_petitions	subdomain: 
+https://www.ics.uci.edu/community/alumni	subdomain: 
+https://www.ics.uci.edu/about/search/index.php	subdomain: 
+https://www.ics.uci.edu/ugrad/policies/academic_standing	subdomain: 
+https://www.ics.uci.edu/community/news/press	subdomain: 
+https://www.ics.uci.edu/ugrad/policies/cs199_in4matx199	subdomain: 
+https://www.ics.uci.edu/computing/account/new	subdomain: 
+https://www.ics.uci.edu/grad/admissions/index	subdomain: 
+https://www.ics.uci.edu/ugrad/courses/index	subdomain: 
+https://www.ics.uci.edu/community/scholarships/index	subdomain: 
+https://www.ics.uci.edu/dept	subdomain: 
+https://www.ics.uci.edu/grad/degrees/index	subdomain: 
+https://www.ics.uci.edu/ugrad/sao/index	subdomain: 
+https://www.ics.uci.edu/involved	subdomain: 
+https://www.ics.uci.edu/about/about_factsfigures.php	subdomain: 
+https://www.ics.uci.edu/grad/resources	subdomain: 
+https://www.ics.uci.edu/ugrad/degrees/index.php	subdomain: 
+https://www.ics.uci.edu/about	subdomain: 
+https://www.ics.uci.edu/about/equity	subdomain: 
+https://www.ics.uci.edu/grad/index	subdomain: 
+https://www.ics.uci.edu/about/about_deanmsg.php	subdomain: 
+https://www.ics.uci.edu/involved/project_class	subdomain: 
+https://www.ics.uci.edu/ugrad/policies/add_drop_changeoption	subdomain: 
+https://www.ics.uci.edu/faculty/highlights	subdomain: 
+https://www.ics.uci.edu/ugrad/degrees/minors	subdomain: 
+https://www.ics.uci.edu/ugrad/policies/grade_options	subdomain: 
+https://www.ics.uci.edu/about/annualreport	subdomain: 
+https://www.ics.uci.edu/ugrad/qa_graduation	subdomain: 
+https://www.ics.uci.edu/about/visit/index	subdomain: 
+https://www.ics.uci.edu/about/about_contact.php	subdomain: 
+https://www.ics.uci.edu/grad/admissions/prospective_applicationprocess.php	subdomain: 
+https://www.ics.uci.edu/ugrad	subdomain: 
+https://www.ics.uci.edu/about/facilities/index.php	subdomain: 
+https://www.ics.uci.edu/accessibility	subdomain: 
+https://www.ics.uci.edu/about/search	subdomain: 
+https://www.ics.uci.edu/social	subdomain: 
+https://www.ics.uci.edu/ugrad/policies/academic_honesty	subdomain: 
+https://www.ics.uci.edu/about/about_safety.php	subdomain: 
+https://intranet.ics.uci.edu	subdomain: intranet
+https://www.ics.uci.edu/grad/courses/index-course	subdomain: 
+https://www.ics.uci.edu/employment	subdomain: 
+https://www.ics.uci.edu/about/kfflab/index.php	subdomain: 
+https://www.ics.uci.edu/ugrad/policies	subdomain: 
+https://swiki.ics.uci.edu/doku.php	subdomain: swiki
+https://www.ics.uci.edu/ugrad/courses/index-course	subdomain: 
+http://www.ics.uci.edu/ugrad/sao/sao_events.php	subdomain: 
+https://www.ics.uci.edu	subdomain: 
+https://www.ics.uci.edu/about/facilities	subdomain: 
+https://support.ics.uci.edu/laptops	subdomain: support
+http://keys.ics.uci.edu	subdomain: keys
+https://www.ics.uci.edu/about/kfflab	subdomain: 
+https://support.ics.uci.edu/laptops/index.php?r=site/index	subdomain: support
+https://support.ics.uci.edu/laptops/index.php	subdomain: support
+https://support.ics.uci.edu/laptops/index.php?r=site/login	subdomain: support
+https://swiki.ics.uci.edu/doku.php/start?do=edit	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/accounts:password_change_reset	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=revisions	subdomain: swiki
+https://helpdesk.ics.uci.edu/ticket/display.html?id=69288	subdomain: helpdesk
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2019	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:kubernetes	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:jupyterhub	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=media&ns=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2020	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2020	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=miscellaneous	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=backups	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=security	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=announce	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=accounts	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=network	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=requesttracker	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=services	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=virtual_environments	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=wiki	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=commands	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=projects	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=software	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=hardware	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=policies	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=courses	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=services%3asun_grid_engine	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=services%3amonitoring	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=services%3adatabase	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=services%3asupportedos	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=services%3adatacenter	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=services%3adatabase%3amysql	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=hardware%3amonitoring	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=hardware%3astorage	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=hardware%3acluster	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=software%3apackages	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=virtual_environments%3aservices	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=requesttracker%3adtr	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3abackups	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3aprojects	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3arunbooks	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3aicsdc	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3aarchive	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3alabs	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3ahardware	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3avirtual_environments	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3awindows	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3awork-requests	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3aopen	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3aservices	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3asoftware	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3amaintenance	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3aaccounts	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3apolicy	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3alinux	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3apeople	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3asolaris-omnios	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3asecurity	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3amiscellaneous	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3afaqs	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3anetworking	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3atemplates	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3acontacts	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3asecurity%3atwofactorauthentication	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3asecurity%3aincidents	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3aaccounts%3aicsdb	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3asoftware%3afaqs	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3asoftware%3aold	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3asoftware%3apackages	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3aservices%3aapache	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3aservices%3adatabase	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3aservices%3adatabase%3amysql	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3ahardware%3aincidents	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3ahardware%3astorage	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3ahardware%3ahosts	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=group%3asupport%3alabs%3anetwork_lab	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=network%3acampus	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=network%3afirewall	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=accounts%3asecurity	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?idx=accounts%3asecurity%3atwofactorauthentication	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:kubernetes?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:kubernetes?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:kubernetes?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:kubernetes?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:kubernetes?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:kubernetes?do=media&ns=virtual_environments	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:kubernetes?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?do=media&ns=announce	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=courses	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=backups	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=network	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=accounts	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=announce	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=services	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=policies	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=miscellaneous	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=hardware	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=commands	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=software	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=projects	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=security	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=wiki	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=requesttracker	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=virtual_environments	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=group	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=requesttracker%3adtr	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=hardware%3astorage	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=hardware%3amonitoring	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=hardware%3acluster	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2019?idx=group%3asupport	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2020?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2020?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2020?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2020?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2020?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2020?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2020?do=media&ns=announce	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:jupyterhub?do=media&ns=virtual_environments	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:jupyterhub?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:jupyterhub?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:jupyterhub?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:jupyterhub?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:jupyterhub?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/virtual_environments:jupyterhub?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2019?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2019?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2019?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2019?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2019?do=media&ns=projects	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2019?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2019?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2020?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2020?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2020?do=media&ns=projects	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2020?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2020?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2020?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2020?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1578004834	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751709&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1571244134&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1578592851&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1578004834&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1559776243	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751756	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556752568&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1578004858	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751635	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751635&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751695	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1578592951	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751911	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751785&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1559776259	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1578070807&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1571244254&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1571244099	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751695&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556752429&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556752429	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751785	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751670&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751866&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1571244134	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751670	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1578592851	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1578004858&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1571244099&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751734&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1571244254	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751734	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1559776243&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1578070807	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751709	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1559776259&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751756&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751911&do=diff	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556752568	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?rev=1556751866	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=edit&rev=1556751866	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/brownbags	subdomain: swiki
+http://www.ics.uci.edu/computing/contact/helpdesk.php	subdomain: 
+https://swiki.ics.uci.edu/doku.php/projects:maint-spring-2019	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2018	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2019	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/slides	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2018	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2019	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2018	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2018	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:spring-2019	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:spring-2019?do=media&ns=announce	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:spring-2019?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:spring-2019?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:spring-2019?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:spring-2019?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:spring-2019?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:spring-2019?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2018?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2018?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2018?do=media&ns=projects	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2018?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2018?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2018?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2018?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2018?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2018?do=media&ns=announce	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2018?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2018?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2018?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2018?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2018?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2019?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2019?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2019?do=media&ns=announce	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2019?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2019?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2019?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:winter-2019?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2018?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2018?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2018?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2018?do=media&ns=announce	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2018?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2018?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:fall-2018?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/slides?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/slides?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/slides?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/slides?do=media&ns=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/slides?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/slides?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/slides?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2019?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2019?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2019?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2019?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2019?do=media&ns=projects	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2019?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-winter-2019?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2018?do=media&ns=projects	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2018?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2018?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2018?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2018?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2018?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-fall-2018?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-spring-2019?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-spring-2019?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-spring-2019?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-spring-2019?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-spring-2019?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-spring-2019?do=media&ns=projects	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-spring-2019?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/brownbags?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/brownbags?do=media&ns=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/brownbags?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/brownbags?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/brownbags?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/brownbags?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/brownbags?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=edit&rev=1556752568	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752429&rev2%5b1%5d=1578592951&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751911&rev2%5b1%5d=1578592951&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751866&rev2%5b1%5d=1578592951&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751911&rev2%5b1%5d=1578592851&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751866&rev2%5b1%5d=1578592851&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751785&rev2%5b1%5d=1578070807&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751785&rev2%5b1%5d=1578592851&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev=1556751866&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751866&rev2%5b1%5d=1578070807&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751866&rev2%5b1%5d=1578004858&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751785&rev2%5b1%5d=1578004858&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751911&rev2%5b1%5d=1578070807&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751756&rev2%5b1%5d=1578004858&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751785&rev2%5b1%5d=1578004834&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751756&rev2%5b1%5d=1578004834&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751734&rev2%5b1%5d=1571244254&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751756&rev2%5b1%5d=1571244254&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751734&rev2%5b1%5d=1578004834&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751785&rev2%5b1%5d=1571244254&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751734&rev2%5b1%5d=1571244134&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751756&rev2%5b1%5d=1571244134&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751785&rev2%5b1%5d=1571244134&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751734&rev2%5b1%5d=1571244099&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556751756&rev2%5b1%5d=1571244099&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776259&rev2%5b1%5d=1578592951&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776259&rev2%5b1%5d=1578592851&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244099&rev2%5b1%5d=1578592951&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776243&rev2%5b1%5d=1578592951&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776243&rev2%5b1%5d=1578592851&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752568&rev2%5b1%5d=1578070807&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752568&rev2%5b1%5d=1578592851&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776243&rev2%5b1%5d=1578070807&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev=1559776243&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752568&rev2%5b1%5d=1578592951&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776243&rev2%5b1%5d=1578004858&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752568&rev2%5b1%5d=1578004858&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776259&rev2%5b1%5d=1578070807&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776259&rev2%5b1%5d=1578004858&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244099&rev2%5b1%5d=1578070807&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244099&rev2%5b1%5d=1578592851&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244134&rev2%5b1%5d=1578592851&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244134&rev2%5b1%5d=1578592951&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev=1571244099&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244254&rev2%5b1%5d=1578592951&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244254&rev2%5b1%5d=1578592851&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244134&rev2%5b1%5d=1578070807&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev=1571244134&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244134&rev2%5b1%5d=1578004858&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244254&rev2%5b1%5d=1578070807&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244099&rev2%5b1%5d=1578004858&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244099&rev2%5b1%5d=1578004834&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776259&rev2%5b1%5d=1578004834&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776259&rev2%5b1%5d=1571244254&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776243&rev2%5b1%5d=1571244254&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776243&rev2%5b1%5d=1578004834&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752568&rev2%5b1%5d=1578004834&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752568&rev2%5b1%5d=1571244254&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752429&rev2%5b1%5d=1578004834&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752429&rev2%5b1%5d=1571244254&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752568&rev2%5b1%5d=1571244134&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776243&rev2%5b1%5d=1571244134&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752568&rev2%5b1%5d=1571244099&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752429&rev2%5b1%5d=1571244134&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752429&rev2%5b1%5d=1571244099&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776259&rev2%5b1%5d=1571244134&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244099&rev2%5b1%5d=1571244254&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244099&rev2%5b1%5d=1571244134&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244134&rev2%5b1%5d=1578004834&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244134&rev2%5b1%5d=1571244254&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244254&rev2%5b1%5d=1578004834&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1578004834&rev2%5b1%5d=1578004858&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1571244254&rev2%5b1%5d=1578004858&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1578004834&rev2%5b1%5d=1578070807&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1578004858&rev2%5b1%5d=1578070807&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1578004834&rev2%5b1%5d=1578592851&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1578004858&rev2%5b1%5d=1578592851&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1578070807&rev2%5b1%5d=1578592851&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev=1578004858&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1578070807&rev2%5b1%5d=1578592951&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1578004858&rev2%5b1%5d=1578592951&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1578592851&rev2%5b1%5d=1578592951&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1578004834&rev2%5b1%5d=1578592951&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev=1578070807&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev=1578004834&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776259&rev2%5b1%5d=1571244099&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776243&rev2%5b1%5d=1571244099&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1559776243&rev2%5b1%5d=1559776259&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752568&rev2%5b1%5d=1559776259&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752429&rev2%5b1%5d=1559776243&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752429&rev2%5b1%5d=1559776259&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752568&rev2%5b1%5d=1559776243&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752429&rev2%5b1%5d=1578004858&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752429&rev2%5b1%5d=1578592851&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev2%5b0%5d=1556752429&rev2%5b1%5d=1578070807&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=diff&rev=1556752568&difftype=sidebyside	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=edit&rev=1556751709	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=edit&rev=1578070807	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2019	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=edit&rev=1571244254	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2019?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2019?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2019?do=media&ns=announce	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2019?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2019?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2019?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/announce:summer-2019?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?do=edit&rev=1559776259	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2019	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2019?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2019?do=media&ns=projects	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2019?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2019?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2019?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2019?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/projects:maint-summer-2019?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/accounts:password_change_reset?do=recent	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/accounts:password_change_reset?do=revisions	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/accounts:password_change_reset?do=media&ns=accounts	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/accounts:password_change_reset?do=login&sectok=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/accounts:password_change_reset?do=index	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/accounts:password_change_reset?do=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/accounts:password_change_reset?do=backlink	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=accounts&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=icsdc&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=windows&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=software&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=wiki&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=commands&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=courses&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=upload&do=media&ns=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=labs&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=hardware&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=services&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=virtual_environments&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=linux&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=backups&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=group&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=search&do=media&ns=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=files&do=media&ns=	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=group%3asupport&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=search&do=media&ns=group	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=upload&do=media&ns=group	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=files&do=media&ns=group	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=group%3asupport%3aservices&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=group%3asupport%3amaintenance&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=group%3asupport%3alinux&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=group%3asupport%3awindows&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=upload&do=media&ns=group%3asupport	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=group%3asupport%3afaqs&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=group%3asupport%3asoftware&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=group%3asupport%3alabs&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=search&do=media&ns=group%3asupport	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=group%3asupport%3aaccounts&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=files&do=media&ns=group%3asupport	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=upload&do=media&ns=group%3asupport%3aservices	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=search&do=media&ns=group%3asupport%3aservices	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=virtual_environments%3aservices&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=upload&do=media&ns=virtual_environments	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=virtual_environments%3avirtual_environments&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=search&do=media&ns=virtual_environments	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=upload&do=media&ns=virtual_environments%3avirtual_environments	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=search&do=media&ns=virtual_environments%3avirtual_environments	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=files&do=media&ns=virtual_environments%3avirtual_environments	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=search&do=media&ns=virtual_environments%3aservices	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=upload&do=media&ns=virtual_environments%3aservices	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=files&do=media&ns=virtual_environments%3aservices	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=services%3adatabase&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=services%3adatacenter&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=services%3asun_grid_engine&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=search&do=media&ns=services	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=upload&do=media&ns=services	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=files&do=media&ns=services	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=upload&do=media&ns=services%3asun_grid_engine	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=search&do=media&ns=services%3asun_grid_engine	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=files&do=media&ns=services%3asun_grid_engine	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=search&do=media&ns=services%3adatacenter	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=upload&do=media&ns=services%3adatacenter	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=files&do=media&ns=services%3adatacenter	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=hardware%3acluster&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=search&do=media&ns=hardware	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=upload&do=media&ns=hardware	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?ns=hardware%3astorage&tab_files=files&do=media	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=files&do=media&ns=hardware	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=search&do=media&ns=commands	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=upload&do=media&ns=commands	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=upload&do=media&ns=icsdc	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=search&do=media&ns=icsdc	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=search&do=media&ns=accounts	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=upload&do=media&ns=accounts	subdomain: swiki
+https://swiki.ics.uci.edu/doku.php/start?tab_files=files&do=media&ns=accounts	subdomain: swiki
+https://www.ics.uci.edu/grad/courses	subdomain: 
+https://www.ics.uci.edu/grad	subdomain: 
+https://www.ics.uci.edu/faculty/faculty_dept?department=computer science	subdomain: 
+https://www.ics.uci.edu/faculty/faculty_dept?department=statistics	subdomain: 
+https://www.ics.uci.edu/faculty/faculty_dept?department=informatics	subdomain: 
+https://www.ics.uci.edu/~swjun	subdomain: 
+http://www.ics.uci.edu/~vazirani	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=zhaoxia	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=gbowker	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=emj	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=rcjain	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=yunanc	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=yamingy	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=sgagomas	subdomain: 
+http://www.ics.uci.edu/~eli	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=nardi	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=alfaro	subdomain: 
+https://mdogucu.ics.uci.edu	subdomain: mdogucu
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=gmark	subdomain: 
+http://www.ics.uci.edu/~babaks	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=aqu2	subdomain: 
+http://www.ics.uci.edu/~harris	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=isaac	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=ardalan	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=gtsudik	subdomain: 
+http://www.ics.uci.edu/~stauro	subdomain: 
+http://www.ics.uci.edu/~eppstein	subdomain: 
+https://www.ics.uci.edu/~alfchen	subdomain: 
+http://ngs.ics.uci.edu	subdomain: ngs
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=ddenenbe	subdomain: 
+http://www.ics.uci.edu/~stasio	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=marios	subdomain: 
+http://www.ics.uci.edu/~ziv	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=chenli	subdomain: 
+http://www.ics.uci.edu/~emilyo	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=vberroca	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=klefstad	subdomain: 
+http://www.ics.uci.edu/~klefstad	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=gopi	subdomain: 
+http://www.ics.uci.edu/~irani	subdomain: 
+http://nalini.ics.uci.edu	subdomain: nalini
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=taylor	subdomain: 
+http://www.ics.uci.edu/~emj	subdomain: 
+http://www.ics.uci.edu/~wjohnson	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=xhx	subdomain: 
+http://www.ics.uci.edu/~sjordan	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=jfeldman	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=alfchen	subdomain: 
+http://www.ics.uci.edu/~franz	subdomain: 
+http://www.ics.uci.edu/~yamingy	subdomain: 
+http://www.ics.uci.edu/~sternh	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=mjcarey	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=jutts	subdomain: 
+http://www.ics.uci.edu/~jwongma	subdomain: 
+http://www.ics.uci.edu/~zhaoxia	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=dechter	subdomain: 
+http://www.ics.uci.edu/~gmark	subdomain: 
+http://malek.ics.uci.edu	subdomain: malek
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=andre	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=pattis	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=mguindan	subdomain: 
+https://www.ics.uci.edu/~mustafai	subdomain: 
+http://plrg.ics.uci.edu	subdomain: plrg
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=mizukoi	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=whayes	subdomain: 
+http://www.ics.uci.edu/~goodrich	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=kobsa	subdomain: 
+http://www.ics.uci.edu/~pfbaldi	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=nanb	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=lbic	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=sabdujyo	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=smehrotr	subdomain: 
+https://www.ics.uci.edu/~iftekha	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=ssirani	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=ksalen	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=dutt	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=jpd	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=lopes	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=kkask	subdomain: 
+http://www.ics.uci.edu/~yunanc	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=royf	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=iharris	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=rickl	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=jsolson	subdomain: 
+http://www.ics.uci.edu/~djr	subdomain: 
+https://transformativeplay.ics.uci.edu	subdomain: transformativeplay
+http://www.ics.uci.edu/~thornton	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=franz	subdomain: 
+http://www.ics.uci.edu/~ihler	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=weinings	subdomain: 
+http://www.ics.uci.edu/~taylor	subdomain: 
+http://www.ics.uci.edu/~fowlkes	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=dfkibler	subdomain: 
+http://www.ics.uci.edu/~rickl	subdomain: 
+http://www.ics.uci.edu/~wmt	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=fowlkes	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=ttanen	subdomain: 
+http://www.ics.uci.edu/~redmiles	subdomain: 
+http://www.ics.uci.edu/~dechter	subdomain: 
+http://www.ics.uci.edu/~kay	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=shz	subdomain: 
+http://www.ics.uci.edu/~dillenco	subdomain: 
+http://www.ics.uci.edu/~kibler	subdomain: 
+http://www.ics.uci.edu/~dutt	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=lueker	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=zhengkai	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=const	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=hayesg	subdomain: 
+http://www.ics.uci.edu/~aburtsev	subdomain: 
+http://www.ics.uci.edu/~gbowker	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=dhirschb	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=ksquire	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=wjohnson	subdomain: 
+http://www.ics.uci.edu/~jpd	subdomain: 
+http://www.ics.uci.edu/~andre	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=elzarki	subdomain: 
+http://www.ics.uci.edu/~marios	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=wmt	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=nalini	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=sameer	subdomain: 
+http://www.ics.uci.edu/~gts	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=mustafai	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=rwblack	subdomain: 
+http://www.ics.uci.edu/~mjcarey	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=emilyo	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=hziv	subdomain: 
+http://www.ics.uci.edu/~bic	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=sudderth	subdomain: 
+http://www.ics.uci.edu/~xhx	subdomain: 
+http://www.ics.uci.edu/~wayne	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=golson	subdomain: 
+http://www.ics.uci.edu/~feldman	subdomain: 
+http://www.ics.uci.edu/~pattis	subdomain: 
+http://www.ics.uci.edu/~mlevorat/ 	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=anicolau	subdomain: 
+http://www.ics.uci.edu/~lopes	subdomain: 
+http://www.ics.uci.edu/~sudderth	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=sjordan	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=aregan	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=trammell	subdomain: 
+http://www.ics.uci.edu/~givargis	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=vazirani	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=mihail	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=standish	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=swjun	subdomain: 
+http://www.ics.uci.edu/~isaac	subdomain: 
+http://www.ics.uci.edu/~kobsa	subdomain: 
+http://www.ics.uci.edu/~gopi	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=jajones	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=pjsmyth	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=kay	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=malek	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=goodrich	subdomain: 
+http://www.ics.uci.edu/~dan	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=pfbaldi	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=jwongma	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=djr	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=aihler	subdomain: 
+http://www.ics.uci.edu/~smyth	subdomain: 
+http://www.ics.uci.edu/~jutts	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=vminin	subdomain: 
+http://www.ics.uci.edu/~sabdujyo	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=mdogucu	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=igassko	subdomain: 
+http://www.ics.uci.edu/~lueker	subdomain: 
+http://www.ics.uci.edu/~nicolau	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=eppstein	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=ebozorgz	subdomain: 
+http://www.ics.uci.edu/~majumder	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=mmazmani	subdomain: 
+http://www.ics.uci.edu/~sharad	subdomain: 
+http://www.ics.uci.edu/~ardalan	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=levorato	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=mbdillen	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=dfredmil	subdomain: 
+http://www.ics.uci.edu/~alexv	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=aveidenb	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=syoung5	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=crooksr	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=mandt	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=baldib	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=givargis	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=iftekha	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=dgillen	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=sjarecki	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=algol	subdomain: 
+http://www.ics.uci.edu/~nardi	subdomain: 
+http://www.ics.uci.edu/~jsolson	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=majumder	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=mikes	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=sternh	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=thornton	subdomain: 
+http://www.ics.uci.edu/~chenli	subdomain: 
+http://www.ics.uci.edu/~magda	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=sbranham	subdomain: 
+http://www.ics.uci.edu/~jajones	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=bdemsky	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=aburtsev	subdomain: 
+http://www.ics.uci.edu/~standish	subdomain: 
+https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=babaks	subdomain: 
+http://www.ics.uci.edu/~dgillen	subdomain: 
+https://www.ics.uci.edu/faculty/profiles	subdomain: 
+http://www.ics.uci.edu/%7emagda/ghana.html	subdomain: 
+http://www.ics.uci.edu/%7emagda/papers.html	subdomain: 
+http://www.ics.uci.edu/%7emagda/courses.html	subdomain: 
+http://www.ics.uci.edu/%7emagda/games.html	subdomain: 
+http://www.ics.uci.edu/%7emagda/netlabu.html	subdomain: 
+http://www.ics.uci.edu/%7emagda/cs620.html	subdomain: 
+http://www.ics.uci.edu/%7emagda/ics167.html	subdomain: 
+http://www.ics.uci.edu/%7emagda/networksg.html	subdomain: 
+http://www.ics.uci.edu/%7emagda/netlabg.html	subdomain: 
+http://www.ics.uci.edu/%7emagda/netsys270.html	subdomain: 
+http://www.ics.uci.edu/%7emagda/netsys230.html	subdomain: 
+http://www.ics.uci.edu/%7emagda	subdomain: 
+http://www.ics.uci.edu/%7emagda/courses/ics167/introduction.html	subdomain: 
+http://www.ics.uci.edu/%7emagda/courses/ics167/projects.html	subdomain: 
+http://www.ics.uci.edu/%7emagda/courses/ics167/quizsol.html	subdomain: 
+http://www.ics.uci.edu/%7emagda/courses/ics167/outline.html	subdomain: 
+http://www.ics.uci.edu/%7emagda/courses/ics167/description.html	subdomain: 
+http://sdcl.ics.uci.edu/research	subdomain: sdcl
+https://www.ics.uci.edu/~amezasor	subdomain: 
+http://sdcl.ics.uci.edu	subdomain: sdcl
+http://sdcl.ics.uci.edu/research/linecept	subdomain: sdcl
+http://www.ics.uci.edu/informatics	subdomain: 
+http://sdcl.ics.uci.edu/research/chatbots	subdomain: sdcl
+http://sdcl.ics.uci.edu/research/knocap-2	subdomain: sdcl
+http://www.ics.uci.edu/~epaikari	subdomain: 
+http://www.ics.uci.edu/informatics/ugrad	subdomain: 
+https://mse.ics.uci.edu/%20	subdomain: mse
+http://mhcid.ics.uci.edu	subdomain: mhcid
+https://mswe.ics.uci.edu/admissions/admissions-overview	subdomain: mswe
+https://mswe.ics.uci.edu/contact-us	subdomain: mswe
+https://mswe.ics.uci.edu/faq	subdomain: mswe
+https://mswe.ics.uci.edu/career/additional-resources	subdomain: mswe
+https://mswe.ics.uci.edu/career/interviewing	subdomain: mswe
+https://mse.ics.uci.edu/faq	subdomain: mse
+https://mswe.ics.uci.edu/career/career-planning	subdomain: mswe
+https://mswe.ics.uci.edu/program/curriculum	subdomain: mswe
+https://mswe.ics.uci.edu/admissions/information_sessions	subdomain: mswe
+https://mswe.ics.uci.edu/people/faculty-staff	subdomain: mswe
+https://mswe.ics.uci.edu/career/personal-branding-networking	subdomain: mswe
+https://mswe.ics.uci.edu/program/about-the-program	subdomain: mswe
+https://mswe.ics.uci.edu/career/mswe-career-services-2	subdomain: mswe
+https://mswe.ics.uci.edu/career/job-search-sites	subdomain: mswe
+https://mswe.ics.uci.edu/admissions/cost-and-financial-aid	subdomain: mswe
+https://mswe.ics.uci.edu/career/resources-for-international-students	subdomain: mswe
+https://mswe.ics.uci.edu/career	subdomain: mswe
+https://mswe.ics.uci.edu	subdomain: mswe
+https://mswe.ics.uci.edu/admissions	subdomain: mswe
+https://mswe.ics.uci.edu/program	subdomain: mswe
+https://mcs.ics.uci.edu/career/personal-branding-marketing/linkedin	subdomain: mcs
+https://mcs.ics.uci.edu/contact-us/faculty	subdomain: mcs
+https://mcs.ics.uci.edu/current-students/once-admitted/vv	subdomain: mcs
+https://mcs.ics.uci.edu/about/course-descriptions	subdomain: mcs
+https://mcs.ics.uci.edu	subdomain: mcs
+https://mcs.ics.uci.edu/prospective-students/application-process	subdomain: mcs
+https://mcs.ics.uci.edu/current-students/resources/forms	subdomain: mcs
+https://mcs.ics.uci.edu/career/international-students	subdomain: mcs
+https://mcs.ics.uci.edu/current-students/resources/international-students	subdomain: mcs
+https://mcs.ics.uci.edu/about/curriculum/2017-2018	subdomain: mcs
+https://mcs.ics.uci.edu/career/cpt	subdomain: mcs
+https://mcs.ics.uci.edu/faq	subdomain: mcs
+https://mcs.ics.uci.edu/career/finding-a-job-internship	subdomain: mcs
+https://mcs.ics.uci.edu/prospective-students/admissions-requirement	subdomain: mcs
+https://mcs.ics.uci.edu/prospective-students/cost-and-financial-aid	subdomain: mcs
+https://mcs.ics.uci.edu/career/additional-skills-resources	subdomain: mcs
+https://mcs.ics.uci.edu/about/mcs-vs-mscs	subdomain: mcs
+https://mcs.ics.uci.edu/contact-us/staff	subdomain: mcs
+https://mcs.ics.uci.edu/current-students/resources/campus-contacts	subdomain: mcs
+https://mcs.ics.uci.edu/advisory-board	subdomain: mcs
+https://mcs.ics.uci.edu/career/internships	subdomain: mcs
+https://mcs.ics.uci.edu/current-students/housing	subdomain: mcs
+https://mcs.ics.uci.edu/career/personal-branding-marketing	subdomain: mcs
+https://mcs.ics.uci.edu/about/curriculum/2018-2019	subdomain: mcs
+https://mcs.ics.uci.edu/current-students/resources/policies	subdomain: mcs
+https://mcs.ics.uci.edu/career/mcs-career-services	subdomain: mcs
+https://mcs.ics.uci.edu/current-students/mcs-grade-policy	subdomain: mcs
+https://mcs.ics.uci.edu/current-students/mcs-grade-policy/academic-probation-process-policy	subdomain: mcs
+https://mcs.ics.uci.edu/career/interviewing	subdomain: mcs
+https://mcs.ics.uci.edu/current-students/resources/gradhandbook	subdomain: mcs
+https://mcs.ics.uci.edu/career/career-planning	subdomain: mcs
+https://mcs.ics.uci.edu/about/curriculum/2018-2019-2	subdomain: mcs
+https://mcs.ics.uci.edu/about/the-program	subdomain: mcs
+https://mcs.ics.uci.edu/about	subdomain: mcs
+https://mcs.ics.uci.edu/about/curriculum	subdomain: mcs
+https://mcs.ics.uci.edu/career	subdomain: mcs
+https://mcs.ics.uci.edu/current-students	subdomain: mcs
+https://mcs.ics.uci.edu/prospective-students	subdomain: mcs
+http://mcs.ics.uci.edu/prospective-students/admissions-requirement	subdomain: mcs
+https://mcs.ics.uci.edu/current-students/resources	subdomain: mcs
+https://mcs.ics.uci.edu/current-students/once-admitted	subdomain: mcs
+https://www.ics.uci.edu/~dillenco	subdomain: 
+https://www.ics.uci.edu/faculty/index.php?letter=r	subdomain: 
+https://mcs.ics.uci.edu/contact-us	subdomain: mcs
+https://www.ics.uci.edu/~magda	subdomain: 
+https://www.ics.uci.edu/faculty/index.php	subdomain: 
+https://www.ics.uci.edu/ugrad/resources/ics_studentorgs.php	subdomain: 
+https://mhcid.ics.uci.edu/faq	subdomain: mhcid
+https://mhcid.ics.uci.edu/program/about-the-program	subdomain: mhcid
+https://mhcid.ics.uci.edu/admissions/online-information-sessions	subdomain: mhcid
+https://mhcid.ics.uci.edu/people/current-students	subdomain: mhcid
+https://mhcid.ics.uci.edu/people/advisory-board	subdomain: mhcid
+https://mhcid.ics.uci.edu/people/mhcid-current-students	subdomain: mhcid
+https://mhcid.ics.uci.edu/admissions/information-session-2	subdomain: mhcid
+https://mhcid.ics.uci.edu/program/events/career-conference	subdomain: mhcid
+https://mhcid.ics.uci.edu/admissions/admissions-overview	subdomain: mhcid
+https://mhcid.ics.uci.edu/program/events	subdomain: mhcid
+https://mhcid.ics.uci.edu/program/curriculum	subdomain: mhcid
+https://mhcid.ics.uci.edu/admissions/costs-and-financial-aid	subdomain: mhcid
+https://mhcid.ics.uci.edu	subdomain: mhcid
+https://mhcid.ics.uci.edu/program/capstone-projects	subdomain: mhcid
+https://mhcid.ics.uci.edu/people/mhcid-faculty-and-staff	subdomain: mhcid
+http://mhcid.ics.uci.edu/admissions/admissions-overview/applicant-portfolio	subdomain: mhcid
+http://mhcid.ics.uci.edu/people/mhcid-faculty-and-staff	subdomain: mhcid
+http://sdcl.ics.uci.edu/papers	subdomain: sdcl
+http://sdcl.ics.uci.edu/opportunities	subdomain: sdcl
+http://sdcl.ics.uci.edu/research/past-projects/porchlight	subdomain: sdcl
+http://sdcl.ics.uci.edu/people	subdomain: sdcl
+http://sdcl.ics.uci.edu/wp-login.php	subdomain: sdcl
+http://sdcl.ics.uci.edu/contact	subdomain: sdcl
+https://cs.gmu.edu/~tlatoza	subdomain: None
+http://sdcl.ics.uci.edu/sponsors	subdomain: sdcl
+http://sdcl.ics.uci.edu/research/past-projects/codeexchange	subdomain: sdcl
+http://sdcl.ics.uci.edu/papers/books	subdomain: sdcl
+http://sdcl.ics.uci.edu/research/past-projects/crowddesign	subdomain: sdcl
+http://sdcl.ics.uci.edu/papers/technical-reports	subdomain: sdcl
+http://sdcl.ics.uci.edu/research/past-projects/calico	subdomain: sdcl
+http://sdcl.ics.uci.edu/research/past-projects/crowd-development	subdomain: sdcl
+http://sdcl.ics.uci.edu/research/past-projects/crowd-fault-localization	subdomain: sdcl
+http://sdcl.ics.uci.edu/papers/dissertations	subdomain: sdcl
+http://sdcl.ics.uci.edu/research/past-projects/code-orb-2	subdomain: sdcl
+http://sdcl.ics.uci.edu/contact/directions	subdomain: sdcl
+http://sdcl.ics.uci.edu/research/past-projects	subdomain: sdcl
+http://sdcl.ics.uci.edu/people/previous-members	subdomain: sdcl
+http://sdcl.ics.uci.edu/research/past-projects/lighthouse	subdomain: sdcl
+http://www.ics.uci.edu/~adrianoc	subdomain: 
+http://www.ics.uci.edu/~gbortis	subdomain: 
+http://www.ics.uci.edu/~tlatoza	subdomain: 
+http://www.ics.uci.edu/~nlopezgi	subdomain: 
+http://www.ics.uci.edu/~lmartie	subdomain: 
+http://www.ics.uci.edu/~emilyo/simse	subdomain: 
+http://sdcl.ics.uci.edu/research/past-projects/code-topics	subdomain: sdcl
+http://www.ics.uci.edu/~nlopezgi/pubs_authorizer.html	subdomain: 
+https://sdcl.ics.uci.edu/wp-login.php?action=lostpassword	subdomain: sdcl
+https://sdcl.ics.uci.edu/wp-login.php	subdomain: sdcl
+https://sdcl.ics.uci.edu	subdomain: sdcl
+https://sdcl.ics.uci.edu/opportunities	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/news	subdomain: sdcl
+http://sdcl.ics.uci.edu/2019/07/i-surf-undergraduate-students-presented-progress-on-their-summer-research-projects	subdomain: sdcl
+http://sdcl.ics.uci.edu/2019/07/sdcl-lunch-with-i-surf-students	subdomain: sdcl
+http://sdcl.ics.uci.edu/tag/uci	subdomain: sdcl
+http://sdcl.ics.uci.edu/tag/ice-cream	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/workshop	subdomain: sdcl
+http://sdcl.ics.uci.edu/tag/visit	subdomain: sdcl
+http://sdcl.ics.uci.edu/page/2	subdomain: sdcl
+http://sdcl.ics.uci.edu/2018/10/ice-cream-meeting-sdcl-social	subdomain: sdcl
+https://redmiles.ics.uci.edu	subdomain: redmiles
+http://sdcl.ics.uci.edu/2019/10/linecept-use-class	subdomain: sdcl
+http://sdcl.ics.uci.edu/2019/03/lunch-meeting-with-consuelo-lopez	subdomain: sdcl
+https://www.ics.uci.edu/~brodbeck	subdomain: 
+http://sdcl.ics.uci.edu/tag/development	subdomain: sdcl
+http://sdcl.ics.uci.edu/tag/former-student	subdomain: sdcl
+http://sdcl.ics.uci.edu/tag/guests	subdomain: sdcl
+http://sdcl.ics.uci.edu/tag/research	subdomain: sdcl
+http://sdcl.ics.uci.edu/tag/social	subdomain: sdcl
+http://sdcl.ics.uci.edu/2019/06/butterworth-design-competition-linecept-and-voice-guardians	subdomain: sdcl
+http://sdcl.ics.uci.edu/tag/linecept	subdomain: sdcl
+http://sdcl.ics.uci.edu/tag/butterworth	subdomain: sdcl
+http://sdcl.ics.uci.edu/2019/07/design-chatbots-talk-for-i-surf-2019-research-summer-program	subdomain: sdcl
+http://sdcl.ics.uci.edu/tag/software	subdomain: sdcl
+http://sdcl.ics.uci.edu/2018/12/saying-goodbye-and-welcome	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/competition	subdomain: sdcl
+http://sdcl.ics.uci.edu/tag/platforms	subdomain: sdcl
+http://sdcl.ics.uci.edu/tag/workshop	subdomain: sdcl
+http://sdcl.ics.uci.edu/2019/05/exploring-the-unexplored-in-social-software-development-platforms	subdomain: sdcl
+http://sdcl.ics.uci.edu/2019/01/philip-guo-to-visit-sdcl	subdomain: sdcl
+http://sdcl.ics.uci.edu/tag/lab-updates	subdomain: sdcl
+http://sdcl.ics.uci.edu/2018/10/new-members-of-the-sdcl	subdomain: sdcl
+http://sdcl.ics.uci.edu/author/dkutas	subdomain: sdcl
+http://www.ics.uci.edu/%7eirus	subdomain: 
+http://www.icse-conferences.org/1997	subdomain: None
+http://2011.icse-conferences.org	subdomain: None
+http://2013.icse-conferences.org	subdomain: None
+http://www.ics.uci.edu/%7eicgse2016	subdomain: 
+http://www.ics.uci.edu/%7earcadia	subdomain: 
+http://www.ics.uci.edu/arcadia	subdomain: 
+http://www.ics.uci.edu/software	subdomain: 
+http://www.ics.uci.edu/corps	subdomain: 
+https://redmiles.ics.uci.edu/reviewings	subdomain: redmiles
+https://redmiles.ics.uci.edu/research	subdomain: redmiles
+https://redmiles.ics.uci.edu/people	subdomain: redmiles
+https://redmiles.ics.uci.edu/publication	subdomain: redmiles
+https://redmiles.ics.uci.edu/teaching	subdomain: redmiles
+https://redmiles.ics.uci.edu/organizing	subdomain: redmiles
+http://www.ics.uci.edu/~redmiles/ics104-wq06	subdomain: 
+http://www.ics.uci.edu/~redmiles/ics221-fq03	subdomain: 
+http://www.ics.uci.edu/~redmiles/ics280-wq02	subdomain: 
+http://www.ics.uci.edu/~redmiles/inf143-sq08	subdomain: 
+http://www.ics.uci.edu/~redmiles/ics131-fq04	subdomain: 
+http://www.ics.uci.edu/~redmiles/ics203b-sq05	subdomain: 
+http://www.ics.uci.edu/~redmiles/ics227-fq01	subdomain: 
+http://www.ics.uci.edu/~redmiles/inf44-sq07	subdomain: 
+http://www.ics.uci.edu/~redmiles/ics205-fq05	subdomain: 
+http://cradl.ics.uci.edu	subdomain: cradl
+https://cradl.ics.uci.edu/publications	subdomain: cradl
+https://cradl.ics.uci.edu/projects	subdomain: cradl
+https://cradl.ics.uci.edu/sucses-is-coming	subdomain: cradl
+https://cradl.ics.uci.edu/people	subdomain: cradl
+https://cradl.ics.uci.edu/wp-login.php	subdomain: cradl
+https://cradl.ics.uci.edu	subdomain: cradl
+https://cradl.ics.uci.edu/news	subdomain: cradl
+http://cradl.ics.uci.edu/?page_id=104	subdomain: cradl
+http://cradl.ics.uci.edu/?page_id=38	subdomain: cradl
+http://cradl.ics.uci.edu/?page_id=32	subdomain: cradl
+https://cradl.ics.uci.edu/category/cradl-news	subdomain: cradl
+https://cradl.ics.uci.edu/wp-login.php?action=lostpassword	subdomain: cradl
+http://cradl.ics.uci.edu/?page_id=108	subdomain: cradl
+http://cradl.ics.uci.edu/?page_id=233	subdomain: cradl
+http://cradl.ics.uci.edu/?page_id=7	subdomain: cradl
+http://www.ics.uci.edu/~etrainer	subdomain: 
+http://cradl.ics.uci.edu/?page_id=111	subdomain: cradl
+http://cradl.ics.uci.edu/?page_id=83	subdomain: cradl
+http://cradl.ics.uci.edu/?page_id=116	subdomain: cradl
+http://www.ics.uci.edu/~balani	subdomain: 
+http://www.ics.uci.edu/~taow4	subdomain: 
+http://cradl.ics.uci.edu/?page_id=420	subdomain: cradl
+http://cradl.ics.uci.edu/?page_id=118	subdomain: cradl
+http://www.ics.uci.edu/~ses	subdomain: 
+http://www.ics.uci.edu/~pr-react	subdomain: 
+http://www.ics.uci.edu/~balani/publications.html	subdomain: 
+http://www.ics.uci.edu/~bsemaan	subdomain: 
+http://cradl.ics.uci.edu/?page_id=120	subdomain: cradl
+http://hana.ics.uci.edu/projects/virtual-team.php	subdomain: hana
+http://cradl.ics.uci.edu/theseus	subdomain: cradl
+http://cradl.ics.uci.edu/?page_id=149	subdomain: cradl
+http://cscw.acm.org	subdomain: None
+http://sdcl.ics.uci.edu/2016/03/affinity-diagram-session	subdomain: sdcl
+http://sdcl.ics.uci.edu/2018/07/marian-petre-in-collaboration-with-sdcl	subdomain: sdcl
+http://sdcl.ics.uci.edu/2016/05/sdcl-team-in-data-science-hackathon	subdomain: sdcl
+http://sdcl.ics.uci.edu/2016/03/lee-was-awarded-the-ibm-fellowship	subdomain: sdcl
+http://sdcl.ics.uci.edu/page/3	subdomain: sdcl
+http://sdcl.ics.uci.edu/2016/05/i-htm	subdomain: sdcl
+http://sdcl.ics.uci.edu/2017/06/congratulations-to-thomas-kwak	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/conference	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/travel	subdomain: sdcl
+http://sdcl.ics.uci.edu/2016/05/consuelos-icse-2016-presentation	subdomain: sdcl
+http://sdcl.ics.uci.edu/2016/04/congratulations-to-arturo-di-lecce	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/visit	subdomain: sdcl
+http://sdcl.ics.uci.edu/2018/07/adrianas-icse-2018-presentation	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/11/sdcl-at-ase-2015	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/06/icse-2014	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/10/uist-2014	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/12/visit-to-mobileworks	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/travel/page/2	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/04/visit-to-mobileworks-2	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/10/visit-to-ge-research	subdomain: sdcl
+http://sdcl.ics.uci.edu/author/adriana	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/04/chi2014	subdomain: sdcl
+http://sdcl.ics.uci.edu/author/andre	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/10/crowdconf-2013	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/05/icse-2013	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/09/883	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/07/848	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/travel/page/3	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/04/scale-meeting-in-snowy-pittsburgh	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/07/fuse-2003	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/06/icse-2012	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/02/calico-at-cscw-2012	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/06/attending-hcic	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/09/scale-meeting-in-nebraska	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/10/scale-at-ibms-t-j-watson-research-center	subdomain: sdcl
+http://cscw2012.org/program/videos.php	subdomain: None
+http://cscw2012.org/index.php	subdomain: None
+http://sdcl.ics.uci.edu/2011/04/attending-icse	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/09/883/cmu_p1040919	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/09/883/cmu_p1040924	subdomain: sdcl
+http://sdcl.ics.uci.edu/2016/03/congratulations-dr-gerald	subdomain: sdcl
+http://sdcl.ics.uci.edu/author/andre/page/2	subdomain: sdcl
+http://sdcl.ics.uci.edu/2016/02/we-redecorated-the-conference-room-crowdsourcing-affinity-diagrams	subdomain: sdcl
+http://sdcl.ics.uci.edu/2016/03/congratulations-sara	subdomain: sdcl
+http://sdcl.ics.uci.edu/2016/01/new-scholarship	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/06/congratulations-thomas	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/11/we-wish-martin-medina-well	subdomain: sdcl
+http://sdcl.ics.uci.edu/2016/01/congratulations-lee-martie	subdomain: sdcl
+http://sdcl.ics.uci.edu/author/andre/page/3	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/12/crowdsourcing-affinity-diagrams-2	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/12/simse	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/06/end-of-quarter-lunch-2	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/11/welcome-thomas-kwak	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/06/welcome-gabriel	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/05/lees-msr-2015-talk	subdomain: sdcl
+http://sdcl.ics.uci.edu/author/andre/page/4	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/04/welcome-edgar	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/03/paper-accepted-in-msr-2015	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/02/we-won-the-reddit-hackathon	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/02/welcome-fernando	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/03/fernando-and-his-team-won-best-presentation-at-iconference	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/06/welcome-iago-and-nathan	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/02/welcome-martin	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/03/crowdsourcing-affinity-diagrams	subdomain: sdcl
+http://sdcl.ics.uci.edu/2015/06/sdcl-in-icse-2015	subdomain: sdcl
+http://sdcl.ics.uci.edu/research/codeexchange	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/09/welcome-arturo-and-fabio	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/07/press-on-crowd-programming-grant	subdomain: sdcl
+http://sdcl.ics.uci.edu/author/andre/page/5	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/07/crowd-programming-featured-on-acm-technews	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/uncategorized	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/12/congrats-dr-nick-lopez	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/10/plateau-2014	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/11/nick-dissertation-award	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/10/welcome-consuelo	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/08/thesis-defense-congratulations	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/08/codeexchange	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/06/welcome-danilo-and-william	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/05/scale-meeting-at-uc-irvine	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/07/congratulations-to-the-uc-irvine-design-competition-winners	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/04/won-2nd-place-in-2014-annual-autism-appjam	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/05/meet-the-sdcl-beowulf-cluster	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/07/welcome-gleiph	subdomain: sdcl
+http://sdcl.ics.uci.edu/author/andre/page/6	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/06/grant-on-crowd-programming	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/02/new-scholarships	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/12/new-workshop-on-crowdsourcing-in-software-engineering	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/11/2013-acm-distinguished-scientists	subdomain: sdcl
+http://sdcl.ics.uci.edu/author/andre/page/7	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/12/paper-on-calico-to-appear-at-chi-2014	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/02/welcome-mengyao	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/03/marian-petre-visit-3	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/04/new-visitors-from-the-netherlands	subdomain: sdcl
+http://sdcl.ics.uci.edu/2014/04/tablet-tower-to-server-tower	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/09/crowdcode-at-crowdconf	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/09/congrats-dr-nick	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/05/lionel-briand-visit	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/09/welcome-namrata	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/10/article-published-in-empirical-software-engineering-journal	subdomain: sdcl
+http://sdcl.ics.uci.edu/author/andre/page/8	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/05/isr-research-forum-2	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/11/affinity-diagramming	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/12/marian-petre-visit-2	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/02/sdcl-icse-papers	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/12/porchlight-icse-paper	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/10/groupwork-on-tablets	subdomain: sdcl
+http://sdcl.ics.uci.edu/author/andre/page/9	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/12/michele-thanks	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/04/jane-cleland-huang-visit	subdomain: sdcl
+http://sdcl.ics.uci.edu/2013/03/arie-van-deursen-visit	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/10/welcome-sergio	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/04/welcome-alfredo-motta	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/03/papers-accepted	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/04/brazilian-collaborators-visit	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/05/isr-research-forum	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/03/marian-petre-visit	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/09/welcome-michele	subdomain: sdcl
+http://sdcl.ics.uci.edu/author/andre/page/10	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/09/welcome-christian	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/09/sdcl-has-moved	subdomain: sdcl
+http://sdcl.ics.uci.edu/directions	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/08/distributed-collaboration-grant	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/12/sdcl-on-github	subdomain: sdcl
+http://sdcl.ics.uci.edu/author/andre/page/11	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/11/seworld-sdcl	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/03/sdcl-hosts-scale	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/08/tablets	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/02/calico-demo-available	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/10/902	subdomain: sdcl
+http://sdcl.ics.uci.edu/2012/03/welcome-thomas-latoza	subdomain: sdcl
+http://sdcl.ics.uci.edu/research/calico	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/08/nsf-grant-for-calico	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/06/brazilian-collaborators-visit-sdcl	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/04/microsoft-seif-award	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/04/nick-mangano-presents-at-arcs-dinner	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/04/249	subdomain: sdcl
+http://sdcl.ics.uci.edu/2011/06/graduates	subdomain: sdcl
+http://www.ics.uci.edu/~nmoura	subdomain: 
+http://sdcl.ics.uci.edu/?page_id=25	subdomain: sdcl
+http://sdcl.ics.uci.edu/research/lighthouse	subdomain: sdcl
+http://sdcl.ics.uci.edu/page/4	subdomain: sdcl
+http://sdcl.ics.uci.edu/page/5	subdomain: sdcl
+http://sdcl.ics.uci.edu/page/6	subdomain: sdcl
+http://sdcl.ics.uci.edu/page/7	subdomain: sdcl
+http://sdcl.ics.uci.edu/page/8	subdomain: sdcl
+http://sdcl.ics.uci.edu/page/9	subdomain: sdcl
+http://sdcl.ics.uci.edu/page/10	subdomain: sdcl
+http://sdcl.ics.uci.edu/page/11	subdomain: sdcl
+http://sdcl.ics.uci.edu/page/12	subdomain: sdcl
+http://sdcl.ics.uci.edu/page/13	subdomain: sdcl
+http://sdcl.ics.uci.edu/?page_id=31	subdomain: sdcl
+http://sdcl.ics.uci.edu/?page_id=27	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/news/page/2	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/news/page/3	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/news/page/4	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/news/page/5	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/news/page/6	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/news/page/7	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/news/page/8	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/news/page/9	subdomain: sdcl
+http://sdcl.ics.uci.edu/category/news/page/10	subdomain: sdcl
+https://www.ics.uci.edu/~epaikari	subdomain: 
+http://sdcl.ics.uci.edu/reserarch/chatbots	subdomain: sdcl
+http://www.ics.uci.edu/~alexv/iwia	subdomain: 
+http://www.ics.uci.edu/~sysarch/projects/opencv.html	subdomain: 
+http://www.ics-conference.org	subdomain: None
+http://www.ics.uci.edu/~sysarch/projects/fpga.html	subdomain: 
+http://www.ics.uci.edu/~sysarch/projects/autovec.html	subdomain: 
+http://www.ics.uci.edu/~sysarch	subdomain: 
+http://www.ics.uci.edu/~alexv/pubs.html	subdomain: 
+http://www.ics.uci.edu/~sharad/personal-home-page	subdomain: 
+http://www.ics.uci.edu/~dsm/cypress	subdomain: 
+http://sherlock.ics.uci.edu	subdomain: sherlock
+http://i-sensorium.ics.uci.edu	subdomain: i-sensorium
+http://cert.ics.uci.edu	subdomain: cert
+http://isg.ics.uci.edu	subdomain: isg
+https://cert.ics.uci.edu/safire	subdomain: cert
+http://isg.ics.uci.edu/events.html	subdomain: isg
+http://fr.ics.uci.edu	subdomain: fr
+http://fr.ics.uci.edu/haiti	subdomain: fr
+https://fr.ics.uci.edu/chile	subdomain: fr
+https://fr.ics.uci.edu/haiti	subdomain: fr
+http://www.ics.uci.edu/~rares	subdomain: 
+https://grape.ics.uci.edu/wiki/fr	subdomain: grape
+http://www.ics.uci.edu/~shengyuj	subdomain: 
+https://fr.ics.uci.edu/widgets/chilepersonfinder	subdomain: fr
+https://fr.ics.uci.edu/chilepersonfinder	subdomain: fr
+http://www.ics.uci.edu/~abehm	subdomain: 
+http://www.ics.uci.edu/~salsubai	subdomain: 
+https://grape.ics.uci.edu/wiki/fr/wiki/tracguide	subdomain: grape
+https://grape.ics.uci.edu/wiki/fr/about	subdomain: grape
+https://grape.ics.uci.edu/wiki/fr/prefs	subdomain: grape
+https://grape.ics.uci.edu/wiki/fr/login	subdomain: grape
+https://grape.ics.uci.edu/wiki/fr/prefs/userinterface	subdomain: grape
+https://grape.ics.uci.edu/wiki/fr/prefs/keybindings	subdomain: grape
+https://grape.ics.uci.edu/wiki/fr/prefs/language	subdomain: grape
+https://grape.ics.uci.edu/wiki/fr/prefs/advanced	subdomain: grape
+https://grape.ics.uci.edu/wiki/fr/wiki/tracaccessibility	subdomain: grape
+https://isg.ics.uci.edu/ournews	subdomain: isg
+https://isg.ics.uci.edu/db-qual	subdomain: isg
+https://isg.ics.uci.edu/news/isg-student-wins-2019-ieee-bigdata-best-student-paper-award	subdomain: isg
+https://isg.ics.uci.edu/people/faculty	subdomain: isg
+https://isg.ics.uci.edu/students	subdomain: isg
+https://isg.ics.uci.edu/talks	subdomain: isg
+https://isg.ics.uci.edu/event/david-lomet-tbd	subdomain: isg
+https://isg.ics.uci.edu/event/event-detection-with-temporal-predicates	subdomain: isg
+https://isg.ics.uci.edu/research_staff	subdomain: isg
+https://isg.ics.uci.edu/event/effective-filters-and-linear-time-verification-for-tree-similarity-joins	subdomain: isg
+https://isg.ics.uci.edu/visitors	subdomain: isg
+https://isg.ics.uci.edu/events/list/?tribe_event_display=past&tribe_paged=1	subdomain: isg
+https://isg.ics.uci.edu/news/prof-ramesh-jain-receives-the-2019-ieee-tcmc-impact-award-for-pioneering-and-wide-spread-impact-to-multimedia-computing-for-the-past-four-decades	subdomain: isg
+https://isg.ics.uci.edu/alumni	subdomain: isg
+https://isg.ics.uci.edu/courses	subdomain: isg
+https://isg.ics.uci.edu/sponsers	subdomain: isg
+https://isg.ics.uci.edu/events/?ical=1	subdomain: isg
+https://isg.ics.uci.edu	subdomain: isg
+https://isg.ics.uci.edu/news/iot-notarysensor-data-attestation-in-smart-environments-paper-by-isg-authors-receives-the-2019-ieee-nca-award	subdomain: isg
+https://isg.ics.uci.edu/contact-us	subdomain: isg
+https://isg.ics.uci.edu/projects	subdomain: isg
+https://isg.ics.uci.edu/events	subdomain: isg
+https://isg.ics.uci.edu/publications	subdomain: isg
+https://isg.ics.uci.edu/news/prof-chen-li-became-an-acm-distinguished-member	subdomain: isg
+https://isg.ics.uci.edu/visitor-info	subdomain: isg
+http://www.ics.uci.edu/about/visit/index.php	subdomain: 
+https://isg.ics.uci.edu/publications/?limit=2&	subdomain: isg
+https://isg.ics.uci.edu/publications/?limit=4&	subdomain: isg
+https://isg.ics.uci.edu/publications/?limit=3&	subdomain: isg
+https://isg.ics.uci.edu/publications/?limit=1&	subdomain: isg
+https://www.ics.uci.edu/~raccoon	subdomain: 
+http://www-db.ics.uci.edu/pages/research/quasar	subdomain: -db
+https://grape.ics.uci.edu/wiki/public/wiki/cs222-2018-fall	subdomain: grape
+http://www.ics.uci.edu/~nalini	subdomain: 
+https://ngs.ics.uci.edu/teaching/fall08/multimedia	subdomain: ngs
+https://ngs.ics.uci.edu	subdomain: ngs
+https://grape.ics.uci.edu/wiki/asterix/wiki/cs122a-2018-spring	subdomain: grape
+https://www.ics.uci.edu/~cs223	subdomain: 
+https://www.ics.uci.edu/~ics143	subdomain: 
+https://chenli.ics.uci.edu	subdomain: chenli
+https://ngs.ics.uci.edu/next-generation-search-course	subdomain: ngs
+http://chenli.ics.uci.edu	subdomain: chenli
+https://www.ics.uci.edu/~cs237	subdomain: 
+https://www.ics.uci.edu/~sharad	subdomain: 
+https://www.ics.uci.edu/~nalini	subdomain: 
+https://www.ics.uci.edu/~mjcarey	subdomain: 
+https://ngs.ics.uci.edu/about-ramesh/news	subdomain: ngs
+https://ngs.ics.uci.edu/research/research-papers/multimedia-information-management	subdomain: ngs
+https://ngs.ics.uci.edu/blog	subdomain: ngs
+https://ngs.ics.uci.edu/personal/education	subdomain: ngs
+https://ngs.ics.uci.edu/category/technical-thoughts	subdomain: ngs
+https://ngs.ics.uci.edu/partners	subdomain: ngs
+https://ngs.ics.uci.edu/partners/current-students	subdomain: ngs
+https://ngs.ics.uci.edu/personal	subdomain: ngs
+https://ngs.ics.uci.edu/professionalsocial/services	subdomain: ngs
+https://ngs.ics.uci.edu/entrepreneurship	subdomain: ngs
+https://ngs.ics.uci.edu/research/research-papers/computer-vision	subdomain: ngs
+https://ngs.ics.uci.edu/research/presentations	subdomain: ngs
+https://ngs.ics.uci.edu/professionalsocial/interviews	subdomain: ngs
+https://ngs.ics.uci.edu/professionalsocial	subdomain: ngs
+https://ngs.ics.uci.edu/diversity-and-india	subdomain: ngs
+https://ngs.ics.uci.edu/research/research-papers/experiential-computing	subdomain: ngs
+https://ngs.ics.uci.edu/teaching	subdomain: ngs
+https://ngs.ics.uci.edu/usa-has-become-general-motors	subdomain: ngs
+https://ngs.ics.uci.edu/professionalsocial/recognitions	subdomain: ngs
+https://ngs.ics.uci.edu/personal/past-affiliations	subdomain: ngs
+https://ngs.ics.uci.edu/teaching/past-courses	subdomain: ngs
+https://ngs.ics.uci.edu/entrepreneurship/current-companies	subdomain: ngs
+https://ngs.ics.uci.edu/research/patents	subdomain: ngs
+https://ngs.ics.uci.edu/research/research-papers	subdomain: ngs
+https://ngs.ics.uci.edu/research/books	subdomain: ngs
+https://ngs.ics.uci.edu/partners/past-students	subdomain: ngs
+https://ngs.ics.uci.edu/entrepreneurship/past-companies	subdomain: ngs
+https://ngs.ics.uci.edu/about-ramesh/events	subdomain: ngs
+https://ngs.ics.uci.edu/partners/collaborators	subdomain: ngs
+https://ngs.ics.uci.edu/research/projects	subdomain: ngs
+https://ngs.ics.uci.edu/personal/favorite-quotes	subdomain: ngs
+https://ngs.ics.uci.edu/teaching/current-courses	subdomain: ngs
+https://ngs.ics.uci.edu/personal/favorite-books	subdomain: ngs
+https://ngs.ics.uci.edu/research	subdomain: ngs
+http://ngs.ics.uci.edu/research/research-papers/multimedia-information-management	subdomain: ngs
+http://ngs.ics.uci.edu/research/research-papers/computer-vision	subdomain: ngs
+http://ngs.ics.uci.edu/research/research-papers/experiential-computing	subdomain: ngs
+https://ngs.ics.uci.edu/category/general-updates	subdomain: ngs
+https://ngs.ics.uci.edu/sharing-your-photos-animoto	subdomain: ngs
+https://ngs.ics.uci.edu/sharing-your-photos-orsiso	subdomain: ngs
+https://ngs.ics.uci.edu/category/experiential-computing	subdomain: ngs
+https://ngs.ics.uci.edu/category/experiential-computing/page/2	subdomain: ngs
+https://ngs.ics.uci.edu/from-calendars-to-chronicles-5	subdomain: ngs
+https://ngs.ics.uci.edu/from-calendars-to-chronicles-1	subdomain: ngs
+https://ngs.ics.uci.edu/from-calendars-to-chronicles-2	subdomain: ngs
+https://ngs.ics.uci.edu/physical-social-cyber-computing-systems	subdomain: ngs
+https://ngs.ics.uci.edu/tag/chronicle	subdomain: ngs
+https://ngs.ics.uci.edu/tag/prediction-machines	subdomain: ngs
+https://ngs.ics.uci.edu/from-calendars-to-chronicles-3	subdomain: ngs
+https://ngs.ics.uci.edu/tag/reporting	subdomain: ngs
+https://ngs.ics.uci.edu/tag/journalism	subdomain: ngs
+https://ngs.ics.uci.edu/extreme-stories-10	subdomain: ngs
+https://ngs.ics.uci.edu/tag/moments	subdomain: ngs
+https://ngs.ics.uci.edu/extreme-stories-11	subdomain: ngs
+https://ngs.ics.uci.edu/extreme-stories-9	subdomain: ngs
+https://ngs.ics.uci.edu/tag/fiction	subdomain: ngs
+https://ngs.ics.uci.edu/tag/virtual-reality	subdomain: ngs
+https://ngs.ics.uci.edu/tag/augmented-reality	subdomain: ngs
+https://ngs.ics.uci.edu/extreme-stories-8	subdomain: ngs
+https://ngs.ics.uci.edu/tag/imaginary-story	subdomain: ngs
+https://ngs.ics.uci.edu/tag/stories-from-big-data	subdomain: ngs
+https://ngs.ics.uci.edu/extreme-stories-7	subdomain: ngs
+https://ngs.ics.uci.edu/tag/mega-stories	subdomain: ngs
+https://ngs.ics.uci.edu/tag/big-data	subdomain: ngs
+https://ngs.ics.uci.edu/tag/navigation	subdomain: ngs
+https://ngs.ics.uci.edu/tag/oral-stories	subdomain: ngs
+https://ngs.ics.uci.edu/extreme-stories-6	subdomain: ngs
+https://ngs.ics.uci.edu/tag/orality	subdomain: ngs
+https://ngs.ics.uci.edu/tag/emerging-stories	subdomain: ngs
+https://ngs.ics.uci.edu/tag/storytelling	subdomain: ngs
+https://ngs.ics.uci.edu/tag/multiple-media	subdomain: ngs
+https://ngs.ics.uci.edu/extreme-stories-5	subdomain: ngs
+https://ngs.ics.uci.edu/tag/compelling-experiences	subdomain: ngs
+https://ngs.ics.uci.edu/tag/narratives	subdomain: ngs
+https://ngs.ics.uci.edu/extreme-stories-4	subdomain: ngs
+https://ngs.ics.uci.edu/tag/computational-storytelling	subdomain: ngs
+https://ngs.ics.uci.edu/extreme-stories-3	subdomain: ngs
+https://ngs.ics.uci.edu/extreme-stories2	subdomain: ngs
+https://ngs.ics.uci.edu/tag/experiential-data	subdomain: ngs
+https://ngs.ics.uci.edu/tag/micro-stories	subdomain: ngs
+https://ngs.ics.uci.edu/status-updates-are-micro-stories	subdomain: ngs
+https://ngs.ics.uci.edu/micro-blogs-and-blogs	subdomain: ngs
+https://ngs.ics.uci.edu/extreme-stories-1	subdomain: ngs
+https://ngs.ics.uci.edu/tag/microblogs	subdomain: ngs
+https://ngs.ics.uci.edu/tag/status-updates	subdomain: ngs
+https://ngs.ics.uci.edu/tag/events	subdomain: ngs
+https://ngs.ics.uci.edu/events-are-transparent	subdomain: ngs
+https://ngs.ics.uci.edu/photos-are-about-events	subdomain: ngs
+https://ngs.ics.uci.edu/managing-event-information-a-book	subdomain: ngs
+https://ngs.ics.uci.edu/tag/event-information-systems	subdomain: ngs
+https://ngs.ics.uci.edu/tag/personal-intelligence	subdomain: ngs
+https://ngs.ics.uci.edu/developing-actionable-personal-intelligence-for-everyone	subdomain: ngs
+https://ngs.ics.uci.edu/category/entrepreneurism	subdomain: ngs
+https://ngs.ics.uci.edu/visr-silent-helper-to-organize-visual-memories-of-events	subdomain: ngs
+https://ngs.ics.uci.edu/social-systems-and-big-data	subdomain: ngs
+https://ngs.ics.uci.edu/category/entrepreneurism/page/2	subdomain: ngs
+https://ngs.ics.uci.edu/ancient-photo-gallery-in-modern-phones	subdomain: ngs
+https://ngs.ics.uci.edu/category/prospecting-information	subdomain: ngs
+https://ngs.ics.uci.edu/next-instagram	subdomain: ngs
+https://ngs.ics.uci.edu/focused-microblogs-fmbs-going-beyond-twitter	subdomain: ngs
+https://ngs.ics.uci.edu/building-on-the-disruption-in-learning-and-education	subdomain: ngs
+https://ngs.ics.uci.edu/creating-health-persona	subdomain: ngs
+https://ngs.ics.uci.edu/tag/signal-to-noise-ratio	subdomain: ngs
+https://ngs.ics.uci.edu/tag/twitter	subdomain: ngs
+https://ngs.ics.uci.edu/tag/microblog	subdomain: ngs
+https://ngs.ics.uci.edu/creating-persona-using-data-streams	subdomain: ngs
+https://ngs.ics.uci.edu/tag/persona	subdomain: ngs
+https://ngs.ics.uci.edu/tag/quantified-health	subdomain: ngs
+https://ngs.ics.uci.edu/tag/objective-health	subdomain: ngs
+https://ngs.ics.uci.edu/tag/health-persona	subdomain: ngs
+http://ngs.ics.uci.edu/blog/?attachment_id=1479	subdomain: ngs
+https://ngs.ics.uci.edu/entrepreneur	subdomain: ngs
+https://ngs.ics.uci.edu/blog/?attachment_id=1479	subdomain: ngs
+https://ngs.ics.uci.edu/teacher	subdomain: ngs
+https://ngs.ics.uci.edu/researcher	subdomain: ngs
+https://ngs.ics.uci.edu/creating-health-persona/sensors-to-persona	subdomain: ngs
+https://ngs.ics.uci.edu/tag/objective-self	subdomain: ngs
+https://ngs.ics.uci.edu/rip-my-four-legged-son	subdomain: ngs
+https://ngs.ics.uci.edu/objective-self	subdomain: ngs
+https://ngs.ics.uci.edu/tag/objective	subdomain: ngs
+https://ngs.ics.uci.edu/tag/quantified-self	subdomain: ngs
+https://ngs.ics.uci.edu/tag/subjective	subdomain: ngs
+https://ngs.ics.uci.edu/objective-self-4-you-are-the-most-important	subdomain: ngs
+https://ngs.ics.uci.edu/objective-self-6-from-an-individual-to-society	subdomain: ngs
+https://ngs.ics.uci.edu/tag/quantified-self/page/2	subdomain: ngs
+https://ngs.ics.uci.edu/healthy-foodie	subdomain: ngs
+https://ngs.ics.uci.edu/objective-self-3-quantified-self-is-a-step-towards-objective-self	subdomain: ngs
+https://ngs.ics.uci.edu/objective-self-5-finally-we-may-have-objective-self	subdomain: ngs
+https://ngs.ics.uci.edu/objective-self-2-garbage-data-results-in-garbage-models	subdomain: ngs
+https://ngs.ics.uci.edu/tag/lifelog	subdomain: ngs
+https://ngs.ics.uci.edu/tag/scientism	subdomain: ngs
+https://ngs.ics.uci.edu/objective-reality-1	subdomain: ngs
+https://ngs.ics.uci.edu/tag/lifelogs	subdomain: ngs
+https://ngs.ics.uci.edu/semantic-link-in-photos	subdomain: ngs
+https://ngs.ics.uci.edu/lifelog-made-easy	subdomain: ngs
+https://ngs.ics.uci.edu/tag/mchron	subdomain: ngs
+https://ngs.ics.uci.edu/current-research-challenges-in-computer-vision-and-multimedia	subdomain: ngs
+https://ngs.ics.uci.edu/reflecting-on-your-life	subdomain: ngs
+https://ngs.ics.uci.edu/meta-data-is-also-data	subdomain: ngs
+https://ngs.ics.uci.edu/tag/computervision-multimedia	subdomain: ngs
+https://ngs.ics.uci.edu/the-power-of-pull	subdomain: ngs
+https://ngs.ics.uci.edu/social-pixels	subdomain: ngs
+https://ngs.ics.uci.edu/content-without-context-is-meaningless	subdomain: ngs
+https://ngs.ics.uci.edu/milkshake-drunk-researcher-and-problem-solving	subdomain: ngs
+https://ngs.ics.uci.edu/machine-learning-hammer	subdomain: ngs
+https://ngs.ics.uci.edu/tag/search-research-compute-vision-multimedia	subdomain: ngs
+https://ngs.ics.uci.edu/likes-loyalties-and-choices	subdomain: ngs
+https://ngs.ics.uci.edu/tag/computer-vision-multimedia	subdomain: ngs
+https://ngs.ics.uci.edu/nl-3-beyond-the-current-www	subdomain: ngs
+https://ngs.ics.uci.edu/nowledger-2	subdomain: ngs
+https://ngs.ics.uci.edu/nowledger	subdomain: ngs
+https://ngs.ics.uci.edu/beyond-total-capture-to-some-utilization	subdomain: ngs
+https://ngs.ics.uci.edu/ck-prahalad-one-more-tribute	subdomain: ngs
+https://ngs.ics.uci.edu/self-analytics-data-driven-life	subdomain: ngs
+https://ngs.ics.uci.edu/emerging-trends-from-www2010	subdomain: ngs
+https://ngs.ics.uci.edu/what-the-web-cant-do	subdomain: ngs
+https://ngs.ics.uci.edu/nsf-iii-workshop-good-workshop-but-will-it-change-anything	subdomain: ngs
+https://ngs.ics.uci.edu/uncontrollable-memories-of-c-k-prahalad	subdomain: ngs
+https://ngs.ics.uci.edu/c-k-prahalad	subdomain: ngs
+https://ngs.ics.uci.edu/contenxt-not-content-or-context-in-computer-vision	subdomain: ngs
+https://ngs.ics.uci.edu/situation-awareness-emerging-approaches	subdomain: ngs
+https://ngs.ics.uci.edu/context-in-computer-vision	subdomain: ngs
+https://ngs.ics.uci.edu/next-generation-search-in-2010	subdomain: ngs
+https://ngs.ics.uci.edu/young-engineering-students	subdomain: ngs
+https://ngs.ics.uci.edu/pragyan-2010-at-nit-trichy	subdomain: ngs
+https://ngs.ics.uci.edu/timeline-mashups	subdomain: ngs
+https://ngs.ics.uci.edu/us-institute-of-peace	subdomain: ngs
+https://ngs.ics.uci.edu/personal-analytics	subdomain: ngs
+https://ngs.ics.uci.edu/solution-consolidation-of-experiences-and-making-them-actionable	subdomain: ngs
+https://ngs.ics.uci.edu/need-consolidation-of-experiences-and-making-them-actionable	subdomain: ngs
+https://ngs.ics.uci.edu/events-descriptions-and-opinions	subdomain: ngs
+https://ngs.ics.uci.edu/goggles-to-cyberspace	subdomain: ngs
+https://ngs.ics.uci.edu/geeks-like-complexity	subdomain: ngs
+https://ngs.ics.uci.edu/cameras-and-internet	subdomain: ngs
+https://ngs.ics.uci.edu/innovations-in-india	subdomain: ngs
+https://ngs.ics.uci.edu/current-technical-trends-in-internet	subdomain: ngs
+https://ngs.ics.uci.edu/event-analytics	subdomain: ngs
+https://ngs.ics.uci.edu/smart-phones-to-become-phones	subdomain: ngs
+https://ngs.ics.uci.edu/augmented-reality-comes-of-age	subdomain: ngs
+https://ngs.ics.uci.edu/more-timelines	subdomain: ngs
+https://ngs.ics.uci.edu/ai-contextual-reasoning-learning	subdomain: ngs
+https://ngs.ics.uci.edu/tag/semantic-links	subdomain: ngs
+https://ngs.ics.uci.edu/tag/photos	subdomain: ngs
+https://ngs.ics.uci.edu/tag/visual-web	subdomain: ngs
+https://ngs.ics.uci.edu/photo-album-2015-breaking-the-boundaries	subdomain: ngs
+https://ngs.ics.uci.edu/tag/mobile-phone-photos	subdomain: ngs
+https://ngs.ics.uci.edu/tag/albums	subdomain: ngs
+https://ngs.ics.uci.edu/towards-weaving-the-visual-web	subdomain: ngs
+https://ngs.ics.uci.edu/back-to-cyber-3-now-and-future	subdomain: ngs
+https://ngs.ics.uci.edu/tag/cybernetics	subdomain: ngs
+https://ngs.ics.uci.edu/tag/social-life-networks	subdomain: ngs
+https://ngs.ics.uci.edu/back-to-cyber-2-computational-cybernetics	subdomain: ngs
+https://ngs.ics.uci.edu/tag/cyber	subdomain: ngs
+https://ngs.ics.uci.edu/back-to-cyber-1	subdomain: ngs
+https://ngs.ics.uci.edu/tag/social-systems	subdomain: ngs
+https://ngs.ics.uci.edu/social-life-networks-sln	subdomain: ngs
+https://ngs.ics.uci.edu/tag/digital-dividend	subdomain: ngs
+https://ngs.ics.uci.edu/visual-reflections	subdomain: ngs
+https://ngs.ics.uci.edu/photo-taking-behaviour-past	subdomain: ngs
+https://ngs.ics.uci.edu/tag/connecting-people-to-resources	subdomain: ngs
+https://ngs.ics.uci.edu/tag/managing-photos	subdomain: ngs
+https://ngs.ics.uci.edu/photo-taking-behaviour-teens-of-photography	subdomain: ngs
+https://ngs.ics.uci.edu/tag/sharing-photos	subdomain: ngs
+https://ngs.ics.uci.edu/phone-as-identity	subdomain: ngs
+https://ngs.ics.uci.edu/photos-are-more-than-fleeting-experiences	subdomain: ngs
+https://ngs.ics.uci.edu/tag/photosharing	subdomain: ngs
+https://ngs.ics.uci.edu/photos-4-a-disruptive-change-in-communication	subdomain: ngs
+https://ngs.ics.uci.edu/photos-a-new-challenge-3	subdomain: ngs
+https://ngs.ics.uci.edu/tag/visual-tweets	subdomain: ngs
+https://ngs.ics.uci.edu/tag/communication	subdomain: ngs
+https://ngs.ics.uci.edu/vnit-golden-jubilee	subdomain: ngs
+https://ngs.ics.uci.edu/photos-then-and-now-2	subdomain: ngs
+https://ngs.ics.uci.edu/tag/instagram	subdomain: ngs
+https://ngs.ics.uci.edu/photos-then-and-now	subdomain: ngs
+https://ngs.ics.uci.edu/tag/mobile-photos	subdomain: ngs
+https://ngs.ics.uci.edu/visr-is-in-android-marketplace	subdomain: ngs
+https://ngs.ics.uci.edu/transformation-or-froth-visual-communication	subdomain: ngs
+https://ngs.ics.uci.edu/tag/visr	subdomain: ngs
+https://ngs.ics.uci.edu/tag/visual-communication	subdomain: ngs
+https://ngs.ics.uci.edu/honored-surprised-and-started-thinking	subdomain: ngs
+https://ngs.ics.uci.edu/tag/computer-scientists	subdomain: ngs
+https://ngs.ics.uci.edu/tag/wikipedia	subdomain: ngs
+https://ngs.ics.uci.edu/tag/photography	subdomain: ngs
+https://ngs.ics.uci.edu/automatic-summarization-of-personal-photo-collections-pinaki-sinhas-thesis	subdomain: ngs
+https://ngs.ics.uci.edu/tag/photo-management	subdomain: ngs
+https://ngs.ics.uci.edu/tag/digital-cameras	subdomain: ngs
+https://ngs.ics.uci.edu/tag/photo-sharing	subdomain: ngs
+https://ngs.ics.uci.edu/visr-organizing-and-sharing-visual-experiences-of-events	subdomain: ngs
+https://ngs.ics.uci.edu/quantifying-semantic-gap	subdomain: ngs
+https://ngs.ics.uci.edu/tag/visual-events	subdomain: ngs
+https://ngs.ics.uci.edu/tag/android	subdomain: ngs
+https://ngs.ics.uci.edu/tag/computer-vision	subdomain: ngs
+https://ngs.ics.uci.edu/contextual-circles	subdomain: ngs
+https://ngs.ics.uci.edu/tag/pattern-recognition	subdomain: ngs
+https://ngs.ics.uci.edu/tag/semantic-gap	subdomain: ngs
+https://ngs.ics.uci.edu/tag/katango	subdomain: ngs
+https://ngs.ics.uci.edu/tag/google-circles	subdomain: ngs
+https://ngs.ics.uci.edu/tag/contextual-circles	subdomain: ngs
+https://ngs.ics.uci.edu/tag/photos/page/2	subdomain: ngs
+https://ngs.ics.uci.edu/tag/contextual-reasoning	subdomain: ngs
+https://ngs.ics.uci.edu/tag/ai	subdomain: ngs
+https://ngs.ics.uci.edu/tag/deep-learning	subdomain: ngs
+https://ngs.ics.uci.edu/tag/personal-data	subdomain: ngs
+https://ngs.ics.uci.edu/tag/education	subdomain: ngs
+https://ngs.ics.uci.edu/tag/experiential	subdomain: ngs
+https://ngs.ics.uci.edu/corelation-is-the-mother-of-causality	subdomain: ngs
+https://ngs.ics.uci.edu/tag/learning	subdomain: ngs
+https://ngs.ics.uci.edu/using-big-data-for-storytelling	subdomain: ngs
+https://ngs.ics.uci.edu/tag/causality	subdomain: ngs
+https://ngs.ics.uci.edu/tag/correlation	subdomain: ngs
+https://ngs.ics.uci.edu/extreme-stories13	subdomain: ngs
+https://ngs.ics.uci.edu/tag/mobile	subdomain: ngs
+https://ngs.ics.uci.edu/tag/ecperiential-computing	subdomain: ngs
+https://ngs.ics.uci.edu/tag/experience-sharing	subdomain: ngs
+https://ngs.ics.uci.edu/lifelesson-1-get-bad-news-as-soon-as-possible	subdomain: ngs
+https://ngs.ics.uci.edu/category/personal	subdomain: ngs
+https://ngs.ics.uci.edu/tag/life-lessons	subdomain: ngs
+https://ngs.ics.uci.edu/lifelesson-2-should-should-come-before-could	subdomain: ngs
+https://ngs.ics.uci.edu/tag/gastroesophageal-cancer	subdomain: ngs
+https://ngs.ics.uci.edu/tag/bad-news	subdomain: ngs
+https://ngs.ics.uci.edu/tag/could-bold-thinking	subdomain: ngs
+https://ngs.ics.uci.edu/tag/should	subdomain: ngs
+https://ngs.ics.uci.edu/thinking-within-the-box-putting-could-before-should	subdomain: ngs
+https://ngs.ics.uci.edu/experiential-analysis	subdomain: ngs
+https://ngs.ics.uci.edu/emerging-art-of-storytelling	subdomain: ngs
+https://ngs.ics.uci.edu/tag/experioential-computing	subdomain: ngs
+https://ngs.ics.uci.edu/tag/early-experiences	subdomain: ngs
+https://ngs.ics.uci.edu/tag/analyzing-data	subdomain: ngs
+https://ngs.ics.uci.edu/tag/visualization	subdomain: ngs
+https://ngs.ics.uci.edu/back-after-a-long-break	subdomain: ngs
+https://ngs.ics.uci.edu/dave-lehman	subdomain: ngs
+https://ngs.ics.uci.edu/category/personal/page/2	subdomain: ngs
+https://ngs.ics.uci.edu/five-year-check-up	subdomain: ngs
+https://ngs.ics.uci.edu/good-friends	subdomain: ngs
+https://ngs.ics.uci.edu/to-do-or-to-have-that-is-the-question	subdomain: ngs
+https://ngs.ics.uci.edu/mmgc-multimedia-grand-challenge	subdomain: ngs
+https://ngs.ics.uci.edu/protectionism-in-difficult-time	subdomain: ngs
+https://ngs.ics.uci.edu/google-maps-and-latitude	subdomain: ngs
+https://ngs.ics.uci.edu/a-great-opportunity-mobile-phones-in-rural-india	subdomain: ngs
+https://ngs.ics.uci.edu/all-those-lifelogs-and-mobile-phones	subdomain: ngs
+https://ngs.ics.uci.edu/1077	subdomain: ngs
+https://ngs.ics.uci.edu/slumdog	subdomain: ngs
+https://ngs.ics.uci.edu/a-japanese-view-on-the-japneses-crisis	subdomain: ngs
+https://ngs.ics.uci.edu/real-virtuality	subdomain: ngs
+https://ngs.ics.uci.edu/cyber-persona	subdomain: ngs
+https://ngs.ics.uci.edu/british-grand-challenges	subdomain: ngs
+https://ngs.ics.uci.edu/search-inside	subdomain: ngs
+https://ngs.ics.uci.edu/faceweb	subdomain: ngs
+https://ngs.ics.uci.edu/mm-grand-challenges	subdomain: ngs
+https://ngs.ics.uci.edu/multimedia-text-book	subdomain: ngs
+https://ngs.ics.uci.edu/semantics-comes-to-google-search	subdomain: ngs
+https://ngs.ics.uci.edu/3d-tv-a-new-version	subdomain: ngs
+https://ngs.ics.uci.edu/formalism-and-research	subdomain: ngs
+https://ngs.ics.uci.edu/complete-sensual-immersion-holodeck-reality	subdomain: ngs
+https://ngs.ics.uci.edu/going-back-to-usa	subdomain: ngs
+https://ngs.ics.uci.edu/rehabilitation-from-knee-surgery	subdomain: ngs
+https://ngs.ics.uci.edu/united-india	subdomain: ngs
+https://ngs.ics.uci.edu/category/personal/page/3	subdomain: ngs
+https://ngs.ics.uci.edu/hectic-time-in-singapore	subdomain: ngs
+https://ngs.ics.uci.edu/meeting-prof-h-h-nagel	subdomain: ngs
+https://ngs.ics.uci.edu/models-and-descriptions	subdomain: ngs
+https://ngs.ics.uci.edu/multimedia-semantics-bridging-the-semantic-gap	subdomain: ngs
+https://ngs.ics.uci.edu/1012	subdomain: ngs
+https://ngs.ics.uci.edu/acm-multimedia-conference	subdomain: ngs
+https://ngs.ics.uci.edu/language-and-the-eventweb	subdomain: ngs
+https://ngs.ics.uci.edu/computing-in-100-bc	subdomain: ngs
+https://ngs.ics.uci.edu/zeetv	subdomain: ngs
+https://ngs.ics.uci.edu/pain-management-after-knee-surgery	subdomain: ngs
+https://ngs.ics.uci.edu/allergic-reaction	subdomain: ngs
+https://ngs.ics.uci.edu/knee-surgery-2	subdomain: ngs
+https://ngs.ics.uci.edu/knee-surgery	subdomain: ngs
+https://ngs.ics.uci.edu/everything-ok	subdomain: ngs
+https://ngs.ics.uci.edu/category/personal/page/4	subdomain: ngs
+https://ngs.ics.uci.edu/iit-brands	subdomain: ngs
+https://ngs.ics.uci.edu/20-of-drugs-sold-in-india-fake	subdomain: ngs
+https://ngs.ics.uci.edu/eventweb-symposium	subdomain: ngs
+https://ngs.ics.uci.edu/first-meeting-using-e2e	subdomain: ngs
+https://ngs.ics.uci.edu/empty-emotionalism	subdomain: ngs
+https://ngs.ics.uci.edu/language-for-experiences	subdomain: ngs
+https://ngs.ics.uci.edu/media-and-experiences	subdomain: ngs
+https://ngs.ics.uci.edu/arun-hampapur-distinguished-engineer-at-ibm	subdomain: ngs
+https://ngs.ics.uci.edu/ipl-tournament-in-india	subdomain: ngs
+https://ngs.ics.uci.edu/maybe-this-time-speech-interfaces-are-really-oming	subdomain: ngs
+https://ngs.ics.uci.edu/going-home	subdomain: ngs
+https://ngs.ics.uci.edu/what-did-we-do-before-computers	subdomain: ngs
+https://ngs.ics.uci.edu/what-did-we-do-before-computers-2	subdomain: ngs
+https://ngs.ics.uci.edu/personal-media-organization-and-access	subdomain: ngs
+https://ngs.ics.uci.edu/happy-to-see-multimedia	subdomain: ngs
+https://ngs.ics.uci.edu/mir-at-ieee-int-conf-on-image-processing	subdomain: ngs
+https://ngs.ics.uci.edu/experiential-computing	subdomain: ngs
+https://ngs.ics.uci.edu/acm-multimedia-information-retrieval	subdomain: ngs
+https://ngs.ics.uci.edu/information-sites-in-multimedia	subdomain: ngs
+https://ngs.ics.uci.edu/one-month-later	subdomain: ngs
+https://ngs.ics.uci.edu/photo-stream-segmentation-photo-organization	subdomain: ngs
+https://ngs.ics.uci.edu/hammer-syndrome-in-sciences	subdomain: ngs
+https://ngs.ics.uci.edu/can-we-go-beyond-gutenberg	subdomain: ngs
+https://ngs.ics.uci.edu/iphone-or-mcomputer	subdomain: ngs
+https://ngs.ics.uci.edu/spreading-joy	subdomain: ngs
+https://ngs.ics.uci.edu/scientific-reviews-pagerank	subdomain: ngs
+https://ngs.ics.uci.edu/abstraction-matching	subdomain: ngs
+https://ngs.ics.uci.edu/video-communication-is-starting	subdomain: ngs
+https://ngs.ics.uci.edu/memories-for-life	subdomain: ngs
+https://ngs.ics.uci.edu/singapore-governement	subdomain: ngs
+https://ngs.ics.uci.edu/the-new-age-of-innovation	subdomain: ngs
+https://ngs.ics.uci.edu/multimedia-teaching-need-a-real-text-book	subdomain: ngs
+https://ngs.ics.uci.edu/reality-is-funnier-than-satire-on-snl	subdomain: ngs
+https://ngs.ics.uci.edu/dumbing-down-or-freeing-for-creativity	subdomain: ngs
+https://ngs.ics.uci.edu/southern-california-computer-vision-meetup	subdomain: ngs
+https://ngs.ics.uci.edu/interactive-digital-media-in-singapore	subdomain: ngs
+https://ngs.ics.uci.edu/sharing-your-visualizaion	subdomain: ngs
+https://ngs.ics.uci.edu/wealth-as-cure-for-indias-caste-bias	subdomain: ngs
+https://ngs.ics.uci.edu/economic-gains-are-limited-in-india	subdomain: ngs
+https://ngs.ics.uci.edu/real-time-search-4-driving-using-only-the-rear-view-mirror	subdomain: ngs
+https://ngs.ics.uci.edu/searh-progress-in-ne-extraction	subdomain: ngs
+https://ngs.ics.uci.edu/whats-here-on-google-maps	subdomain: ngs
+https://ngs.ics.uci.edu/geotagging-is-moving-closer-to-center	subdomain: ngs
+https://ngs.ics.uci.edu/ubiquitous-connectivity	subdomain: ngs
+https://ngs.ics.uci.edu/evaluating-multimedia-algorithms	subdomain: ngs
+https://ngs.ics.uci.edu/experiential-communication-in-singapore	subdomain: ngs
+https://ngs.ics.uci.edu/events-and-metaevents	subdomain: ngs
+https://ngs.ics.uci.edu/living-in-the-past-dangerous-for-present-and-future	subdomain: ngs
+https://ngs.ics.uci.edu/sue-generis-a-class-of-its-own	subdomain: ngs
+https://ngs.ics.uci.edu/multimedia-information-retrieval-at-nus-1	subdomain: ngs
+https://ngs.ics.uci.edu/multimedia-information-retrieval-at-nus-2	subdomain: ngs
+https://ngs.ics.uci.edu/real-time-search-3-twitter	subdomain: ngs
+https://ngs.ics.uci.edu/real-time-search-2	subdomain: ngs
+https://ngs.ics.uci.edu/personal-butler-on-iphone-siri	subdomain: ngs
+https://ngs.ics.uci.edu/prospective-of-multimedia-search	subdomain: ngs
+https://ngs.ics.uci.edu/finding-is-better-than-searching	subdomain: ngs
+https://ngs.ics.uci.edu/reverse-search-is-just-search	subdomain: ngs
+https://ngs.ics.uci.edu/computer-vision-applications	subdomain: ngs
+https://ngs.ics.uci.edu/knowledge-and-innovation-sharing-networks-kisn	subdomain: ngs
+https://ngs.ics.uci.edu/begaluru-trip	subdomain: ngs
+https://ngs.ics.uci.edu/ict-for-development-is-dominated-by-social-network-thinking	subdomain: ngs
+https://ngs.ics.uci.edu/sentiment-analysis	subdomain: ngs
+https://ngs.ics.uci.edu/trip-to-angkor-in-cambodia-2	subdomain: ngs
+https://ngs.ics.uci.edu/trip-to-angkor-in-cambodia1	subdomain: ngs
+https://ngs.ics.uci.edu/photo-management-remains-an-open-problem	subdomain: ngs
+https://ngs.ics.uci.edu/situation-awareness-and-control	subdomain: ngs
+https://ngs.ics.uci.edu/visual-time-machine	subdomain: ngs
+https://ngs.ics.uci.edu/becoming-impatient	subdomain: ngs
+https://ngs.ics.uci.edu/where-is-computer-science-in-it	subdomain: ngs
+https://ngs.ics.uci.edu/eventweb-getting-traction	subdomain: ngs
+https://ngs.ics.uci.edu/clicking-on-the-real-world	subdomain: ngs
+https://ngs.ics.uci.edu/mobile-money-or-power-of-mobile-phones-to-transform	subdomain: ngs
+https://ngs.ics.uci.edu/china	subdomain: ngs
+https://ngs.ics.uci.edu/again-in-china	subdomain: ngs
+https://ngs.ics.uci.edu/acm-multimedia-2009	subdomain: ngs
+https://ngs.ics.uci.edu/more-experiences-in-china	subdomain: ngs
+https://ngs.ics.uci.edu/workshops-at-mm09	subdomain: ngs
+https://ngs.ics.uci.edu/drunken-scientists-and-unsolvable-problems	subdomain: ngs
+https://ngs.ics.uci.edu/multimedia-immersive-experience-in-hangzhou-a-show	subdomain: ngs
+https://ngs.ics.uci.edu/creating-peopleweb	subdomain: ngs
+https://ngs.ics.uci.edu/intellectual-property-and-universities	subdomain: ngs
+https://ngs.ics.uci.edu/search-and-recommendation	subdomain: ngs
+https://ngs.ics.uci.edu/tag/university-business-knowledge	subdomain: ngs
+https://ngs.ics.uci.edu/hightech-in-japan-toilets	subdomain: ngs
+https://ngs.ics.uci.edu/international-academic-research-perspectives	subdomain: ngs
+https://ngs.ics.uci.edu/tag/mega-storiy	subdomain: ngs
+https://ngs.ics.uci.edu/extreme-stories-12	subdomain: ngs
+https://ngs.ics.uci.edu/tag/index-of-data	subdomain: ngs
+https://ngs.ics.uci.edu/tag/summarization	subdomain: ngs
+https://ngs.ics.uci.edu/category/prospecting-information/page/2	subdomain: ngs
+https://ngs.ics.uci.edu/contenxt-search	subdomain: ngs
+https://ngs.ics.uci.edu/category/prospecting-information/page/3	subdomain: ngs
+https://ngs.ics.uci.edu/on-efficacy-and-distraction-of-tags	subdomain: ngs
+https://ngs.ics.uci.edu/social-search-3	subdomain: ngs
+https://ngs.ics.uci.edu/steering-wheel-and-search-as-a-conversation	subdomain: ngs
+https://ngs.ics.uci.edu/video-will-bring-facebook-and-comcast-closer	subdomain: ngs
+https://ngs.ics.uci.edu/now-video-in-radio	subdomain: ngs
+https://ngs.ics.uci.edu/revenue-sharing-comes-to-video	subdomain: ngs
+https://ngs.ics.uci.edu/progress-in-immersive-sports	subdomain: ngs
+https://ngs.ics.uci.edu/new-media-and-face-to-face-interactions	subdomain: ngs
+https://ngs.ics.uci.edu/piracy-protection-using-content-video-recognition	subdomain: ngs
+https://ngs.ics.uci.edu/the-next-youtube	subdomain: ngs
+https://ngs.ics.uci.edu/unemployable-mba-graduates	subdomain: ngs
+https://ngs.ics.uci.edu/head-and-long-tail	subdomain: ngs
+https://ngs.ics.uci.edu/eventweb-17-bliki	subdomain: ngs
+https://ngs.ics.uci.edu/eventweb-18-bliki-continued	subdomain: ngs
+https://ngs.ics.uci.edu/special-effects-in-indian-tv	subdomain: ngs
+https://ngs.ics.uci.edu/future-search	subdomain: ngs
+https://ngs.ics.uci.edu/wikia	subdomain: ngs
+https://ngs.ics.uci.edu/changing-marriages-bedrooms	subdomain: ngs
+https://ngs.ics.uci.edu/history-preservation-in-digital-age	subdomain: ngs
+https://ngs.ics.uci.edu/iit-students	subdomain: ngs
+https://ngs.ics.uci.edu/internet-advertising	subdomain: ngs
+https://ngs.ics.uci.edu/indias-education-system	subdomain: ngs
+https://ngs.ics.uci.edu/jim-gray	subdomain: ngs
+https://ngs.ics.uci.edu/start-up-in-social-networking-interesting-insights	subdomain: ngs
+https://ngs.ics.uci.edu/virginia-tech-massacre	subdomain: ngs
+https://ngs.ics.uci.edu/cyber-spirituality	subdomain: ngs
+https://ngs.ics.uci.edu/east-west-and-object-event	subdomain: ngs
+https://ngs.ics.uci.edu/3-d-fax	subdomain: ngs
+https://ngs.ics.uci.edu/ignorance-of-crowds	subdomain: ngs
+https://ngs.ics.uci.edu/is-this-bitterness-or-real-belief	subdomain: ngs
+https://ngs.ics.uci.edu/on-hiring-an-australian-to-become-an-indian	subdomain: ngs
+https://ngs.ics.uci.edu/phone-as-modern-swiss-army-knife	subdomain: ngs
+https://ngs.ics.uci.edu/towards-natural-interfaces	subdomain: ngs
+http://ngs.ics.uci.edu/blog/rlwaller13@hotmail.com	subdomain: ngs
+https://ngs.ics.uci.edu/long-tail-using-recognition-by-crowds	subdomain: ngs
+https://ngs.ics.uci.edu/vidhu-vinod-chopra-and-bollywood	subdomain: ngs
+https://ngs.ics.uci.edu/india-in-cricket-world-cup	subdomain: ngs
+https://ngs.ics.uci.edu/entrepreneurship-and-processes	subdomain: ngs
+https://ngs.ics.uci.edu/hawaii-vacation-photos	subdomain: ngs
+https://ngs.ics.uci.edu/eventweb-and-saving-lives	subdomain: ngs
+https://ngs.ics.uci.edu/india-has-more-than-200-million-telephone-subscribers	subdomain: ngs
+https://ngs.ics.uci.edu/culture-or-politics-or-stupidity	subdomain: ngs
+https://ngs.ics.uci.edu/aggressiveness-in-start-ups	subdomain: ngs
+https://ngs.ics.uci.edu/building-more-iits	subdomain: ngs
+https://ngs.ics.uci.edu/goodbye-mouse	subdomain: ngs
+https://ngs.ics.uci.edu/most-popular-but-little-known-photosite	subdomain: ngs
+https://ngs.ics.uci.edu/social-networking-is-ephemeral	subdomain: ngs
+https://ngs.ics.uci.edu/vacation-in-germany	subdomain: ngs
+https://ngs.ics.uci.edu/internet-cameras-and-politics	subdomain: ngs
+https://ngs.ics.uci.edu/nagpur-a-model-for-indian-cities	subdomain: ngs
+https://ngs.ics.uci.edu/electricity-in-india	subdomain: ngs
+https://ngs.ics.uci.edu/interesting-trip-child-birth-on-a-flight	subdomain: ngs
+https://ngs.ics.uci.edu/events-unaware-of-events	subdomain: ngs
+https://ngs.ics.uci.edu/protecting-ancient-indian-knowledge	subdomain: ngs
+https://ngs.ics.uci.edu/a-german-wedding	subdomain: ngs
+https://ngs.ics.uci.edu/terrorism-in-india	subdomain: ngs
+https://ngs.ics.uci.edu/future-storytelling	subdomain: ngs
+https://ngs.ics.uci.edu/rligulous-religion-considered-extremely-harmful	subdomain: ngs
+https://ngs.ics.uci.edu/googles-speech-interfaces-using-context	subdomain: ngs
+https://ngs.ics.uci.edu/study-astrology	subdomain: ngs
+https://ngs.ics.uci.edu/obama-appoints-sonal-shah	subdomain: ngs
+https://ngs.ics.uci.edu/technology-and-auto-industry	subdomain: ngs
+https://ngs.ics.uci.edu/go-to-mumbai	subdomain: ngs
+https://ngs.ics.uci.edu/mkrishi	subdomain: ngs
+https://ngs.ics.uci.edu/beijing-trip	subdomain: ngs
+https://ngs.ics.uci.edu/china-and-india	subdomain: ngs
+https://ngs.ics.uci.edu/video-phones-finally	subdomain: ngs
+https://ngs.ics.uci.edu/words-the-bow	subdomain: ngs
+https://ngs.ics.uci.edu/vision-andor-hype-in-search	subdomain: ngs
+https://ngs.ics.uci.edu/category/prospecting-information/page/4	subdomain: ngs
+https://ngs.ics.uci.edu/pattern-recognition	subdomain: ngs
+https://ngs.ics.uci.edu/google-and-images	subdomain: ngs
+https://ngs.ics.uci.edu/on-tags	subdomain: ngs
+https://ngs.ics.uci.edu/eventweb6-explicit-referential-links	subdomain: ngs
+https://ngs.ics.uci.edu/macrosopes	subdomain: ngs
+https://ngs.ics.uci.edu/human-and-search	subdomain: ngs
+https://ngs.ics.uci.edu/convergence-in-search-and-databases	subdomain: ngs
+https://ngs.ics.uci.edu/better-search-through-people	subdomain: ngs
+https://ngs.ics.uci.edu/micrsoft-in-enterprise-search	subdomain: ngs
+https://ngs.ics.uci.edu/category/prospecting-information/page/5	subdomain: ngs
+https://ngs.ics.uci.edu/words-the-world-of-words	subdomain: ngs
+https://ngs.ics.uci.edu/in-greece	subdomain: ngs
+https://ngs.ics.uci.edu/review-of-video-search-on-the-web	subdomain: ngs
+https://ngs.ics.uci.edu/the-web-you-trust	subdomain: ngs
+https://ngs.ics.uci.edu/blinkx-introduces-implicit-search	subdomain: ngs
+https://ngs.ics.uci.edu/category/prospecting-information/page/6	subdomain: ngs
+https://ngs.ics.uci.edu/microsoft-search-lab	subdomain: ngs
+https://ngs.ics.uci.edu/academia-and-visual-maps	subdomain: ngs
+https://ngs.ics.uci.edu/category/prospecting-information/page/7	subdomain: ngs
+https://ngs.ics.uci.edu/new-askcom	subdomain: ngs
+https://ngs.ics.uci.edu/from-gopher-to-google-for-eventweb	subdomain: ngs
+https://ngs.ics.uci.edu/searching-maps	subdomain: ngs
+https://ngs.ics.uci.edu/kosmix-one-more-from-stanford	subdomain: ngs
+https://ngs.ics.uci.edu/gym-and-cabletvtelco	subdomain: ngs
+https://ngs.ics.uci.edu/back-home	subdomain: ngs
+https://ngs.ics.uci.edu/google-and-video	subdomain: ngs
+https://ngs.ics.uci.edu/singapore-and-multimedia	subdomain: ngs
+https://ngs.ics.uci.edu/eventweb-is-here-now	subdomain: ngs
+https://ngs.ics.uci.edu/5-million-channel-tv-is-here	subdomain: ngs
+https://ngs.ics.uci.edu/recognition-at-microsoft	subdomain: ngs
+https://ngs.ics.uci.edu/more-video-coming	subdomain: ngs
+https://ngs.ics.uci.edu/sourav-ganguli-issue	subdomain: ngs
+https://ngs.ics.uci.edu/presentation-of-flickr-story-on-newscom	subdomain: ngs
+https://ngs.ics.uci.edu/government-in-india	subdomain: ngs
+https://ngs.ics.uci.edu/live-video-on-cnn-glimpse-into-the-future	subdomain: ngs
+https://ngs.ics.uci.edu/microsoft-vs-netscape-and-microsoft-vs-google	subdomain: ngs
+https://ngs.ics.uci.edu/411	subdomain: ngs
+https://ngs.ics.uci.edu/newscorp-going-mobile	subdomain: ngs
+https://ngs.ics.uci.edu/creators-synthesizers-and-consumers	subdomain: ngs
+https://ngs.ics.uci.edu/social-search	subdomain: ngs
+https://ngs.ics.uci.edu/young-innovators-in-ics-180280	subdomain: ngs
+https://ngs.ics.uci.edu/future-of-visual-maps	subdomain: ngs
+https://ngs.ics.uci.edu/maps-become-more-visual	subdomain: ngs
+https://ngs.ics.uci.edu/yearly-tests	subdomain: ngs
+https://ngs.ics.uci.edu/time-is-of-the-essence	subdomain: ngs
+https://ngs.ics.uci.edu/computing3o	subdomain: ngs
+https://ngs.ics.uci.edu/cisco-and-video-surveillance	subdomain: ngs
+https://ngs.ics.uci.edu/iptv-and-eventweb	subdomain: ngs
+https://ngs.ics.uci.edu/483	subdomain: ngs
+https://ngs.ics.uci.edu/novatiums-sub-100-netpc	subdomain: ngs
+https://ngs.ics.uci.edu/new-media-business	subdomain: ngs
+https://ngs.ics.uci.edu/world-wide-event-web	subdomain: ngs
+https://ngs.ics.uci.edu/iptv	subdomain: ngs
+https://ngs.ics.uci.edu/iptv-and-eventweb-2	subdomain: ngs
+https://ngs.ics.uci.edu/watershed-event-for-web	subdomain: ngs
+https://ngs.ics.uci.edu/best-jobs-well-i-am-in-one	subdomain: ngs
+https://ngs.ics.uci.edu/user-video-on-microsoft	subdomain: ngs
+https://ngs.ics.uci.edu/seraja-progress	subdomain: ngs
+https://ngs.ics.uci.edu/3-d-mash-ups	subdomain: ngs
+https://ngs.ics.uci.edu/multimedia-search-in-france	subdomain: ngs
+https://ngs.ics.uci.edu/worship-tech	subdomain: ngs
+https://ngs.ics.uci.edu/responsive-to-customser	subdomain: ngs
+https://ngs.ics.uci.edu/fingerprints-of-a-camera	subdomain: ngs
+https://ngs.ics.uci.edu/changing-academic-climate	subdomain: ngs
+https://ngs.ics.uci.edu/innertube-a-new-cbs-online-channel	subdomain: ngs
+https://ngs.ics.uci.edu/latent-web	subdomain: ngs
+https://ngs.ics.uci.edu/future-of-news	subdomain: ngs
+https://ngs.ics.uci.edu/real-time-maps	subdomain: ngs
+https://ngs.ics.uci.edu/senseweb	subdomain: ngs
+https://ngs.ics.uci.edu/events-flickr-and-upcoming	subdomain: ngs
+http://ngs.ics.uci.edu/blog/?p=658	subdomain: ngs
+https://ngs.ics.uci.edu/nyt-likes-like	subdomain: ngs
+http://ngs.ics.uci.edu/blog/?p=601	subdomain: ngs
+https://ngs.ics.uci.edu/web-20-hype	subdomain: ngs
+https://ngs.ics.uci.edu/web-30	subdomain: ngs
+http://ngs.ics.uci.edu/blog/?p=654	subdomain: ngs
+https://ngs.ics.uci.edu/being-too-early-is-worse-than-being-late	subdomain: ngs
+https://ngs.ics.uci.edu/start-ups-on-shoestring	subdomain: ngs
+https://ngs.ics.uci.edu/eventweb-11-a-scenario-conferences	subdomain: ngs
+https://ngs.ics.uci.edu/seraja-updates-061105	subdomain: ngs
+https://ngs.ics.uci.edu/china-trip-nov-20064	subdomain: ngs
+https://ngs.ics.uci.edu/china-trip-nov-20063	subdomain: ngs
+https://ngs.ics.uci.edu/china-trip-nov-2006-2	subdomain: ngs
+https://ngs.ics.uci.edu/pacific-rim-multimedia-conference-day-2	subdomain: ngs
+https://ngs.ics.uci.edu/pacific-rim-multimedia-conference-day-1	subdomain: ngs
+https://ngs.ics.uci.edu/china-trip-nov-2006-1	subdomain: ngs
+https://ngs.ics.uci.edu/china-trip-research-in-china	subdomain: ngs
+https://ngs.ics.uci.edu/human-centered-multimedia	subdomain: ngs
+https://ngs.ics.uci.edu/acm-multimedia-2006-day-3	subdomain: ngs
+https://ngs.ics.uci.edu/acm-multimedia-2006-day-2	subdomain: ngs
+https://ngs.ics.uci.edu/acm-multimedia-2006	subdomain: ngs
+https://ngs.ics.uci.edu/telepresence	subdomain: ngs
+https://ngs.ics.uci.edu/eventweb-11-causal-chains	subdomain: ngs
+https://ngs.ics.uci.edu/indian-internet-future-in-mobiles	subdomain: ngs
+https://ngs.ics.uci.edu/education-in-india	subdomain: ngs
+https://ngs.ics.uci.edu/eventweb-13-crowdsourcing	subdomain: ngs
+https://ngs.ics.uci.edu/internet-video-on-tv	subdomain: ngs
+https://ngs.ics.uci.edu/in-switzerland	subdomain: ngs
+https://ngs.ics.uci.edu/seraja-update-061115	subdomain: ngs
+https://ngs.ics.uci.edu/photo-software-revised-reality	subdomain: ngs
+https://ngs.ics.uci.edu/eventweb5-creating-a-web	subdomain: ngs
+https://ngs.ics.uci.edu/eventweb4-experiential-data	subdomain: ngs
+https://ngs.ics.uci.edu/important-factors-for-india	subdomain: ngs
+https://ngs.ics.uci.edu/yahoo-stocking-up-on-academics	subdomain: ngs
+https://ngs.ics.uci.edu/novel-uses-of-cameraphones-diet	subdomain: ngs
+https://ngs.ics.uci.edu/eventweb3-defining-event	subdomain: ngs
+https://ngs.ics.uci.edu/from-documents-to-experiences	subdomain: ngs
+https://ngs.ics.uci.edu/greece-vacation	subdomain: ngs
+https://ngs.ics.uci.edu/giving-back-to-society-gates-and-buffett	subdomain: ngs
+https://ngs.ics.uci.edu/vace2-close-out-workshop	subdomain: ngs
+https://ngs.ics.uci.edu/phone-as-a-guide-in-real-world	subdomain: ngs
+https://ngs.ics.uci.edu/web-video-and-cable	subdomain: ngs
+https://ngs.ics.uci.edu/seraja-updates	subdomain: ngs
+https://ngs.ics.uci.edu/words-atoms-of-semantics	subdomain: ngs
+https://ngs.ics.uci.edu/words-apicture-is-worth-a-thousand-words	subdomain: ngs
+https://ngs.ics.uci.edu/july-4th	subdomain: ngs
+https://ngs.ics.uci.edu/search-infrastructure	subdomain: ngs
+https://ngs.ics.uci.edu/immersive-world-cup-football	subdomain: ngs
+https://ngs.ics.uci.edu/modern-travel-requirements	subdomain: ngs
+https://ngs.ics.uci.edu/words-space-and-time	subdomain: ngs
+https://ngs.ics.uci.edu/visiting-nagpur	subdomain: ngs
+https://ngs.ics.uci.edu/travel-experiences	subdomain: ngs
+http://ngs.ics.uci.edu/blog/?p=688	subdomain: ngs
+https://ngs.ics.uci.edu/bangalore-hotels	subdomain: ngs
+https://ngs.ics.uci.edu/nagpur-061227	subdomain: ngs
+https://ngs.ics.uci.edu/in-nagpur-061226	subdomain: ngs
+https://ngs.ics.uci.edu/at-kumarakom-resort	subdomain: ngs
+http://ngs.ics.uci.edu/blog/?p=562	subdomain: ngs
+https://ngs.ics.uci.edu/seraja-update-061220	subdomain: ngs
+https://ngs.ics.uci.edu/long-tail-always-deams-of-becoming-the-head	subdomain: ngs
+https://ngs.ics.uci.edu/person-of-the-year-you	subdomain: ngs
+https://ngs.ics.uci.edu/updates-from-seraja-2	subdomain: ngs
+https://ngs.ics.uci.edu/visual-search-2	subdomain: ngs
+https://ngs.ics.uci.edu/user-generated-content-self-expression	subdomain: ngs
+https://ngs.ics.uci.edu/joint-response-to-youtube	subdomain: ngs
+https://ngs.ics.uci.edu/nostalgia	subdomain: ngs
+https://ngs.ics.uci.edu/photography-in-india	subdomain: ngs
+https://ngs.ics.uci.edu/year-of-events	subdomain: ngs
+https://ngs.ics.uci.edu/camera-with-face-detection-technology	subdomain: ngs
+https://ngs.ics.uci.edu/busy-but-exciting-time-in-singapore	subdomain: ngs
+https://ngs.ics.uci.edu/organic-books	subdomain: ngs
+https://ngs.ics.uci.edu/back-home-070108	subdomain: ngs
+https://ngs.ics.uci.edu/events-in-singapore	subdomain: ngs
+https://ngs.ics.uci.edu/iphone-is-a-step-towards-folk-computing	subdomain: ngs
+https://ngs.ics.uci.edu/anytown-online	subdomain: ngs
+https://ngs.ics.uci.edu/mental-toughness	subdomain: ngs
+https://ngs.ics.uci.edu/indians-can-not-work-together	subdomain: ngs
+http://ngs.ics.uci.edu/blog/?page_id=346	subdomain: ngs
+https://ngs.ics.uci.edu/future-set-top-boxes	subdomain: ngs
+https://ngs.ics.uci.edu/live-sex-on-demand-in-hotels	subdomain: ngs
+https://ngs.ics.uci.edu/one-day-in-london	subdomain: ngs
+https://ngs.ics.uci.edu/we-generation	subdomain: ngs
+https://ngs.ics.uci.edu/nri-and-clinton-campaign	subdomain: ngs
+https://ngs.ics.uci.edu/search-by-humming	subdomain: ngs
+https://ngs.ics.uci.edu/computer-vision-research	subdomain: ngs
+https://ngs.ics.uci.edu/evolving-nature-of-books-1	subdomain: ngs
+https://ngs.ics.uci.edu/evolving-nature-of-books-2	subdomain: ngs
+https://ngs.ics.uci.edu/collaborative-novel-writing	subdomain: ngs
+https://ngs.ics.uci.edu/searching-real-world-using-images-from-mobile	subdomain: ngs
+https://ngs.ics.uci.edu/other-india	subdomain: ngs
+https://ngs.ics.uci.edu/computational-journalism-day-2	subdomain: ngs
+http://ngs.ics.uci.edu/blog/?p=552	subdomain: ngs
+https://ngs.ics.uci.edu/nostalgia-in-atlanta-at-tsrb	subdomain: ngs
+https://ngs.ics.uci.edu/tag/browsing	subdomain: ngs
+https://ngs.ics.uci.edu/tag/photo-gallery	subdomain: ngs
+https://ngs.ics.uci.edu/tag/social-computing	subdomain: ngs
+https://ngs.ics.uci.edu/tag/event-sharing	subdomain: ngs
+https://ngs.ics.uci.edu/tag/kodak-moment	subdomain: ngs
+https://ngs.ics.uci.edu/tag/multimedia	subdomain: ngs
+https://ngs.ics.uci.edu/tag/big-data/page/2	subdomain: ngs
+https://ngs.ics.uci.edu/tag/big-data/page/3	subdomain: ngs
+https://ngs.ics.uci.edu/tag/big-data/page/4	subdomain: ngs
+https://ngs.ics.uci.edu/tag/mega-story	subdomain: ngs
+https://ngs.ics.uci.edu/tag/representations	subdomain: ngs
+https://ngs.ics.uci.edu/tag/cyber-physical	subdomain: ngs
+https://ngs.ics.uci.edu/tag/computer-interfacecs	subdomain: ngs
+https://ngs.ics.uci.edu/category/experiential-computing/page/3	subdomain: ngs
+https://ngs.ics.uci.edu/category/experiential-computing/page/4	subdomain: ngs
+https://ngs.ics.uci.edu/category/experiential-computing/page/5	subdomain: ngs
+https://ngs.ics.uci.edu/tag/flight-recorder	subdomain: ngs
+https://ngs.ics.uci.edu/tag/surveillance-video	subdomain: ngs
+https://ngs.ics.uci.edu/category/general-updates/page/2	subdomain: ngs
+https://ngs.ics.uci.edu/empowering-personal-health	subdomain: ngs
+https://ngs.ics.uci.edu/techology-propels-health	subdomain: ngs
+https://ngs.ics.uci.edu/health-intelligence	subdomain: ngs
+https://ngs.ics.uci.edu/tag/wellness	subdomain: ngs
+https://ngs.ics.uci.edu/tag/integrative-health	subdomain: ngs
+https://ngs.ics.uci.edu/tag/health-state	subdomain: ngs
+https://ngs.ics.uci.edu/tag/future-health	subdomain: ngs
+https://ngs.ics.uci.edu/tag/lifestyle	subdomain: ngs
+https://ngs.ics.uci.edu/tag/individual-models	subdomain: ngs
+https://ngs.ics.uci.edu/i-htm	subdomain: ngs
+https://ngs.ics.uci.edu/tag/artificial-intelligence	subdomain: ngs
+https://ngs.ics.uci.edu/tag/situation-recognition	subdomain: ngs
+https://ngs.ics.uci.edu/tag/challenge-for-machine-learning	subdomain: ngs
+https://ngs.ics.uci.edu/tag/situation-awareness	subdomain: ngs
+https://ngs.ics.uci.edu/tag/community-wellbeing	subdomain: ngs
+https://ngs.ics.uci.edu/controlling-health	subdomain: ngs
+https://ngs.ics.uci.edu/tag/digital-health	subdomain: ngs
+https://ngs.ics.uci.edu/tag/health	subdomain: ngs
+https://ngs.ics.uci.edu/tag/personal-model	subdomain: ngs
+https://ngs.ics.uci.edu/tag/personal-health	subdomain: ngs
+https://ngs.ics.uci.edu/tag/mhealth	subdomain: ngs
+https://ngs.ics.uci.edu/tag/precision-health	subdomain: ngs
+https://ngs.ics.uci.edu/tag/healthcare	subdomain: ngs
+http://futurehealth.ics.uci.edu/participation	subdomain: futurehealth
+http://futurehealth.ics.uci.edu	subdomain: futurehealth
+https://ngs.ics.uci.edu/tag/health-navigator	subdomain: ngs
+https://futurehealth.ics.uci.edu/?post_type=projects&p=481	subdomain: futurehealth
+https://futurehealth.ics.uci.edu/events	subdomain: futurehealth
+https://futurehealth.ics.uci.edu/?post_type=projects&p=475	subdomain: futurehealth
+https://futurehealth.ics.uci.edu/people	subdomain: futurehealth
+https://futurehealth.ics.uci.edu/2020-distinguished-lecture-series	subdomain: futurehealth
+https://futurehealth.ics.uci.edu/education	subdomain: futurehealth
+https://futurehealth.ics.uci.edu/?post_type=projects&p=519	subdomain: futurehealth
+https://futurehealth.ics.uci.edu/news	subdomain: futurehealth
+https://futurehealth.ics.uci.edu/resources	subdomain: futurehealth
+https://futurehealth.ics.uci.edu/?post_type=projects&p=513	subdomain: futurehealth
+https://futurehealth.ics.uci.edu/projects	subdomain: futurehealth
+https://futurehealth.ics.uci.edu/participate	subdomain: futurehealth
+https://futurehealth.ics.uci.edu/ifh/seminars	subdomain: futurehealth
+https://ngs.ics.uci.edu/category/general-updates/page/3	subdomain: ngs
+https://ngs.ics.uci.edu/category/general-updates/page/4	subdomain: ngs
+https://ngs.ics.uci.edu/category/general-updates/page/5	subdomain: ngs
+https://ngs.ics.uci.edu/category/general-updates/page/6	subdomain: ngs
+https://ngs.ics.uci.edu/cricket-in-india	subdomain: ngs
+https://ngs.ics.uci.edu/planning-time-or-events	subdomain: ngs
+https://ngs.ics.uci.edu/category/technical-thoughts/page/2	subdomain: ngs
+https://ngs.ics.uci.edu/category/technical-thoughts/page/3	subdomain: ngs
+https://chenli.ics.uci.edu/biography	subdomain: chenli
+https://chenli.ics.uci.edu/research	subdomain: chenli
+https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2020-winter	subdomain: grape
+https://chenli.ics.uci.edu/publications	subdomain: chenli
+https://chenli.ics.uci.edu/teaching	subdomain: chenli
+https://chenli.ics.uci.edu/miscellaneous	subdomain: chenli
+https://chenli.ics.uci.edu/latest-news	subdomain: chenli
+https://chenli.ics.uci.edu/students	subdomain: chenli
+http://www.ics.uci.edu/~jesmaeln	subdomain: 
+http://www.ics.uci.edu/~taewok2	subdomain: 
+http://www.ics.uci.edu/~icetindi	subdomain: 
+http://www.ics.uci.edu/~jianfenj	subdomain: 
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2017-winter	subdomain: grape
+http://www.ics.uci.edu/community/news/press/view_press?id=73	subdomain: 
+http://www.ics.uci.edu/~chenli/pods05	subdomain: 
+https://grape.ics.uci.edu/wiki/public/wiki/cs222-2017-fall	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs222p-2017-fall	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-24t14%3a59%3a05-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/prefs	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-14t22%3a10%3a37-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-04t16%3a22%3a47-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-01t12%3a45%3a20-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-09t22%3a05%3a21-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=history	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-spring/cs122b-setup-scripts.txt	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-mysql-fulltext	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-06-09t16%3a38%3a54-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-spring-project1/cs122b-setup-scripts.txt	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/titleindex	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-02t15%3a41%3a40-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-spring/cs122b-setup-scripts.txt	subdomain: grape
+http://flamingo.ics.uci.edu/toolkit	subdomain: flamingo
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-02t17%3a31%3a50-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-04t09%3a20%3a11-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-18t20%3a13%3a17-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?format=txt	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/login	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-spring/batchinsert.java	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project1-git	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project3	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-16t21%3a14%3a25-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=77	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project1	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-28t21%3a39%3a04-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-spring-project1/cs122b-setup-scripts.txt	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/about	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-25t10%3a39%3a15-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-spring/batchinsert.java	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project1-install-tomcat-on-aws	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project5	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-08t09%3a40%3a27-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-14t22%3a11%3a34-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-03-31t13%3a41%3a21-07%3a00&precision=second	subdomain: grape
+http://www.ics.uci.edu/ugrad/policies/index.php	subdomain: 
+https://grape.ics.uci.edu/wiki/public/wiki/wikistart	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-08t10%3a09%3a05-07%3a00&precision=second	subdomain: grape
+http://www.ics.uci.edu/~cs122a	subdomain: 
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project1-git?action=history	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project1-git?format=txt	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project1-git?action=diff&version=3	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-04t09%3a21%3a52-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project1-git?version=1	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-03-31t13%3a38%3a17-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project1-git?version=3	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project1-git?version=2	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-03-31t13%3a39%3a05-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/tracguide	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project1-git?action=diff&version=2	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project1-git?version=2&format=txt	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project1-git?action=diff&version=1	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project1-git?version=0	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-06t21%3a30%3a23-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t10%3a25%3a19-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t10%3a24%3a59-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-spring-project2/items.java	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?format=txt	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-spring-project2/form.java	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-spring-project2/items.java	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t09%3a20%3a30-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=32	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=history	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-spring-project2/form.java	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=31	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=31	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=32	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=30	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=30	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-06t21%3a29%3a38-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=29	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-06t13%3a56%3a45-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=29	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=28	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-24t13%3a21%3a11-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=28	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=27	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=27	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-19t22%3a16%3a38-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-18t16%3a37%3a53-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=26	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=26	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=25	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-18t16%3a37%3a43-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=25	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-17t08%3a14%3a50-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=24	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=24	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=23	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-17t08%3a12%3a17-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=23	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-17t08%3a11%3a06-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=22	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=22	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=21	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-17t00%3a12%3a12-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=21	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=20	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=20	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-16t21%3a51%3a04-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=19	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=19	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-15t01%3a28%3a50-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=18	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-15t01%3a28%3a19-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=18	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=17	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-15t01%3a22%3a46-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=17	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=16	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=16	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-15t01%3a16%3a04-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-15t01%3a15%3a22-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=15	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=15	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=15&format=txt	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=14	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-15t01%3a14%3a22-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=14	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-15t01%3a09%3a49-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=13	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=13	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=12	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-15t01%3a08%3a48-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=12	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-15t01%3a08%3a18-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=11	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=11	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=10	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=10	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t12%3a43%3a16-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=9	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=9	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t12%3a39%3a02-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=8	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t12%3a37%3a52-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=8	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=7	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t12%3a31%3a49-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=7	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t12%3a30%3a07-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=6	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=6	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=5	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t12%3a29%3a15-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?action=diff&version=5	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=4	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=1	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t09%3a20%3a13-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t12%3a21%3a56-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=2	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t10%3a26%3a45-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t12%3a27%3a47-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project2?version=3	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t12%3a28%3a50-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2018-spring-project4/ajaxtest.war	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t12%3a34%3a27-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t12%3a34%3a07-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-spring-project4/ajaxtest.war	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?format=txt	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-24t22%3a09%3a18-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=history	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t12%3a34%3a15-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=18	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t12%3a34%3a21-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t21%3a46%3a56-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-17t13%3a23%3a31-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=6	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-17t14%3a27%3a43-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-17t14%3a20%3a17-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t12%3a31%3a48-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-17t14%3a20%3a58-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=4	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t14%3a44%3a51-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=7	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=1	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t12%3a37%3a21-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=11	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t21%3a32%3a20-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t12%3a34%3a54-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=3	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-17t12%3a41%3a51-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t21%3a43%3a03-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t14%3a15%3a35-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=12	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t21%3a39%3a41-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=2	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=8	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=18	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=16	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=13	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=15	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t13%3a39%3a04-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=17	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=10	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=5	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t14%3a17%3a21-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=14	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=9	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t21%3a47%3a40-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=9	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?version=9&format=txt	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=10	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=8	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=7	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=6	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=5	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=4	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=3	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=2	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=1	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=11	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=12	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=13	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=14	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=15	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=16	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-project4?action=diff&version=17	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-mysql-fulltext?action=diff&version=1	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-mysql-fulltext?format=txt	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t22%3a30%3a27-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-mysql-fulltext?action=history	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-mysql-fulltext?version=0	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-mysql-fulltext?version=1	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring-mysql-fulltext?version=1&format=txt	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=39	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=60	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-16t22%3a47%3a00-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=11	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=6	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-10t09%3a40%3a06-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=75	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=32	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-09t22%3a09%3a59-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=18	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=29	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=24	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-04t09%3a17%3a15-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=28	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=22	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=13	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-03-31t13%3a47%3a29-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-10t09%3a43%3a27-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=69	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-28t21%3a39%3a51-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-11t23%3a00%3a19-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-01t12%3a39%3a54-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=58	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=23	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=61	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=55	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-31t11%3a23%3a42-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=74	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=42	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-16t21%3a05%3a37-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-24t22%3a11%3a33-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-18t20%3a14%3a29-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=51	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=17	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=12	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-31t13%3a58%3a54-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=10	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=65	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-06-07t09%3a52%3a40-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-08t09%3a56%3a52-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-22t18%3a44%3a17-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=48	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=38	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-10t14%3a34%3a22-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-25t10%3a32%3a32-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-10t09%3a37%3a56-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-08t10%3a47%3a19-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-23t22%3a04%3a19-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-16t15%3a13%3a25-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-01t12%3a45%3a36-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=1	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-10t14%3a10%3a20-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=73	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-24t13%3a15%3a09-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=19	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-21t23%3a13%3a30-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=57	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=20	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-02t09%3a34%3a49-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-03t11%3a12%3a31-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=16	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=14	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=56	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=31	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=40	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-03t13%3a18%3a48-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=72	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=47	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=41	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-06t13%3a56%3a00-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=2	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-06-04t21%3a55%3a53-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-09t22%3a16%3a40-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t22%3a35%3a35-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=77	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=67	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=37	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-21t07%3a18%3a29-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=49	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-06t22%3a32%3a40-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-08t10%3a47%3a51-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=27	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-23t22%3a23%3a15-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-18t20%3a25%3a30-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-10t14%3a25%3a49-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-10t09%3a42%3a23-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=71	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=8	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-03-31t13%3a40%3a35-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-03t11%3a12%3a59-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=21	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-16t21%3a09%3a18-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=15	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=50	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-24t09%3a40%3a07-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-03t17%3a28%3a59-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=63	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=36	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=70	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=45	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-14t22%3a10%3a17-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-06-04t23%3a14%3a30-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=66	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-09t21%3a41%3a43-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=30	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-06-02t21%3a30%3a56-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-24t14%3a56%3a18-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=25	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=64	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t22%3a29%3a51-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-02t13%3a11%3a12-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=9	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=5	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=3	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-25t10%3a40%3a17-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=54	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=26	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-16t23%3a02%3a15-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=76	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=44	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-17t18%3a30%3a34-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-03t13%3a04%3a07-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=52	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=62	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=68	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-11t22%3a14%3a31-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-02t13%3a16%3a20-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=34	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=7	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=4	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-22t18%3a45%3a28-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=53	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-03-31t13%3a39%3a42-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=43	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-16t20%3a42%3a12-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-10t09%3a37%3a00-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-03t13%3a06%3a18-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-04t09%3a14%3a51-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-02t17%3a16%3a32-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t22%3a31%3a17-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-16t22%3a35%3a08-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-16t22%3a47%3a07-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-24t14%3a55%3a40-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=33	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-05-06t21%3a28%3a51-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-17t09%3a58%3a50-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-12t12%3a00%3a09-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-24t13%3a14%3a48-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=35	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=46	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=59	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-17t15%3a17%3a59-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/timeline?from=2018-04-18t20%3a09%3a33-07%3a00&precision=second	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=4	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=4&format=txt	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=3	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=5	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=6	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=7	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=8	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=9	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=10	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=11	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=12	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=13	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=14	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=15	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=16	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=17	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=18	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=19	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=20	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=2	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?action=diff&version=1	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=0	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=9&format=txt	subdomain: grape
+https://grape.ics.uci.edu/wiki/public/wiki/cs122b-2018-spring?version=10&format=txt	subdomain: grape
