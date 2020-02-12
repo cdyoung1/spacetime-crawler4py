@@ -34,10 +34,11 @@ def scraper(url, resp):
     for link in links:
         if is_valid(link):
             scraped_links.add(link)
+            with open("unique_urls.txt", "w") as output_file:
+                # output_file.write("Total unique links: " + str(len(visited)))
+                output_file.write(link + "\n")
     # if link_num % 10 == 0:
-    with open("unique_urls.txt", "w") as output_file:
-        output_file.write("Total unique links: " + str(len(visited)))
-        output_file.write(str(visited))
+
     # link_num +=1
     return list(scraped_links)
 
