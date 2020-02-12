@@ -155,7 +155,12 @@ def extract_next_links(url, resp):
         print()
 
         for link in bs.find_all("a"):
-            link = link.get("href").lower()
+            link = link.get("href")
+
+            if link == None or link == "":
+                continue
+            else:
+                link = link.lower()
             
             # Remove fragment, if any
             defragged_link = urldefrag(link)[0].rstrip("/")
