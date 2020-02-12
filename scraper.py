@@ -97,7 +97,7 @@ def fix_relative_url(url, base_parse):
 
 def get_text(parser):
 
-    allowed_tags = {'p', 'span', 'br', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'strong', 'em', 'blockquote', 'code', 'li', , 'ol', 'ul', 'mark', 'ins', 'del', 'sup', 'sub', 'small', 'i', 'b', 'title'}
+    allowed_tags = {'p', 'span', 'br', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'strong', 'em', 'blockquote', 'code', 'li', 'ol', 'ul', 'mark', 'ins', 'del', 'sup', 'sub', 'small', 'i', 'b', 'title'}
 
     result = ""
     text_list = parser.find_all(lambda tag : tag.name in allowed_tags)
