@@ -9,10 +9,10 @@ from simhash import Simhash, SimhashIndex
 
 visited = set()
 SimIndex = SimhashIndex([])
-# link_num = 1
+sim_index = 1
 
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/"]
-trap_parts = ["calendar","replytocom","wp-json","?share=","format=xml", "/feed", "/feed/"]
+trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/"]
 
 def scraper(url, resp):
 
@@ -26,16 +26,12 @@ def scraper(url, resp):
     print("--------scraper()---------")
     print("BASE URL:", url)
     print("TOTAL VISITED AFTER SCRAPING THIS URL:", len(visited))
-    # print("New links (not validated):")
-    # for link in links:
-    #     print(link, "->", is_valid(link))
     print("--------scraper()---------")
     print()
     for link in links:
         if is_valid(link):
             scraped_links.add(link)
-            with open("unique_urls.txt", "w") as output_file:
-                # output_file.write("Total unique links: " + str(len(visited)))
+            with open("links.txt", "a+") as output_file:
                 output_file.write(link + "\n")
     # if link_num % 10 == 0:
 
@@ -51,41 +47,67 @@ def fix_relative_url(url, base_parse):
         return fixed
 
     parse_raw = urlparse(url)
-    path_separator = ""
-    if parse_raw.path != "" and parse_raw.path[0] != "/":
-        path_separator = "/"
 
 
-    # Check if url already exists in base path
-    possible_repeat_path = url
-    if possible_repeat_path[-1] == "/":
-        possible_repeat_path = possible_repeat_path[:-1]
+    
+    # parse_raw = urlparse(url)
+    # path_separator = ""
+    # if parse_raw.path != "" and parse_raw.path[0] != "/":
+    #     path_separator = "/"
+    if url.startswith("//"):
+        fixed = urljoin("https://", url).rstrip("/")
+    elif url.startswith("/"):
+        fixed = urljoin("https://"+base_parse.netloc, url).rstrip("/")
+    else:
+        fixed = url
+
+
+    # # Check if url already exists in base path
+    # possible_repeat_path = url
+    # if possible_repeat_path[-1] == "/":
+    #     possible_repeat_path = possible_repeat_path[:-1]
 
     print()
     print("----------FIX_RELATIVE_URL--------------")
-    print("Checking possible_repeat_path:", url)
+    print("URL to be tested:", url)
+    print("URL to be tested parse:", parse_raw)
     print("Base url:", base_parse.geturl())
+    print("URLJOINED with base:", urljoin(base_parse.geturl(), url))
+    print("Fixed:", fixed)
     print("----------FIX_RELATIVE_URL--------------")
     print()
 
-    if possible_repeat_path in base_parse.path:
-        return base_parse.geturl()
+    return fixed
+
+    # if possible_repeat_path in base_parse.path:
+    #     return base_parse.geturl()
     
 
-    # Fix relative urls
-    if parse_raw.scheme == "" and parse_raw.netloc == "":
-        # /community/news -> https://www.stat.uci.edu/community/news
-        print("Base_parse:", base_parse)
-        fixed = base_parse.geturl().lower() + path_separator + parse_raw.geturl().lower()
-    elif parse_raw.scheme == "":
-        # //www.ics.uci.edu/community/news/view_news?id=1689 -> https://www.ics.uci.edu/community/news/view_news?id=1689
-        fixed = "https:" + parse_raw.geturl().lower()
-    else:
-        fixed = url.lower()
-    return fixed   
+    # # Fix relative urls
+    # if parse_raw.scheme == "" and parse_raw.netloc == "":
+    #     # /community/news -> https://www.stat.uci.edu/community/news
+    #     print("Base_parse:", base_parse)
+    #     fixed = base_parse.geturl().lower() + path_separator + parse_raw.geturl().lower()
+    # elif parse_raw.scheme == "":
+    #     # //www.ics.uci.edu/community/news/view_news?id=1689 -> https://www.ics.uci.edu/community/news/view_news?id=1689
+    #     fixed = "https:" + parse_raw.geturl().lower()
+    # else:
+    #     fixed = url.lower()
+    # return fixed   
 
-def generateSim(parser):
+def get_text(parser):
+
+    allowed_tags = {'p', 'span', 'br', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'strong', 'em', 'blockquote', 'code', 'li', , 'ol', 'ul', 'mark', 'ins', 'del', 'sup', 'sub', 'small', 'i', 'b', 'title'}
+
     result = ""
+    text_list = parser.find_all(lambda tag : tag.name in allowed_tags)
+    for text in text_list:
+        result += text.get_text().lower() + "\n"
+    return result
+
+
+# def generateSim(text):
+#     global sim_index
 
 
 def extract_next_links(url, resp):
@@ -95,15 +117,15 @@ def extract_next_links(url, resp):
 
         # Checking that only text/HTML pages are scraped (so other types such as calendars won't be)
         resp_content_type = resp.raw_response.headers['Content-Type'].split(';')[0]
-        if resp_content_type == "text/calendar":
-            print()
-            print("----------------------")
-            print("----------------------")
-            print("content-type != text/html. it is:", resp_content_type)
-            print("----------------------")
-            print("----------------------")
-            print()
-            return []
+        # if resp_content_type == "text/calendar":
+        #     print()
+        #     print("----------------------")
+        #     print("----------------------")
+        #     print("content-type != text/html. it is:", resp_content_type)
+        #     print("----------------------")
+        #     print("----------------------")
+        #     print()
+        #     return []
 
         # Add base url to visited
         visited.add(url)
@@ -115,14 +137,14 @@ def extract_next_links(url, resp):
         if resp.status == 200 and str(bs) == "":
             return []
 
-        # url_sim = generateSim(bs)
-        # if SimIndex.get_near_dups(url_sim):
-        #     print()
-        #     print("-------SIMHASH-------")
-        #     print("THIS IS A NEAR DUPLICATE ACCORDING TO SIMHASH")
-        #     print("-------SIMHASH-------")
-        #     print()
-        #     return []        
+        url_sim = Simhash(get_text(bs))
+        if SimIndex.get_near_dups(url_sim):
+            print()
+            print("-------SIMHASH-------")
+            print("THIS IS A NEAR DUPLICATE ACCORDING TO SIMHASH")
+            print("-------SIMHASH-------")
+            print()
+            return []        
 
         print()
         print("--------BASE---------")
@@ -132,10 +154,10 @@ def extract_next_links(url, resp):
         print()
 
         for link in bs.find_all("a"):
-            link = link.get("href")
+            link = link.get("href").lower()
             
             # Remove fragment, if any
-            defragged_link = urldefrag(link)[0]
+            defragged_link = urldefrag(link)[0].rstrip("/")
             absolute_link = fix_relative_url(defragged_link, parsed_base)
             parse_relative = urlparse(defragged_link)
 
@@ -162,8 +184,8 @@ def extract_next_links(url, resp):
             print()
 
         # Add new Simhash object after fixing link
-        # SimIndex.add(str(link_num), url_sim)
-        # link_num += 1
+        SimIndex.add(str(sim_index), url_sim)
+        sim_index += 1
 
     return list(new_links)
 
@@ -226,7 +248,7 @@ def is_valid(url):
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz).*$")
 
         if re.match(valid_mid_and_query, parsed.query.lower()) or re.match(valid_mid_and_query, parsed.path.lower()):
-            print("invalid mid and query: ", url);
+            print("invalid mid and query: ", url)
             return False
 
         invalid_end_url = re.match(
