@@ -174,7 +174,7 @@ def extract_next_links(url, resp):
             # print()
 
         # Add new Simhash object after fixing link
-        SimIndex.add(absolute_link, url_sim)
+        SimIndex.add(url, url_sim)
 
     return list(new_links)
 
