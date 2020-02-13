@@ -49,7 +49,7 @@ def scraper(url, resp, useragent):
                 else:
                     subdomains[sub] = 1
     with open("links.txt", "w") as links_file:
-        links_file.write(link + "\tsubdomain: " + sub + "\n")
+        links_file.write(url + "\n")
     with open("subdomains.txt", "w") as subdomain_file:
         for kv in sorted(subdomains.items(), key = lambda x : x[0]):
             subdomain_file.write(str(kv[0]) + ", " + str(kv[1]) + "\n")
