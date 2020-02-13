@@ -76,21 +76,15 @@ def fix_relative_url(url, base_parse):
     else:
         fixed = url
 
-
-    # # Check if url already exists in base path
-    # possible_repeat_path = url
-    # if possible_repeat_path[-1] == "/":
-    #     possible_repeat_path = possible_repeat_path[:-1]
-
-    print()
-    print("----------FIX_RELATIVE_URL--------------")
-    print("URL to be tested:", url)
-    print("URL to be tested parse:", parse_raw)
-    print("Base url:", base_parse.geturl())
-    print("URLJOINED with base:", urljoin(base_parse.geturl(), url))
-    print("Fixed:", fixed)
-    print("----------FIX_RELATIVE_URL--------------")
-    print()
+    # print()
+    # print("----------FIX_RELATIVE_URL--------------")
+    # print("URL to be tested:", url)
+    # print("URL to be tested parse:", parse_raw)
+    # print("Base url:", base_parse.geturl())
+    # print("URLJOINED with base:", urljoin(base_parse.geturl(), url))
+    # print("Fixed:", fixed)
+    # print("----------FIX_RELATIVE_URL--------------")
+    # print()
 
     return fixed
 
@@ -119,8 +113,8 @@ def extract_next_links(url, resp):
         # Checking that only text/HTML pages are scraped (so other types such as calendars won't be)
         resp_content_type = resp.raw_response.headers['Content-Type'].split(';')[0]
 
-        # if resp_content_type == "text/calendar":
-        #     return []
+        if resp_content_type != "text/html":
+            return []
 
         # Add base url to visited
         visited.add(url)
@@ -134,19 +128,19 @@ def extract_next_links(url, resp):
 
         url_sim = Simhash(get_text(bs))
         if SimIndex.get_near_dups(url_sim):
-            print()
-            print("-------SIMHASH-------")
-            print("THIS IS A NEAR DUPLICATE ACCORDING TO SIMHASH")
-            print("-------SIMHASH-------")
-            print()
+            # print()
+            # print("-------SIMHASH-------")
+            # print("THIS IS A NEAR DUPLICATE ACCORDING TO SIMHASH")
+            # print("-------SIMHASH-------")
+            # print()
             return []        
 
-        print()
-        print("--------BASE---------")
-        print("BASE URL:", url)
-        print("TOTAL VISITED UP TO BEFORE SCRAPING THIS URL:", len(visited))
-        print("--------BASE---------")
-        print()
+        # print()
+        # print("--------BASE---------")
+        # print("BASE URL:", url)
+        # print("TOTAL VISITED UP TO BEFORE SCRAPING THIS URL:", len(visited))
+        # print("--------BASE---------")
+        # print()
 
         for link in bs.find_all("a"):
             link = link.get("href")
@@ -165,25 +159,19 @@ def extract_next_links(url, resp):
             if absolute_link == "":
                 continue
 
-            # Check if relative path already exists in base_url (checks for relative traps)
-            # possible_path_link = defragged_link[:-1] if defragged_link[-1] == '/' else defragged_link
-            # if possible_path_link in url:
-            #     print("Possible repeating pathing from '" + url + "' to '" + possible_path_link + "'")
-            #     continue
-
             if absolute_link not in visited:
                 visited.add(absolute_link)
                 new_links.add(absolute_link)
             else:
                 continue
 
-            print("-----------------------")
-            print("Original:", defragged_link)
-            print("Absolute:", absolute_link)
-            print("Relative parse:", parse_relative)
-            print("content-type:", resp_content_type)
-            print("-----------------------")
-            print()
+            # print("-----------------------")
+            # print("Original:", defragged_link)
+            # print("Absolute:", absolute_link)
+            # print("Relative parse:", parse_relative)
+            # print("content-type:", resp_content_type)
+            # print("-----------------------")
+            # print()
 
         # Add new Simhash object after fixing link
         SimIndex.add(absolute_link, url_sim)
@@ -192,9 +180,9 @@ def extract_next_links(url, resp):
 
 
 def check_robot(url, parsed, useragent):
-    print("------------------------------")
-    print("IN CHECK_ROBOT WITH URL:", url)
-    print("------------------------------")
+    # print("------------------------------")
+    # print("IN CHECK_ROBOT WITH URL:", url)
+    # print("------------------------------")
 
     robots_url = parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt"
     netloc = parsed.netloc.lower()
@@ -211,9 +199,6 @@ def check_robot(url, parsed, useragent):
 
 
 def is_valid(url, useragent):
-    print("------------------------------")
-    print("IN IS_VALID WITH URL:", url)
-    print("------------------------------")
     try:
         parsed = urlparse(url)
 
@@ -240,31 +225,41 @@ def is_valid(url, useragent):
         if not re.match(valid_domains, parsed.netloc.lower()):
             return False
 
-        # Check that url does not contain invalid types in middle or in query
-        valid_mid_and_query = (r".*\/(css|js|pix|bmp|gif|jpe?g|ico"
+        # Check that url has no query parameters
+        if parsed.query.lower() != "":
+            return False
+
+        calendars = r".*((\/\d{4}\/\d{1,2})|(\/\d{1,2}\/\d{4})).*"
+        pages = r".*\/pages?\/\d+(\/.*)?"
+
+        # Checks for calendar-like or pagination-like paths (only used for indexing other pages that are already checked)
+        if re.match(calendars, url.lower()) or re.match(pages, url.lower()):
+            return False
+
+        # Check that url does not contain invalid types in middle of path
+        invalid_mid_path = (r".*(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4|feed"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
+            + r"|ps|eps|tex|ppt|php|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz).*$")
 
-        if re.match(valid_mid_and_query, parsed.query.lower()) or re.match(valid_mid_and_query, parsed.path.lower()):
+        if re.match(invalid_mid_path, parsed.path.lower()):
             return False
 
-        invalid_end_url = re.match(
+        invalid_end_path = re.match(
             r".*\.(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
+            + r"|ps|eps|tex|ppt|php|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
         
-        if invalid_end_url:
-            print("invalid end url: ", url);
+        if invalid_end_path:
             return False
 
         # Create and check robots.txt

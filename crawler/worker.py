@@ -14,7 +14,6 @@ class Worker(Thread):
         super().__init__(daemon=True)
         
     def run(self):
-        print("USER AGENT", self.config.user_agent)
         while True:
             try:
                 tbd_url = self.frontier.get_tbd_url()
