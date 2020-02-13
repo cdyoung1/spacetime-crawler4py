@@ -12,9 +12,6 @@ robots = dict()
 subdomains = dict()
 SimIndex = SimhashIndex([])
 
-config = configparser.ConfigParser()
-config.read("config.ini")
-
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/", "https://ngs.ics.uci.edu/blog/page/","https://www.ics.uci.edu/~eppstein/pix/chron.html"]
 trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", ".pdf", ".php", ".zip", ".sql", "action=login", "?ical=", ".ppt", "version="]
 
