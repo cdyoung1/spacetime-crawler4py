@@ -17,23 +17,21 @@ config = configparser.ConfigParser()
 config.read("config.ini")
 
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/", "https://ngs.ics.uci.edu/blog/page/","https://www.ics.uci.edu/~eppstein/pix/chron.html"]
-trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", "action=", ".pdf", ".php", ".zip", ".sql", "action=login", "?ical=", ".ppt"]
+trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", ".pdf", ".php", ".zip", ".sql", "action=login", "?ical=", ".ppt"]
 
 def scraper(url, resp, useragent):
     global subdomains
 
-    # if 399 < resp.status < 609 or resp.status == 204:
-    #     return []
-
     scraped_links = set()
     links = extract_next_links(url, resp)
-    # global link_num
+
     print()
     print("--------scraper()---------")
     print("BASE URL:", url)
     print("TOTAL VISITED AFTER SCRAPING THIS URL:", len(visited))
     print("--------scraper()---------")
     print()
+
     for link in links:
         if is_valid(link, useragent):
             scraped_links.add(link)
@@ -48,15 +46,14 @@ def scraper(url, resp, useragent):
                     subdomains[sub] += 1
                 else:
                     subdomains[sub] = 1
-    with open("links.txt", "w") as links_file:
+
+    with open("links.txt", "a+") as links_file:
         links_file.write(url + "\n")
+
     with open("subdomains.txt", "w") as subdomain_file:
         for kv in sorted(subdomains.items(), key = lambda x : x[0]):
             subdomain_file.write(str(kv[0]) + ", " + str(kv[1]) + "\n")
-        # subdomain_file.write(str(sorted(subdomains.items(), key=lambda kv : kv[1], reverse=True)))
-    # if link_num % 10 == 0:
 
-    # link_num +=1
     return list(scraped_links)
 
 
