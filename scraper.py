@@ -17,7 +17,7 @@ config = configparser.ConfigParser()
 config.read("config.ini")
 
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/", "https://ngs.ics.uci.edu/blog/page/","https://www.ics.uci.edu/~eppstein/pix/chron.html"]
-trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", ".pdf", ".php", ".zip", ".sql", "action=login", "?ical=", ".ppt"]
+trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", ".pdf", ".php", ".zip", ".sql", "action=login", "?ical=", ".ppt", "version="]
 
 def scraper(url, resp, useragent):
     global subdomains
@@ -85,18 +85,6 @@ def fix_relative_url(url, base_parse):
 
     return fixed
 
-
-def get_text(parser):
-
-    allowed_tags = {'p', 'span', 'br', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'strong', 'em', 'blockquote', 'code', 'li', 'ol', 'ul', 'mark', 'ins', 'del', 'sup', 'sub', 'small', 'i', 'b', 'title', 'td', 'th', 'caption'}
-
-    result = ""
-    text_list = parser.find_all(lambda tag : tag.name in allowed_tags)
-    for text in text_list:
-        result += text.get_text().lower() + "\n"
-    return result
-
-
 def tokenize():
     pass
 
@@ -123,13 +111,13 @@ def extract_next_links(url, resp):
         if resp.status == 200 and str(bs) == "":
             return []
 
-        url_sim = Simhash(get_text(bs))
+        url_sim = Simhash(bs.get_text())
         if SimIndex.get_near_dups(url_sim):
-            # print()
-            # print("-------SIMHASH-------")
-            # print("THIS IS A NEAR DUPLICATE ACCORDING TO SIMHASH")
-            # print("-------SIMHASH-------")
-            # print()
+            print()
+            print("-------SIMHASH-------")
+            print("THIS IS A NEAR DUPLICATE ACCORDING TO SIMHASH:", url)
+            print("-------SIMHASH-------")
+            print()
             return []        
 
         # print()
@@ -222,11 +210,12 @@ def is_valid(url, useragent):
         if not re.match(valid_domains, parsed.netloc.lower()):
             return False
 
-        calendars = r".*((\/\d{4}\/\d{1,2})|(\/\d{1,2}\/\d{4})).*"
+        dates_v1 = r".*((\/\d{4}\/\d{1,2})|(\/\d{1,2}\/\d{4})).*"
+        dates_v2 = r".*(\d{4}-\d{2}-\d{2}).*"
         pages = r".*\/pages?\/\d+(\/.*)?"
 
         # Checks for calendar-like or pagination-like paths (only used for indexing other pages that are already checked)
-        if re.match(calendars, url.lower()) or re.match(pages, url.lower()):
+        if re.match(dates_v1, url.lower()) or re.match(dates_v2, url.lower()) or re.match(pages, url.lower()):
             return False
 
         # Check that url does not contain invalid types in middle of path
