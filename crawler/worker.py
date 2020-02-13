@@ -32,6 +32,6 @@ class Worker(Thread):
             except Exception as e:
                 print("Exception:",e)
                 with open("errors.txt", "a+") as errors_file:
-                    errors_file.write("url: " + url + "\n")
+                    errors_file.write("url: " + tbd_url + "\n")
                     errors_file.write("Exception: " + e + "\n\n")
                 continue
