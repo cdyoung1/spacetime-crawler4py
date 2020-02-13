@@ -55,19 +55,21 @@ def scraper(url, resp):
 
     with open("links.txt", "a+") as links_file:
         links_file.write(url + "\n")
+    try:
+        if interval % 8 == 0:
+            with open("subdomains.txt", "w") as subdomain_file:
+                for kv in sorted(subdomains.items(), key = lambda x : x[0]):
+                    subdomain_file.write(str(kv[0]) + ", " + str(kv[1]) + "\n")
 
-    if interval % 8 == 0:
-        with open("subdomains.txt", "w") as subdomain_file:
-            for kv in sorted(subdomains.items(), key = lambda x : x[0]):
-                subdomain_file.write(str(kv[0]) + ", " + str(kv[1]) + "\n")
+            with open("stats.txt", "w") as stats_file:
+                stats_file.write(str(stats))
 
-        with open("stats.txt", "w") as stats_file:
-            stats_file.write(str(stats))
-
-        if len(wordsDict) >= 50:
-            with open("words.txt", "w") as words_file:
-                for kv in sorted(wordsDict.items(), key = lambda x : x[1], reverse = True):
-                    words_file.write(str(kv[0]) + " -> " + str(kv[1]) + "\n")
+            if len(wordsDict) >= 50:
+                with open("words.txt", "w") as words_file:
+                    for kv in sorted(wordsDict.items(), key = lambda x : x[1], reverse = True):
+                        words_file.write(str(kv[0]) + " -> " + str(kv[1]) + "\n")
+    except:
+        continue
     interval += 1
 
     return list(scraped_links)
@@ -117,7 +119,7 @@ def tokenize(url, html):
         if word not in stopwords:
             if len(word) <= 1:
                 continue
-            
+
             wordCount+=1
             if word not in wordsDict:
                 wordsDict[word] = 1
