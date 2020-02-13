@@ -45,11 +45,11 @@ class Worker(Thread):
                         
 
                     if netloc in self.robots and self.robots[netloc]:
-                        can_crawl self.robots[netloc].can_fetch("*", url)
+                        can_crawl = self.robots[netloc].can_fetch("*", url)
 
                     if can_crawl:
                         self.frontier.add_url(scraped_url)
-                        
+
                 self.frontier.mark_url_complete(tbd_url)
                 time.sleep(self.config.time_delay)
             except Exception as e:
