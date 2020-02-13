@@ -17,7 +17,7 @@ config = configparser.ConfigParser()
 config.read("config.ini")
 
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/", "https://ngs.ics.uci.edu/blog/page/","https://www.ics.uci.edu/~eppstein/pix/chron.html"]
-trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", "action=", "/pdf", ".pdf", ".php", ".zip", "action=login", "?ical=", ".ppt"]
+trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", "action=", ".pdf", ".php", ".zip", ".sql", "action=login", "?ical=", ".ppt"]
 
 def scraper(url, resp, useragent):
     global subdomains
@@ -223,10 +223,6 @@ def is_valid(url, useragent):
         valid_domains = r"((.*\.)?(ics|cs|informatics|stat)\.uci\.edu)|(today\.uci\.edu\/department\/information_computer_sciences)\/?.*" 
 
         if not re.match(valid_domains, parsed.netloc.lower()):
-            return False
-
-        # Check that url has no query parameters
-        if parsed.query.lower() != "":
             return False
 
         calendars = r".*((\/\d{4}\/\d{1,2})|(\/\d{1,2}\/\d{4})).*"
