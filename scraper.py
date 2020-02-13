@@ -66,7 +66,7 @@ def scraper(url, resp):
 
         if len(wordsDict) >= 50:
             with open("words.txt", "w") as words_file:
-                for kv in sorted(wordsDict.items(), key = lambda x : x[1], reverse = True)[:50]:
+                for kv in sorted(wordsDict.items(), key = lambda x : x[1], reverse = True):
                     words_file.write(str(kv[0]) + " -> " + str(kv[1]) + "\n")
     interval += 1
 
@@ -116,7 +116,7 @@ def tokenize(url, html):
         word.strip("'")
         if word not in stopwords:
             wordCount+=1
-            if word not in wordsDict:
+            if word not in wordsDict and len(word) > 1:
                 wordsDict[word] = 1
             else:
                 wordsDict[word] += 1
