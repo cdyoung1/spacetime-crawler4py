@@ -45,7 +45,7 @@ class Worker(Thread):
                         
 
                     if netloc in self.robots and self.robots[netloc]:
-                        can_crawl = self.robots[netloc].can_fetch("*", url)
+                        can_crawl = self.robots[netloc].can_fetch("*", scraped_url)
 
                     if can_crawl:
                         self.frontier.add_url(scraped_url)
