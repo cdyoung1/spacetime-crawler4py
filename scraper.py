@@ -118,6 +118,8 @@ def extract_next_links(url, resp):
             print("THIS IS A NEAR DUPLICATE ACCORDING TO SIMHASH:", url)
             print("-------SIMHASH-------")
             print()
+            with open("near_dupes.txt", "a+") as dupes_file:
+                dupes_file.write(url)
             return []        
 
         # print()
