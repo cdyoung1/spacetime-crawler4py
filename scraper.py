@@ -17,8 +17,8 @@ subdomains = dict()
 SimIndex = SimhashIndex([])
 interval = 1
 
-disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/", "https://ngs.ics.uci.edu/blog/page/","https://www.ics.uci.edu/~eppstein/pix/chron.html"]
-trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", ".pdf", ".php", ".zip", ".sql", "action=login", "?ical=", ".ppt", "version="]
+disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/timeline", "https://ngs.ics.uci.edu/blog/page/","https://www.ics.uci.edu/~eppstein/pix/chron.html"]
+trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", ".pdf", ".zip", ".sql", "action=login", "?ical=", ".ppt"]
 
 def scraper(url, resp):
     global subdomains
@@ -96,16 +96,6 @@ def fix_relative_url(url, base_parse):
     else:
         fixed = url
 
-    # print()
-    # print("----------FIX_RELATIVE_URL--------------")
-    # print("URL to be tested:", url)
-    # print("URL to be tested parse:", parse_raw)
-    # print("Base url:", base_parse.geturl())
-    # print("URLJOINED with base:", urljoin(base_parse.geturl(), url))
-    # print("Fixed:", fixed)
-    # print("----------FIX_RELATIVE_URL--------------")
-    # print()
-
     return fixed
 
 def tokenize(url, html):
@@ -133,7 +123,7 @@ def tokenize(url, html):
                 wordsDict[word] += 1
 
     pageWordCounts[url] = wordCount
-    
+
     if stats["longest-page-count"] < wordCount:
         stats["longest-page-count"] = wordCount
         stats["longest-page"] = url  
@@ -172,13 +162,6 @@ def extract_next_links(url, resp):
                 dupes_file.write(url + "\n")
             return []        
 
-        # print()
-        # print("--------BASE---------")
-        # print("BASE URL:", url)
-        # print("TOTAL VISITED UP TO BEFORE SCRAPING THIS URL:", len(visited))
-        # print("--------BASE---------")
-        # print()
-
         for link in bs.find_all("a"):
             link = link.get("href")
 
@@ -202,14 +185,6 @@ def extract_next_links(url, resp):
             else:
                 continue
 
-            # print("-----------------------")
-            # print("Original:", defragged_link)
-            # print("Absolute:", absolute_link)
-            # print("Relative parse:", parse_relative)
-            # print("content-type:", resp_content_type)
-            # print("-----------------------")
-            # print()
-
         # Add new Simhash object after fixing link
         SimIndex.add(url, url_sim)
 
@@ -217,9 +192,6 @@ def extract_next_links(url, resp):
 
 
 def check_robot(url, parsed):
-    # print("------------------------------")
-    # print("IN CHECK_ROBOT WITH URL:", url)
-    # print("------------------------------")
     try:
         robots_url = parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt"
         netloc = parsed.netloc.lower()
@@ -276,7 +248,7 @@ def is_valid(url):
         invalid_mid_path = (r".*(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4|feed"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|ppt|php|pptx|doc|docx|xls|xlsx|names"
+            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
@@ -289,7 +261,7 @@ def is_valid(url):
             r".*\.(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|ppt|php|pptx|doc|docx|xls|xlsx|names"
+            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
