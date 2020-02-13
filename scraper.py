@@ -2,7 +2,6 @@ import re
 from urllib.parse import urlparse, urldefrag, urljoin
 from urllib import robotparser
 import os
-import configparser
 
 # Additional packages
 from bs4 import BeautifulSoup
@@ -19,7 +18,7 @@ config.read("config.ini")
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/", "https://ngs.ics.uci.edu/blog/page/","https://www.ics.uci.edu/~eppstein/pix/chron.html"]
 trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", ".pdf", ".php", ".zip", ".sql", "action=login", "?ical=", ".ppt", "version="]
 
-def scraper(url, resp, useragent):
+def scraper(url, resp):
     global subdomains
 
     scraped_links = set()
@@ -33,7 +32,7 @@ def scraper(url, resp, useragent):
     print()
 
     for link in links:
-        if is_valid(link, useragent):
+        if is_valid(link):
             scraped_links.add(link)
             parsed = urlparse(link)
             subdomain = re.match(r"^(www)?(?P<sub>.*)\.ics\.uci\.edu.*$", parsed.netloc.lower())
@@ -166,28 +165,28 @@ def extract_next_links(url, resp):
     return list(new_links)
 
 
-def check_robot(url, parsed, useragent):
-    # print("------------------------------")
-    # print("IN CHECK_ROBOT WITH URL:", url)
-    # print("------------------------------")
-    try:
-        robots_url = parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt"
-        netloc = parsed.netloc.lower()
-        if netloc not in robots:
-            robot = robotparser.RobotFileParser()
-            robot.set_url(robots_url)
-            if robot != None:
-                robot.read()
-                robots[netloc] = robot
+# def check_robot(url, parsed):
+#     # print("------------------------------")
+#     # print("IN CHECK_ROBOT WITH URL:", url)
+#     # print("------------------------------")
+#     try:
+#         robots_url = parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt"
+#         netloc = parsed.netloc.lower()
+#         if netloc not in robots:
+#             robot = robotparser.RobotFileParser()
+#             robot.set_url(robots_url)
+#             if robot != None:
+#                 robot.read()
+#                 robots[netloc] = robot
 
-        if netloc in robots and robots[netloc]:
-            return robots[netloc].can_fetch(useragent, url)
-    except Exception as e:
-        print("Exception: ", e)
-    return True
+#         if netloc in robots and robots[netloc]:
+#             return robots[netloc].can_fetch("*", url)
+#     except Exception as e:
+#         print("Exception: ", e)
+#     return True
 
 
-def is_valid(url, useragent):
+def is_valid(url):
     try:
         parsed = urlparse(url)
 
@@ -249,7 +248,7 @@ def is_valid(url, useragent):
             return False
 
         # Create and check robots.txt
-        # if not check_robot(url, parsed, useragent):
+        # if not check_robot(url, parsed):
         #     return False
         
         return True

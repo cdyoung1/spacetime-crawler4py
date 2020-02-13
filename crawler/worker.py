@@ -28,27 +28,27 @@ class Worker(Thread):
                 self.logger.info(
                     f"Downloaded {tbd_url}, status <{resp.status}>, "
                     f"using cache {self.config.cache_server}.")
-                scraped_urls = scraper(tbd_url, resp, str(self.config.user_agent))
+                scraped_urls = scraper(tbd_url, resp)
                 for scraped_url in scraped_urls:
 
-                    parsed = urlparse(scraped_url)
-                    robots_url = parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt"
-                    netloc = parsed.netloc.lower()
-                    can_crawl = True
+                    # parsed = urlparse(scraped_url)
+                    # robots_url = parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt"
+                    # netloc = parsed.netloc.lower()
+                    # can_crawl = True
 
-                    if netloc not in self.robots:
-                        robot = robotparser.RobotFileParser()
-                        robot.set_url(robots_url)
-                        if robot != None:
-                            robot.read()
-                            self.robots[netloc] = robot
+                    # if netloc not in self.robots:
+                    #     robot = robotparser.RobotFileParser()
+                    #     robot.set_url(robots_url)
+                    #     if robot != None:
+                    #         robot.read()
+                    #         self.robots[netloc] = robot
                         
 
-                    if netloc in self.robots and self.robots[netloc]:
-                        can_crawl = self.robots[netloc].can_fetch("*", scraped_url)
+                    # if netloc in self.robots and self.robots[netloc]:
+                    #     can_crawl = self.robots[netloc].can_fetch("*", scraped_url)
 
-                    if can_crawl:
-                        self.frontier.add_url(scraped_url)
+                    # if can_crawl:
+                    self.frontier.add_url(scraped_url)
 
                 self.frontier.mark_url_complete(tbd_url)
                 time.sleep(self.config.time_delay)
