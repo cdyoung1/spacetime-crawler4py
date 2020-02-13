@@ -176,7 +176,7 @@ def check_robot(url, parsed, useragent):
         if netloc not in robots:
             robot = robotparser.RobotFileParser()
             robot.set_url(robots_url)
-            if robot:
+            if robot != None:
                 robot.read()
                 robots[netloc] = robot
 
@@ -249,8 +249,8 @@ def is_valid(url, useragent):
             return False
 
         # Create and check robots.txt
-        if not check_robot(url, parsed, useragent):
-            return False
+        # if not check_robot(url, parsed, useragent):
+        #     return False
         
         return True
 
