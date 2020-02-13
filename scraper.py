@@ -7,7 +7,6 @@ import configparser
 # Additional packages
 from bs4 import BeautifulSoup
 from simhash import Simhash, SimhashIndex
-from config import USERAGENT
 
 visited = set()
 robots = dict()
