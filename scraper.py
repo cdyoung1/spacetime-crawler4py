@@ -1,5 +1,6 @@
 import re
 from urllib.parse import urlparse, urldefrag, urljoin
+from urllib.request import urlopen
 from urllib import robotparser
 import os
 
@@ -9,17 +10,25 @@ from simhash import Simhash, SimhashIndex
 
 visited = set()
 robots = dict()
+wordsDict = dict()
+stats = {"longest-page-count": 0, "longest-page" : ""}
 subdomains = dict()
 SimIndex = SimhashIndex([])
+interval = 1
 
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/", "https://ngs.ics.uci.edu/blog/page/","https://www.ics.uci.edu/~eppstein/pix/chron.html"]
 trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", ".pdf", ".php", ".zip", ".sql", "action=login", "?ical=", ".ppt", "version="]
 
 def scraper(url, resp):
     global subdomains
+    global stats
+    global wordsDict
+    global interval
 
     scraped_links = set()
     links = extract_next_links(url, resp)
+
+    tokenize(url, resp.raw_response.content)
 
     print()
     print("--------scraper()---------")
@@ -46,9 +55,19 @@ def scraper(url, resp):
     with open("links.txt", "a+") as links_file:
         links_file.write(url + "\n")
 
-    with open("subdomains.txt", "w") as subdomain_file:
-        for kv in sorted(subdomains.items(), key = lambda x : x[0]):
-            subdomain_file.write(str(kv[0]) + ", " + str(kv[1]) + "\n")
+    if interval % 8 == 0:
+        with open("subdomains.txt", "w") as subdomain_file:
+            for kv in sorted(subdomains.items(), key = lambda x : x[0]):
+                subdomain_file.write(str(kv[0]) + ", " + str(kv[1]) + "\n")
+
+        with open("stats.txt", "w") as stats_file:
+            stats_file.write(str(stats))
+
+        if len(wordsDict) >= 50:
+            with open("words.txt", "w") as words_file:
+                for kv in sorted(wordsDict.items(), key = lambda x : x[1], reverse = True)[:50]:
+                    words_file.write(str(kv[0]) + " -> " str(kv[1]) + "\n")
+    interval += 1
 
     return list(scraped_links)
 
@@ -81,8 +100,28 @@ def fix_relative_url(url, base_parse):
 
     return fixed
 
-def tokenize():
-    pass
+def tokenize(url, html):
+    global wordsDict
+    global stats
+    stopwords = {"about","above","after","again","against","all","am","an","and","any","are","aren't","as","at","be","because","been","before","being","below","between","both","but","by","can't","cannot","could","couldn't","did","didn't","do","does","doesn't","doing","don't","down","during","each","few","for","from","further","had","hadn't","has","hasn't","have","haven't","having","he","he'd","he'll","he's","her","here","here's","hers","herself","him","himself","his","how","how's","i","i'd","i'll","i'm","i've","if","in","into","is","isn't","it","it's","its","itself","let's""me","more","most","mustn't","my","myself","no","nor","not","of","off","on","once","only","or","other","ought","our","ours","ourselves","out","over","own","same","shan't","she","she'd","she'll","she's","should","shouldn't","so","some","such","than","that","that's","the","their","theirs","them","themselves","then","there","there's","these","they","they'd","they'll","they're","they've","this","those","through","to","too","under","until","up","very","was","wasn't","we","we'd","we'll","we're","we've","were","weren't","what","what's","when","when's","where","where's","which","while","who","who's","whom","why","why's","with","won't","would","wouldn't","you","you'd","you'll","you're","you've","your","yours","yourself","yourselves"}
+
+    bs = BeautifulSoup(html, "lxml")
+    text = bs.get_text().lower()
+
+    words = re.sub(r"[^a-zA-Z\']", " ", text).split()
+    wordCount = 0
+
+    for word in words:
+        word.strip("'")
+        if word not in stopwords:
+            wordCount+=1
+            if word not in wordsDict:
+                wordsDict[word] = 1
+            else:
+                wordsDict[word] += 1
+    if stats["longest-page-count"] < wordCount:
+        stats["longest-page-count"] = wordCount
+        stats["longest-page"] = url  
 
 
 def extract_next_links(url, resp):
