@@ -170,18 +170,20 @@ def check_robot(url, parsed, useragent):
     # print("------------------------------")
     # print("IN CHECK_ROBOT WITH URL:", url)
     # print("------------------------------")
+    try:
+        robots_url = parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt"
+        netloc = parsed.netloc.lower()
+        if netloc not in robots:
+            robot = robotparser.RobotFileParser()
+            robot.set_url(robots_url)
+            if robot:
+                robot.read()
+                robots[netloc] = robot
 
-    robots_url = parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt"
-    netloc = parsed.netloc.lower()
-    if netloc not in robots:
-        robot = robotparser.RobotFileParser()
-        robot.set_url(robots_url)
-        if robot:
-            robot.read()
-            robots[netloc] = robot
-
-    if netloc in robots and robots[netloc]:
-        return robots[netloc].can_fetch(useragent, url)
+        if netloc in robots and robots[netloc]:
+            return robots[netloc].can_fetch(useragent, url)
+    except Exception as e:
+        print("Exception: ", e)
     return True
 
 
