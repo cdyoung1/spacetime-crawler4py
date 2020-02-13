@@ -115,8 +115,11 @@ def tokenize(url, html):
     for word in words:
         word.strip("'")
         if word not in stopwords:
+            if len(word) <= 1:
+                continue
+            
             wordCount+=1
-            if word not in wordsDict and len(word) > 1:
+            if word not in wordsDict:
                 wordsDict[word] = 1
             else:
                 wordsDict[word] += 1
