@@ -162,25 +162,25 @@ def extract_next_links(url, resp):
     return list(new_links)
 
 
-# def check_robot(url, parsed):
-#     # print("------------------------------")
-#     # print("IN CHECK_ROBOT WITH URL:", url)
-#     # print("------------------------------")
-#     try:
-#         robots_url = parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt"
-#         netloc = parsed.netloc.lower()
-#         if netloc not in robots:
-#             robot = robotparser.RobotFileParser()
-#             robot.set_url(robots_url)
-#             if robot != None:
-#                 robot.read()
-#                 robots[netloc] = robot
+def check_robot(url, parsed):
+    # print("------------------------------")
+    # print("IN CHECK_ROBOT WITH URL:", url)
+    # print("------------------------------")
+    try:
+        robots_url = parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt"
+        netloc = parsed.netloc.lower()
+        if netloc not in robots:
+            robot = robotparser.RobotFileParser()
+            robot.set_url(robots_url)
+            if robot:
+                robot.read()
+                robots[netloc] = robot
 
-#         if netloc in robots and robots[netloc]:
-#             return robots[netloc].can_fetch("*", url)
-#     except Exception as e:
-#         print("Exception: ", e)
-#     return True
+        if netloc in robots:
+            return robots[netloc].can_fetch("*", url)
+        return True
+    except:
+        return True
 
 
 def is_valid(url):
@@ -245,8 +245,8 @@ def is_valid(url):
             return False
 
         # Create and check robots.txt
-        # if not check_robot(url, parsed):
-        #     return False
+        if not check_robot(url, parsed):
+            return False
         
         return True
 
