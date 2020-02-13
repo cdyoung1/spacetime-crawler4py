@@ -119,7 +119,7 @@ def extract_next_links(url, resp):
             print("-------SIMHASH-------")
             print()
             with open("near_dupes.txt", "a+") as dupes_file:
-                dupes_file.write(url)
+                dupes_file.write(url + "\n")
             return []        
 
         # print()
