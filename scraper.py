@@ -66,7 +66,7 @@ def scraper(url, resp):
         if len(wordsDict) >= 50:
             with open("words.txt", "w") as words_file:
                 for kv in sorted(wordsDict.items(), key = lambda x : x[1], reverse = True)[:50]:
-                    words_file.write(str(kv[0]) + " -> " str(kv[1]) + "\n")
+                    words_file.write(str(kv[0]) + " -> " + str(kv[1]) + "\n")
     interval += 1
 
     return list(scraped_links)
