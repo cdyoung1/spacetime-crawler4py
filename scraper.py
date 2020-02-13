@@ -2,19 +2,25 @@ import re
 from urllib.parse import urlparse, urldefrag, urljoin
 from urllib import robotparser
 import os
+import configparser
 
 # Additional packages
 from bs4 import BeautifulSoup
 from simhash import Simhash, SimhashIndex
+from config import USERAGENT
 
 visited = set()
+robots = dict()
 subdomains = dict()
 SimIndex = SimhashIndex([])
+
+config = configparser.ConfigParser()
+config.read("config.ini")
 
 disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/wiki/", "https://ngs.ics.uci.edu/blog/page/","https://www.ics.uci.edu/~eppstein/pix/chron.html"]
 trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", "action=", "/pdf", ".pdf", ".php", ".zip", "action=login", "?ical=", ".ppt"]
 
-def scraper(url, resp):
+def scraper(url, resp, useragent):
     global subdomains
 
     # if 399 < resp.status < 609 or resp.status == 204:
@@ -30,10 +36,10 @@ def scraper(url, resp):
     print("--------scraper()---------")
     print()
     for link in links:
-        if is_valid(link):
+        if is_valid(link, useragent):
             scraped_links.add(link)
             parsed = urlparse(link)
-            subdomain = re.match(r"^(www\.)?(?P<sub>.*)\.ics\.uci\.edu.*$", parsed.netloc.lower())
+            subdomain = re.match(r"^(www)?(?P<sub>.*)\.ics\.uci\.edu.*$", parsed.netloc.lower())
             sub = ""
             if subdomain != None:
                 sub = subdomain.group("sub").strip()
@@ -43,8 +49,8 @@ def scraper(url, resp):
                     subdomains[sub] += 1
                 else:
                     subdomains[sub] = 1
-            with open("links.txt", "a+") as links_file:
-                links_file.write(link + "\tsubdomain: " + sub + "\n")
+    with open("links.txt", "w") as links_file:
+        links_file.write(link + "\tsubdomain: " + sub + "\n")
     with open("subdomains.txt", "w") as subdomain_file:
         for kv in sorted(subdomains.items(), key = lambda x : x[0]):
             subdomain_file.write(str(kv[0]) + ", " + str(kv[1]) + "\n")
@@ -64,12 +70,6 @@ def fix_relative_url(url, base_parse):
 
     parse_raw = urlparse(url)
 
-
-    
-    # parse_raw = urlparse(url)
-    # path_separator = ""
-    # if parse_raw.path != "" and parse_raw.path[0] != "/":
-    #     path_separator = "/"
     if url.startswith("//"):
         fixed = urljoin("https://", url).rstrip("/")
     elif url.startswith("/"):
@@ -95,21 +95,6 @@ def fix_relative_url(url, base_parse):
 
     return fixed
 
-    # if possible_repeat_path in base_parse.path:
-    #     return base_parse.geturl()
-    
-
-    # # Fix relative urls
-    # if parse_raw.scheme == "" and parse_raw.netloc == "":
-    #     # /community/news -> https://www.stat.uci.edu/community/news
-    #     print("Base_parse:", base_parse)
-    #     fixed = base_parse.geturl().lower() + path_separator + parse_raw.geturl().lower()
-    # elif parse_raw.scheme == "":
-    #     # //www.ics.uci.edu/community/news/view_news?id=1689 -> https://www.ics.uci.edu/community/news/view_news?id=1689
-    #     fixed = "https:" + parse_raw.geturl().lower()
-    # else:
-    #     fixed = url.lower()
-    # return fixed   
 
 def get_text(parser):
 
@@ -134,14 +119,8 @@ def extract_next_links(url, resp):
 
         # Checking that only text/HTML pages are scraped (so other types such as calendars won't be)
         resp_content_type = resp.raw_response.headers['Content-Type'].split(';')[0]
+
         # if resp_content_type == "text/calendar":
-        #     print()
-        #     print("----------------------")
-        #     print("----------------------")
-        #     print("content-type != text/html. it is:", resp_content_type)
-        #     print("----------------------")
-        #     print("----------------------")
-        #     print()
         #     return []
 
         # Add base url to visited
@@ -213,29 +192,31 @@ def extract_next_links(url, resp):
     return list(new_links)
 
 
-def check_robot(url, parsed):
+def check_robot(url, parsed, useragent):
     print("------------------------------")
     print("IN CHECK_ROBOT WITH URL:", url)
     print("------------------------------")
 
-    robot = robotparser.RobotFileParser()
-    robot.set_url(parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt")
-    if robot:
-        robot.read()
-        return robot.can_fetch("*", url)
+    robots_url = parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt"
+    netloc = parsed.netloc.lower()
+    if netloc not in robots:
+        robot = robotparser.RobotFileParser()
+        robot.set_url(robots_url)
+        if robot:
+            robot.read()
+            robots[netloc] = robot
+
+    if netloc in robots and robots[netloc]:
+        return robots[netloc].can_fetch(useragent, url)
     return True
 
 
-def is_valid(url):
+def is_valid(url, useragent):
     print("------------------------------")
     print("IN IS_VALID WITH URL:", url)
     print("------------------------------")
     try:
         parsed = urlparse(url)
-
-        # Check if already visited
-        # if url in visited:
-        #     return False
 
         # Check scheme of url
         if parsed.scheme not in set(["http", "https"]):
@@ -255,7 +236,6 @@ def is_valid(url):
                 return False
         
         # Match allowed domains
-        # valid_domains = re.match(r".*\.ics|cs|informatics|stat\.uci\.edu(\/.*)*" + r"today\.uci\.edu\/department\/information_computer_sciences(\/.*)*", parsed.netloc.lower())
         valid_domains = r"((.*\.)?(ics|cs|informatics|stat)\.uci\.edu)|(today\.uci\.edu\/department\/information_computer_sciences)\/?.*" 
 
         if not re.match(valid_domains, parsed.netloc.lower()):
@@ -272,7 +252,6 @@ def is_valid(url):
             + r"|rm|smil|wmv|swf|wma|zip|rar|gz).*$")
 
         if re.match(valid_mid_and_query, parsed.query.lower()) or re.match(valid_mid_and_query, parsed.path.lower()):
-            print("invalid mid and query: ", url)
             return False
 
         invalid_end_url = re.match(
@@ -290,7 +269,7 @@ def is_valid(url):
             return False
 
         # Create and check robots.txt
-        if not check_robot(url, parsed):
+        if not check_robot(url, parsed, useragent):
             return False
         
         return True
