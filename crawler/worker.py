@@ -31,7 +31,7 @@ class Worker(Thread):
                 scraped_urls = scraper(tbd_url, resp, str(self.config.user_agent))
                 for scraped_url in scraped_urls:
 
-                    parsed = urlparse(parsed)
+                    parsed = urlparse(scraped_url)
                     robots_url = parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt"
                     netloc = parsed.netloc.lower()
                     can_crawl = True
@@ -56,5 +56,5 @@ class Worker(Thread):
                 print("Exception:",e)
                 with open("errors.txt", "a+") as errors_file:
                     errors_file.write("url: " + tbd_url + "\n")
-                    errors_file.write("Exception: " + e + "\n\n")
+                    errors_file.write("Exception: " + str(e) + "\n\n")
                 continue
