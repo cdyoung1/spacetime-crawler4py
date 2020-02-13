@@ -28,7 +28,7 @@ def scraper(url, resp):
     scraped_links = set()
     links = extract_next_links(url, resp)
 
-    if resp.raw_response !== None:
+    if resp.raw_response != None:
         tokenize(url, resp.raw_response.content)
 
     print()
