@@ -1,35 +1,42 @@
 import re
 from urllib.parse import urlparse, urldefrag, urljoin
-from urllib.request import urlopen
 from urllib import robotparser
 import os
 
 # Additional packages
-from bs4 import BeautifulSoup
-from simhash import Simhash, SimhashIndex
+from bs4 import BeautifulSoup             # BeautifulSoup is a Python web scraping library that parses HTML/XML data
+from simhash import Simhash, SimhashIndex # This library is from Leon Sim's Python Simhash which can be found at: https://github.com/leonsim/simhash
 
-visited = set()
-robots = dict()
-wordsDict = dict()
-stats = {"longest-page-count": 0, "longest-page" : ""}
-pageWordCounts = dict()
-subdomains = dict()
-SimIndex = SimhashIndex([])
-interval = 1
+# Data structures used to detect unique/valid links
+visited = set()             # Set of unique links that have been visited
+robots = dict()             # Dict of unique robots (per subdomain). Maps subdomain -> RobotParser object
+SimIndex = SimhashIndex([]) # Object from simhash library used to store simhashes and calculate near dupes
 
-disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", "https://grape.ics.uci.edu/wiki/public/timeline", "https://ngs.ics.uci.edu/blog/page/","https://www.ics.uci.edu/~eppstein/pix/chron.html"]
-trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", ".pdf", ".zip", ".sql", "action=login", "?ical=", ".ppt"]
+# Data structures used to calculate and store statistics
+stats = {"longest-page-count": 0, "longest-page" : ""} # Question 2: Longest page and its # of words
+pageWordCounts = dict()                                # Dict that maps valid urls -> word count
+subdomains = dict()                                    # Dict that maps unique subdomains -> unique pages
+wordsDict = dict()                                     # Dict that maps unique words -> # of occurences
 
+# URLs and keywords to ignore based off a page's URL
+
+# Hardcoded pages that are either traps or used for indexing (low textual content)
+disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", 
+            "https://grape.ics.uci.edu/wiki/public/timeline", "https://ngs.ics.uci.edu/blog/page/",
+            "https://www.ics.uci.edu/~eppstein/pix/chron.html"]
+# Hardcoded keywords to check a URL for either traps or disallowed actions/file types
+trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", 
+            ".pdf", ".zip", ".sql", "action=login", "?ical=", ".ppt"]
+
+
+# scrape a URL and its response to check for additional URLs to add to frontier
 def scraper(url, resp):
-    global subdomains
-    global stats
-    global wordsDict
-    global interval
-    global pageWordCounts
+    global stats, pageWordCounts, subdomains, wordsDict, interval
 
-    scraped_links = set()
+    scraped_links = set() # set of unique, valid links to add to frontier and return from scraper
     links = extract_next_links(url, resp)
 
+    # If url has a response, tokenize page and add statistics information
     if resp.raw_response != None:
         tokenize(url, resp.raw_response.content)
 
@@ -40,10 +47,13 @@ def scraper(url, resp):
     print("--------scraper()---------")
     print()
 
+    # Iterate through scraped links from url and check if it is valid
     for link in links:
         if is_valid(link):
             scraped_links.add(link)
             parsed = urlparse(link)
+
+            # Use regex to parse for [subdomain].ics.uci.edu and add to subdomain page count if so
             subdomain = re.match(r"^(www)?(?P<sub>.*)\.ics\.uci\.edu.*$", parsed.netloc.lower())
             sub = ""
             if subdomain != None:
@@ -54,33 +64,36 @@ def scraper(url, resp):
                     subdomains[sub] += 1
                 else:
                     subdomains[sub] = 1
-
-    with open("links.txt", "a+") as links_file:
-        links_file.write(url + "\n")
+    # Try/except for writing statistics into respective files
     try:
-        if interval % 8 == 0:
-            with open("subdomains.txt", "w") as subdomain_file:
-                for kv in sorted(subdomains.items(), key = lambda x : x[0]):
-                    subdomain_file.write(str(kv[0]) + ", " + str(kv[1]) + "\n")
+        # Add url to links.txt in order of frontier
+        with open("links.txt", "a+") as links_file:
+            links_file.write(url + "\n")
 
-            with open("stats.txt", "w") as stats_file:
-                stats_file.write(str(stats) + "\n")
-                stats_file.write("================================")
-                for kv in sorted(pageWordCounts.items(), key = lambda x : x[1], reverse = True):
-                    stats_file.write(str(kv[0]) + " -> " + str(kv[1]) + "\n")
+        # Update subdomains.txt in alphabetical order
+        with open("subdomains.txt", "w") as subdomain_file:
+            for kv in sorted(subdomains.items(), key = lambda x : x[0]):
+                subdomain_file.write(str(kv[0]) + ", " + str(kv[1]) + "\n")
 
-            if len(wordsDict) >= 50:
-                with open("words.txt", "w") as words_file:
-                    for kv in sorted(wordsDict.items(), key = lambda x : x[1], reverse = True):
-                        words_file.write(str(kv[0]) + " -> " + str(kv[1]) + "\n")
+        # Update largest page/word count statistics
+        with open("stats.txt", "w") as stats_file:
+            stats_file.write(str(stats) + "\n")
+            stats_file.write("================================")
+            for kv in sorted(pageWordCounts.items(), key = lambda x : x[1], reverse = True):
+                stats_file.write(str(kv[0]) + " -> " + str(kv[1]) + "\n")
+
+        # Update word count statistics
+        if len(wordsDict) >= 50:
+            with open("words.txt", "w") as words_file:
+                for kv in sorted(wordsDict.items(), key = lambda x : x[1], reverse = True):
+                    words_file.write(str(kv[0]) + " -> " + str(kv[1]) + "\n")
     except:
         continue
-    interval += 1
 
     return list(scraped_links)
 
 
-
+# Fix url (either relative or absolute) to its absolute path
 def fix_relative_url(url, base_parse):
     fixed = ""
 
@@ -98,21 +111,28 @@ def fix_relative_url(url, base_parse):
 
     return fixed
 
+# Parse url and its html content for statistics (word count, longest page/word count)
 def tokenize(url, html):
-    global wordsDict
-    global pageWordCounts
-    global stats
+    global wordsDict, pageWordCounts, stats
+
+    # Stopwords from https://www.ranks.nl/stopwords - Default English Stopwords
     stopwords = {"about","above","after","again","against","all","am","an","and","any","are","aren't","as","at","be","because","been","before","being","below","between","both","but","by","can't","cannot","could","couldn't","did","didn't","do","does","doesn't","doing","don't","down","during","each","few","for","from","further","had","hadn't","has","hasn't","have","haven't","having","he","he'd","he'll","he's","her","here","here's","hers","herself","him","himself","his","how","how's","i","i'd","i'll","i'm","i've","if","in","into","is","isn't","it","it's","its","itself","let's""me","more","most","mustn't","my","myself","no","nor","not","of","off","on","once","only","or","other","ought","our","ours","ourselves","out","over","own","same","shan't","she","she'd","she'll","she's","should","shouldn't","so","some","such","than","that","that's","the","their","theirs","them","themselves","then","there","there's","these","they","they'd","they'll","they're","they've","this","those","through","to","too","under","until","up","very","was","wasn't","we","we'd","we'll","we're","we've","were","weren't","what","what's","when","when's","where","where's","which","while","who","who's","whom","why","why's","with","won't","would","wouldn't","you","you'd","you'll","you're","you've","your","yours","yourself","yourselves"}
 
     bs = BeautifulSoup(html, "lxml")
     text = bs.get_text().lower()
 
-    words = re.sub(r"[^a-zA-Z\']", " ", text).split()
+    # Replace anything that is not A-Z, a-z, 0-9, or " ' " with a space and split it
+    words = re.sub(r"[^a-zA-Z0-9\']", " ", text).split()
     wordCount = 0
 
     for word in words:
-        word.strip("'")
+
+        # strip ends of apostrophes ( bobs' -> bobs)
+        word.strip("'") 
+
         if word not in stopwords:
+
+            # Ignore single characters
             if len(word) <= 1:
                 continue
 
@@ -129,10 +149,13 @@ def tokenize(url, html):
         stats["longest-page"] = url  
 
 
+# Scrape all urls from text/html pages that have not been scraped yet (aka not in visited set() yet)
+# Also check for near dupes using Simhash and SimhashIndex
 def extract_next_links(url, resp):
     global sim_index
     new_links = set()
     parsed_base = urlparse(url)
+
     if 200 <= resp.status <= 599 and  resp.status != 204:
 
         # Checking that only text/HTML pages are scraped (so other types such as calendars won't be)
@@ -151,17 +174,14 @@ def extract_next_links(url, resp):
         if resp.status == 200 and str(bs) == "":
             return []
 
+        # Generate a Simhash object based off page's text
         url_sim = Simhash(bs.get_text())
+
+        # Check for near dupes, and if so, return an empty list
         if SimIndex.get_near_dups(url_sim):
-            print()
-            print("-------SIMHASH-------")
-            print("THIS IS A NEAR DUPLICATE ACCORDING TO SIMHASH:", url)
-            print("-------SIMHASH-------")
-            print()
-            with open("near_dupes.txt", "a+") as dupes_file:
-                dupes_file.write(url + "\n")
             return []        
 
+        # For every url, fix it to it's absolute url and add to new_links set if it has not been visited
         for link in bs.find_all("a"):
             link = link.get("href")
 
@@ -185,12 +205,13 @@ def extract_next_links(url, resp):
             else:
                 continue
 
-        # Add new Simhash object after fixing link
+        # Add new Simhash object for base url to SimhashIndex
         SimIndex.add(url, url_sim)
 
     return list(new_links)
 
 
+# Check if a robot for a URL's subdomain exists, and use it. If not, create a new one
 def check_robot(url, parsed):
     try:
         robots_url = parsed.scheme + "://" + parsed.netloc.lower() + "/robots.txt"
@@ -201,7 +222,6 @@ def check_robot(url, parsed):
             if robot:
                 robot.read()
                 robots[netloc] = robot
-
         if netloc in robots:
             return robots[netloc].can_fetch("*", url)
         return True
@@ -209,6 +229,7 @@ def check_robot(url, parsed):
         return True
 
 
+# Check if a url is valid (valid scheme, [sub]domain, and for traps/disallowed sites)
 def is_valid(url):
     try:
         parsed = urlparse(url)
@@ -236,9 +257,9 @@ def is_valid(url):
         if not re.match(valid_domains, parsed.netloc.lower()):
             return False
 
-        dates_v1 = r".*((\/\d{4}\/\d{1,2})|(\/\d{1,2}\/\d{4})).*"
-        dates_v2 = r".*(\d{4}-\d{2}-\d{2}).*"
-        pages = r".*\/pages?\/\d+(\/.*)?"
+        dates_v1 = r".*((\/\d{4}\/\d{1,2})|(\/\d{1,2}\/\d{4})).*" # Ex. 2014/02 or 02/2014
+        dates_v2 = r".*(\d{4}-\d{2}-\d{2}).*"                     # Ex. 2014-02-12
+        pages = r".*\/pages?\/\d+(\/.*)?"                         # Ex. /pages/3 or /page/3
 
         # Checks for calendar-like or pagination-like paths (only used for indexing other pages that are already checked)
         if re.match(dates_v1, url.lower()) or re.match(dates_v2, url.lower()) or re.match(pages, url.lower()):
@@ -257,6 +278,7 @@ def is_valid(url):
         if re.match(invalid_mid_path, parsed.path.lower()):
             return False
 
+        # Check the end of path for invalid types
         invalid_end_path = re.match(
             r".*\.(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
