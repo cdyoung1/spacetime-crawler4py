@@ -87,10 +87,10 @@ def scraper(url, resp):
             with open("words.txt", "w") as words_file:
                 for kv in sorted(wordsDict.items(), key = lambda x : x[1], reverse = True):
                     words_file.write(str(kv[0]) + " -> " + str(kv[1]) + "\n")
-    except:
-        continue
-
-    return list(scraped_links)
+    except Exception as e:
+        print("Exception: ", e)
+    finally:
+        return list(scraped_links)
 
 
 # Fix url (either relative or absolute) to its absolute path
