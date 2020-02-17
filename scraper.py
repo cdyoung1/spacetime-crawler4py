@@ -26,7 +26,7 @@ disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/communi
             "https://www.ics.uci.edu/~eppstein/pix/chron.html"]
 # Hardcoded keywords to check a URL for either traps or disallowed actions/file types
 trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", 
-            ".pdf", ".zip", ".sql", "action=login", "?ical=", ".ppt", "php"]
+            ".pdf", ".zip", ".sql", "action=login", "?ical=", ".ppt", "php", "version=", "action=diff"]
 
 
 # scrape a URL and its response to check for additional URLs to add to frontier
