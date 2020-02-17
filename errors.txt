@@ -4,25 +4,10 @@ Exception: 'content-type'
 url: http://www.ics.uci.edu/~kay/scheme/simple-file-io.ss
 Exception: 'content-type'
 
-url: http://www.ics.uci.edu/~kay/scheme/infx-tunes.rkt
-Exception: 'content-type'
-
 url: http://www.ics.uci.edu/~kay/scheme/advanced-file-io.ss
 Exception: 'content-type'
 
-url: https://ics.uci.edu/ugrad/policies/course_outside_uci
-Exception: HTTPConnectionPool(host='styx.ics.uci.edu', port=9015): Read timed out. (read timeout=5)
-
-url: https://www.ics.uci.edu/safire
-Exception: HTTPConnectionPool(host='styx.ics.uci.edu', port=9015): Read timed out. (read timeout=5)
-
-url: http://www.ics.uci.edu/~yamingy/cocktail_demo2.r
-Exception: 'content-type'
-
-url: http://www.ics.uci.edu/~yamingy/npmle.r
-Exception: 'content-type'
-
-url: http://www.ics.uci.edu/~yamingy/cocktail_demo4.r
+url: http://www.ics.uci.edu/~kay/scheme/infx-tunes.rkt
 Exception: 'content-type'
 
 url: http://www.ics.uci.edu/~yamingy/cocktail_demo1.r
@@ -32,5 +17,14 @@ url: http://www.ics.uci.edu/~yamingy/cocktail_demo3.r
 Exception: 'content-type'
 
 url: http://www.ics.uci.edu/~yamingy/cocktail.r
+Exception: 'content-type'
+
+url: http://www.ics.uci.edu/~yamingy/npmle.r
+Exception: 'content-type'
+
+url: http://www.ics.uci.edu/~yamingy/cocktail_demo2.r
+Exception: 'content-type'
+
+url: http://www.ics.uci.edu/~yamingy/cocktail_demo4.r
 Exception: 'content-type'
 
