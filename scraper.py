@@ -26,12 +26,12 @@ disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/communi
             "https://www.ics.uci.edu/~eppstein/pix/chron.html"]
 # Hardcoded keywords to check a URL for either traps or disallowed actions/file types
 trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", 
-            ".pdf", ".zip", ".sql", "action=login", "?ical=", ".ppt"]
+            ".pdf", ".zip", ".sql", "action=login", "?ical=", ".ppt", "php"]
 
 
 # scrape a URL and its response to check for additional URLs to add to frontier
 def scraper(url, resp):
-    global stats, pageWordCounts, subdomains, wordsDict, interval
+    global stats, pageWordCounts, subdomains, wordsDict
 
     scraped_links = set() # set of unique, valid links to add to frontier and return from scraper
     links = extract_next_links(url, resp)
@@ -152,7 +152,6 @@ def tokenize(url, html):
 # Scrape all urls from text/html pages that have not been scraped yet (aka not in visited set() yet)
 # Also check for near dupes using Simhash and SimhashIndex
 def extract_next_links(url, resp):
-    global sim_index
     new_links = set()
     parsed_base = urlparse(url)
 
@@ -269,7 +268,7 @@ def is_valid(url):
         invalid_mid_path = (r".*(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4|feed"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
+            + r"|ps|eps|tex|ppt|php|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
@@ -283,7 +282,7 @@ def is_valid(url):
             r".*\.(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
+            + r"|ps|eps|tex|ppt|php|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
