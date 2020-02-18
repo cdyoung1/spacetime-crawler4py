@@ -23,8 +23,7 @@ wordsDict = dict()                                     # Dict that maps unique w
 # URLs and keywords to ignore based off a page's URL
 
 # Hardcoded pages that are either traps or used for indexing (low textual content)
-disallowed = ["https://wics.ics.uci.edu/events/","https://grape.ics.uci.edu/wiki/public/timeline", 
-            "https://ngs.ics.uci.edu/blog/page/","https://www.ics.uci.edu/~eppstein/pix/"]
+disallowed = ["https://wics.ics.uci.edu/events/","https://www.ics.uci.edu/~eppstein/pix/"]
 # Hardcoded keywords to check a URL for either traps or disallowed actions/file types
 trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", 
             ".pdf", ".zip", ".sql", "action=login", "?ical=", ".ppt", "version=", "action=diff", "do=diff", "difftype=sidebyside"]
