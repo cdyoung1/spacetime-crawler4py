@@ -2,9 +2,11 @@ import re
 from urllib.parse import urlparse, urldefrag, urljoin
 from urllib import robotparser
 import os
+from io import *
 
 # Additional packages
 from bs4 import BeautifulSoup             # BeautifulSoup is a Python web scraping library that parses HTML/XML data
+from lxml import etree, html              # lxml is a Python web scraping library that parses HTML/XML data
 from simhash import Simhash, SimhashIndex # This library is from Leon Sim's Python Simhash which can be found at: https://github.com/leonsim/simhash
 
 # Data structures used to detect unique/valid links
@@ -21,12 +23,11 @@ wordsDict = dict()                                     # Dict that maps unique w
 # URLs and keywords to ignore based off a page's URL
 
 # Hardcoded pages that are either traps or used for indexing (low textual content)
-disallowed = ["https://wics.ics.uci.edu/events/","http://www.ics.uci.edu/community/events/", 
-            "https://grape.ics.uci.edu/wiki/public/timeline", "https://ngs.ics.uci.edu/blog/page/",
-            "https://www.ics.uci.edu/~eppstein/pix/chron.html"]
+disallowed = ["https://wics.ics.uci.edu/events/","https://grape.ics.uci.edu/wiki/public/timeline", 
+            "https://ngs.ics.uci.edu/blog/page/","https://www.ics.uci.edu/~eppstein/pix/"]
 # Hardcoded keywords to check a URL for either traps or disallowed actions/file types
 trap_parts = ["/calendar","replytocom=","wp-json","share=","format=xml", "/feed", "/feed/", 
-            ".pdf", ".zip", ".sql", "action=login", "?ical=", ".ppt", "php", "version=", "action=diff"]
+            ".pdf", ".zip", ".sql", "action=login", "?ical=", ".ppt", "version=", "action=diff"]
 
 
 # scrape a URL and its response to check for additional URLs to add to frontier
@@ -38,7 +39,7 @@ def scraper(url, resp):
 
     # If url has a response, tokenize page and add statistics information
     if resp.raw_response != None:
-        tokenize(url, resp.raw_response.content)
+        tokenize(url, resp.raw_response.content.decode('utf-8'))
 
     print()
     print("--------scraper()---------")
@@ -118,17 +119,30 @@ def tokenize(url, html):
     # Stopwords from https://www.ranks.nl/stopwords - Default English Stopwords
     stopwords = {"about","above","after","again","against","all","am","an","and","any","are","aren't","as","at","be","because","been","before","being","below","between","both","but","by","can't","cannot","could","couldn't","did","didn't","do","does","doesn't","doing","don't","down","during","each","few","for","from","further","had","hadn't","has","hasn't","have","haven't","having","he","he'd","he'll","he's","her","here","here's","hers","herself","him","himself","his","how","how's","i","i'd","i'll","i'm","i've","if","in","into","is","isn't","it","it's","its","itself","let's""me","more","most","mustn't","my","myself","no","nor","not","of","off","on","once","only","or","other","ought","our","ours","ourselves","out","over","own","same","shan't","she","she'd","she'll","she's","should","shouldn't","so","some","such","than","that","that's","the","their","theirs","them","themselves","then","there","there's","these","they","they'd","they'll","they're","they've","this","those","through","to","too","under","until","up","very","was","wasn't","we","we'd","we'll","we're","we've","were","weren't","what","what's","when","when's","where","where's","which","while","who","who's","whom","why","why's","with","won't","would","wouldn't","you","you'd","you'll","you're","you've","your","yours","yourself","yourselves"}
 
-    bs = BeautifulSoup(html, "lxml")
-    text = bs.get_text().lower()
+    words = []
+    wordCount = 0
+
+    parser = etree.HTMLParser()
+    et = etree.parse(StringIO(html), parser)
+    r = et.getroot()
+
+    for i in r.xpath('/html')[0].getiterator('*'):
+        if i.tag not in {"script", "style"}:
+            if i.text is not None:
+                words.append(i.text.lower())
 
     # Replace anything that is not A-Z, a-z, 0-9, or " ' " with a space and split it
+    text = ' '.join(words)
     words = re.sub(r"[^a-zA-Z0-9\']", " ", text).split()
-    wordCount = 0
 
     for word in words:
 
-        # strip ends of apostrophes ( bobs' -> bobs)
-        word.strip("'") 
+        # strip ends of apostrophes and spaces ( bobs' -> bobs)
+        word = word.strip()
+        word = word.strip("'") 
+
+        if word == None or word == "":
+            continue
 
         if word not in stopwords:
 
@@ -268,7 +282,7 @@ def is_valid(url):
         invalid_mid_path = (r".*(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4|feed"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|ppt|php|pptx|doc|docx|xls|xlsx|names"
+            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
@@ -282,7 +296,7 @@ def is_valid(url):
             r".*\.(css|js|pix|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
             + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|ppt|php|pptx|doc|docx|xls|xlsx|names"
+            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
             + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
             + r"|epub|dll|cnf|tgz|sha1"
             + r"|thmx|mso|arff|rtf|jar|csv"
