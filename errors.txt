@@ -1,22 +1,112 @@
-url: http://www.ics.uci.edu/~kay/courses/i42/wildride/simulator.py
-Exception: 'content-type'
+url: https://www.ics.uci.edu/~thornton/ics32
+Exception: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
 
-url: http://www.ics.uci.edu/~kay/scheme/simple-file-io.ss
-Exception: 'content-type'
+url: http://www.ics.uci.edu/%7ewelling/publications/publications.html
+Exception: 'utf-8' codec can't decode byte 0xe7 in position 170907: invalid continuation byte
 
-url: http://www.ics.uci.edu/~kay/scheme/advanced-file-io.ss
-Exception: 'content-type'
+url: http://www.ics.uci.edu/~darkhipo
+Exception: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
 
-url: http://www.ics.uci.edu/~kay/scheme/infx-tunes.rkt
-Exception: 'content-type'
+url: http://hobbes.ics.uci.edu
+Exception: 'utf-8' codec can't decode byte 0xa9 in position 3380: invalid start byte
 
-url: http://www.ics.uci.edu/~yamingy/cocktail_demo1.r
-Exception: 'content-type'
+url: https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-winter-project3/employees.xml
+Exception: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
 
-url: http://www.ics.uci.edu/~yamingy/cocktail_demo3.r
-Exception: 'content-type'
+url: https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2018-spring-project3/employees.xml
+Exception: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
 
-url: http://www.ics.uci.edu/~yamingy/cocktail.r
+url: https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs222p-2018-fall-project3/tree3.svg
+Exception: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
+
+url: https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-winter-project3/employees.xml
+Exception: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
+
+url: https://grape.ics.uci.edu/wiki/public/attachment/wiki/cs122b-2019-winter-project5/tomcattest.war
+Exception: HTTPConnectionPool(host='styx.ics.uci.edu', port=9006): Read timed out. (read timeout=5)
+
+url: http://www.ics.uci.edu/~hshirani/webobjects
+Exception: 'utf-8' codec can't decode byte 0xa0 in position 18363: invalid start byte
+
+url: http://www.ics.uci.edu/~cs224
+Exception: 'utf-8' codec can't decode byte 0xa0 in position 91244: invalid start byte
+
+url: https://grape.ics.uci.edu/wiki/public/raw-attachment/wiki/cs122b-2017-spring-project3/employees.xml
+Exception: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
+
+url: https://wearablegames.ics.uci.edu/?feed=rss2
+Exception: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
+
+url: http://www.ics.uci.edu/~franklin
+Exception: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
+
+url: http://xtune.ics.uci.edu/people.htm
+Exception: 'utf-8' codec can't decode byte 0x92 in position 38144: invalid start byte
+
+url: https://www.ics.uci.edu/~dechter/books
+Exception: 'utf-8' codec can't decode byte 0xe1 in position 14202: invalid continuation byte
+
+url: http://www.ics.uci.edu/~dechter/publications/r109.html
+Exception: 'utf-8' codec can't decode byte 0xae in position 1442: invalid start byte
+
+url: http://xtune.ics.uci.edu/xtune-pub.htm
+Exception: 'utf-8' codec can't decode byte 0x92 in position 23084: invalid start byte
+
+url: http://www.ics.uci.edu/%7edsm/compose/compose_design.html
+Exception: 'utf-8' codec can't decode byte 0x92 in position 22754: invalid start byte
+
+url: http://esl.ics.uci.edu/research.html
+Exception: 'utf-8' codec can't decode byte 0x92 in position 2502: invalid start byte
+
+url: http://www.ics.uci.edu/%7esharad
+Exception: 'utf-8' codec can't decode byte 0xa0 in position 43615: invalid start byte
+
+url: http://computableplant.ics.uci.edu/papers
+Exception: 'utf-8' codec can't decode byte 0x96 in position 29292: invalid start byte
+
+url: http://computableplant.ics.uci.edu/models/index.html
+Exception: 'utf-8' codec can't decode byte 0x9a in position 3483: invalid start byte
+
+url: http://www.ics.uci.edu/~ajfrank
+Exception: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
+
+url: http://www.ics.uci.edu/~dechter/books/index.html
+Exception: 'utf-8' codec can't decode byte 0xe1 in position 14202: invalid continuation byte
+
+url: http://www.ics.uci.edu/~dchudova
+Exception: 'utf-8' codec can't decode byte 0xb7 in position 26814: invalid start byte
+
+url: http://www.ics.uci.edu/~jutts
+Exception: 'utf-8' codec can't decode byte 0xfc in position 14312: invalid start byte
+
+url: https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=algol
+Exception: 'utf-8' codec can't decode byte 0xe3 in position 14760: invalid continuation byte
+
+url: http://www.ics.uci.edu/~stasio/spring04/ics180.html
+Exception: 'utf-8' codec can't decode byte 0x92 in position 1831: invalid start byte
+
+url: http://www.ics.uci.edu/~stasio/fall04/ics268.html
+Exception: 'utf-8' codec can't decode byte 0x93 in position 10225: invalid start byte
+
+url: http://www.ics.uci.edu/~kibler
+Exception: 'utf-8' codec can't decode byte 0xb7 in position 16024: invalid start byte
+
+url: http://www.ics.uci.edu/~jajones
+Exception: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
+
+url: http://www.ics.uci.edu/~gmark
+Exception: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
+
+url: http://www.ics.uci.edu/~isaac
+Exception: 'utf-8' codec can't decode byte 0x96 in position 26885: invalid start byte
+
+url: http://www.ics.uci.edu/~taylor
+Exception: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
+
+url: http://www.ics.uci.edu/~djr
+Exception: Unicode strings with encoding declaration are not supported. Please use bytes input or XML fragments without declaration.
+
+url: http://www.ics.uci.edu/~yamingy/cocktail_demo4.r
 Exception: 'content-type'
 
 url: http://www.ics.uci.edu/~yamingy/npmle.r
@@ -25,6 +115,15 @@ Exception: 'content-type'
 url: http://www.ics.uci.edu/~yamingy/cocktail_demo2.r
 Exception: 'content-type'
 
-url: http://www.ics.uci.edu/~yamingy/cocktail_demo4.r
+url: http://www.ics.uci.edu/~yamingy/cocktail_demo1.r
 Exception: 'content-type'
+
+url: http://www.ics.uci.edu/~yamingy/cocktail.r
+Exception: 'content-type'
+
+url: http://www.ics.uci.edu/~yamingy/cocktail_demo3.r
+Exception: 'content-type'
+
+url: http://www.ics.uci.edu/%7emajumder/pub.html
+Exception: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
 
