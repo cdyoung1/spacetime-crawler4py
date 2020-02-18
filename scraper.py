@@ -175,6 +175,9 @@ def extract_next_links(url, resp):
 
     if 200 <= resp.status <= 599 and  resp.status != 204:
 
+        if url in visited:
+            return []
+
         # Checking that only text/HTML pages are scraped (so other types such as calendars won't be)
         resp_content_type = resp.raw_response.headers['Content-Type'].split(';')[0]
 
